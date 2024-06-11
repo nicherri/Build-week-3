@@ -11,7 +11,7 @@ import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [AppComponent, NavbarComponent, FooterComponent],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule, CreaRicettaModule],
   providers: [],
   bootstrap: [AppComponent],
 })

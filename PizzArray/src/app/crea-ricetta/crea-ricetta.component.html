@@ -1,74 +1,78 @@
-<h1>Create a New Recipe</h1>
-<form [formGroup]="recipeForm" (ngSubmit)="onSubmit()">
-  <label for="nome_ricetta">Recipe Name:</label>
-  <input
-    id="nome_ricetta"
-    formControlName="nome_ricetta"
-    type="text"
-    required
-  />
+<div class="container mt-5">
+  <h1>Crea una Nuova Ricetta</h1>
+  <form [formGroup]="recipeForm" (ngSubmit)="onSubmit()">
+    <label for="nome_ricetta">Nome Ricetta:</label>
+    <input
+      id="nome_ricetta"
+      formControlName="nome_ricetta"
+      type="text"
+      required
+    />
 
-  <label for="immagine">Image URL:</label>
-  <input id="immagine" formControlName="immagine" type="url" required />
+    <label for="immagine">Image URL:</label>
+    <input id="immagine" formControlName="immagine" type="url" required />
 
-  <label for="ingredienti">Ingredients:</label>
-  <div
-    formArrayName="ingredienti"
-    *ngFor="let ingredient of ingredienti.controls; let i = index"
-  >
-    <div [formGroupName]="i" class="ingredient-item">
-      <input
-        formControlName="ingrediente"
-        type="text"
-        placeholder="Ingredient"
-        required
-      />
-      <input
-        formControlName="quantita"
-        type="text"
-        placeholder="Quantity"
-        required
-      />
-      <button type="button" (click)="removeIngredient(i)">Remove</button>
+    <label for="ingredienti">Ingredienti:</label>
+    <div
+      formArrayName="ingredienti"
+      *ngFor="let ingredient of ingredienti.controls; let i = index"
+    >
+      <div [formGroupName]="i" class="ingredient-item">
+        <input
+          formControlName="ingrediente"
+          type="text"
+          placeholder="Ingredient"
+          required
+        />
+        <input
+          formControlName="quantita"
+          type="text"
+          placeholder="Quantity"
+          required
+        />
+        <button type="button" (click)="removeIngredient(i)">Rimuovi</button>
+      </div>
     </div>
-  </div>
-  <button type="button" (click)="addIngredient()">Add Ingredient</button>
+    <button type="button" (click)="addIngredient()">
+      Aggiungi Ingrediente
+    </button>
 
-  <label for="tempo_preparazione">Preparation Time (minutes):</label>
-  <input
-    id="tempo_preparazione"
-    formControlName="tempo_preparazione"
-    type="number"
-    required
-  />
+    <label for="tempo_preparazione">Tempo di Preparazione (minuti):</label>
+    <input
+      id="tempo_preparazione"
+      formControlName="tempo_preparazione"
+      type="number"
+      required
+    />
 
-  <label for="tempo_cottura">Cooking Time (minutes):</label>
-  <input
-    id="tempo_cottura"
-    formControlName="tempo_cottura"
-    type="number"
-    required
-  />
+    <label for="tempo_cottura">Tempo di Cottura (minuti):</label>
+    <input
+      id="tempo_cottura"
+      formControlName="tempo_cottura"
+      type="number"
+      required
+    />
 
-  <label for="porzioni">Servings:</label>
-  <input id="porzioni" formControlName="porzioni" type="number" required />
+    <label for="porzioni">Porzioni:</label>
+    <input id="porzioni" formControlName="porzioni" type="number" required />
 
-  <label for="difficolta">Difficulty:</label>
-  <select id="difficolta" formControlName="difficolta" required>
-    <option value="Easy">Easy</option>
-    <option value="Medium">Medium</option>
-    <option value="Hard">Hard</option>
-  </select>
+    <label for="difficolta">Difficoltà:</label>
+    <select id="difficolta" formControlName="difficolta" required>
+      <option value="Easy">Facile</option>
+      <option value="Medium">Medio</option>
+      <option value="Hard">Difficile</option>
+    </select>
 
-  <label for="preparazione">Preparation Steps:</label>
-  <textarea
-    id="preparazione"
-    formControlName="preparazione"
-    required
-  ></textarea>
+    <label for="preparazione">Preparazione:</label>
+    <textarea
+      id="preparazione"
+      formControlName="preparazione"
+      required
+    ></textarea>
 
-  <label for="portata">Course:</label>
-  <input id="portata" formControlName="portata" type="text" required />
+    <label for="portata">Portata:</label>
+    <input id="portata" formControlName="portata" type="text" required />
 
-  <button type="submit">Create Recipe</button>
-</form>
+    <button type="submit">Crea Ricetta</button>
+  </form>
+</div>
