@@ -6,8 +6,9 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './main-components/navbar/navbar.component';
 import { FooterComponent } from './main-components/footer/footer.component';
-import { HomeComponent } from './home/home.component';
+
 import { CreaRicettaModule } from './crea-ricetta/crea-ricetta.module';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CreaRicettaModule } from './crea-ricetta/crea-ricetta.module';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    CreaRicettaModule
+    HomeModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
