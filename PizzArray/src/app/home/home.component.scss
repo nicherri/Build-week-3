@@ -1,0 +1,22 @@
+.carousel-item{
+  height: auto;
+  max-height: 75vh;
+}
+/*@media screen and (min-width: 500px) {
+  .carousel-item {
+    height: 15vh;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .carousel-item {
+    height: 75vh;
+  }
+}*/
+
+.carousel-item img {
+    height: 100%; /* Adatta l'altezza dell'immagine al contenitore */
+    width: auto; /* Mantiene le proporzioni */
+    object-fit: contain; /* Mantiene le proporzioni dell'immagine senza ritagliarla */
+    object-position: center; /* Centra l'immagine all'interno del contenitore */
+  }
