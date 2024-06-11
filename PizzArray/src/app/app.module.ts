@@ -7,16 +7,21 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './main-components/navbar/navbar.component';
 import { FooterComponent } from './main-components/footer/footer.component';
 
+import { CreaRicettaModule } from './crea-ricetta/crea-ricetta.module';
+import { HomeModule } from './home/home.module';
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HomeModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
