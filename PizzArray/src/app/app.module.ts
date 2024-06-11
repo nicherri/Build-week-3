@@ -13,7 +13,7 @@ import { HomeModule } from './home/home.module';
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
