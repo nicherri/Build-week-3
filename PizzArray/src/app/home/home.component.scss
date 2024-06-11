@@ -2,17 +2,7 @@
   height: auto;
   max-height: 75vh;
 }
-/*@media screen and (min-width: 500px) {
-  .carousel-item {
-    height: 15vh;
-  }
-}
 
-@media screen and (min-width: 800px) {
-  .carousel-item {
-    height: 75vh;
-  }
-}*/
 
 .carousel-item img {
     height: 100%; /* Adatta l'altezza dell'immagine al contenitore */
@@ -21,7 +11,11 @@
     object-position: center; /* Centra l'immagine all'interno del contenitore */
   }
 
-    .card img{
+  .dimensioneIngredienti{
+
+  }
+
+    .dimensioneIngredienti img{
       aspect-ratio: 1;
       animation: radius 8s linear infinite;
   }

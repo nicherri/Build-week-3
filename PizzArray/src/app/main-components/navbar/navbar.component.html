@@ -28,20 +28,20 @@
                 <a class="nav-link" routerLink="" routerLinkActive="">Lista della Spesa</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" routerLink="" routerLinkActive="">Crea Ricetta</a>
+                <a class="nav-link" routerLink="crea-ricetta" routerLinkActive="">Crea Ricetta</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div class="d-flex align-items-center" id="iconComportamente">
-        <a *ngIf="!showSearchForm" class="nav-link text-white me-3 mt-2" href="#" (click)="toggleSearchForm()"><i class="bi bi-search"></i></a>
+        <a *ngIf="!showSearchForm" class="nav-link text-white me-3 mt-2" href="#" (click)="toggleSearchForm($event)"><i class="bi bi-search"></i></a>
         <div *ngIf="showSearchForm" id="searchExpanded" class="d-flex justify-content-between align-items-center w-100">
           <form class="d-flex w-100" id="searchForm" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
-          <a class="nav-link text-white" href="#" (click)="toggleSearchForm()" id="returnButton"><i class="bi bi-arrow-return-left"></i></a>
+          <a class="nav-link text-white" href="#" (click)="toggleSearchForm($event)" id="returnButton"><i class="bi bi-arrow-return-left"></i></a>
         </div>
         <div *ngIf="!showSearchForm || !isMobile" class="dropdown-center">
           <button class="btn btn-secondary dropdown-toggle bg-transparent border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
