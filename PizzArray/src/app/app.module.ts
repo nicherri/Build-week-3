@@ -8,7 +8,7 @@ import { NavbarComponent } from './main-components/navbar/navbar.component';
 import { FooterComponent } from './main-components/footer/footer.component';
 import { CreaRicettaModule } from './crea-ricetta/crea-ricetta.module';
 import { HomeModule } from './home/home.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ListaRicetteComponent } from './Pages/lista-ricette/lista-ricette.component';
 

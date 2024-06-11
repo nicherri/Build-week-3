@@ -8,6 +8,8 @@ import { iRecipe } from '../Models/i-recipe';
   providedIn: 'root',
 })
 export class HomeService {
+
+
   constructor(private http: HttpClient) {}
 
   recipesUrl: string = 'http://localhost:3000/ricette';
