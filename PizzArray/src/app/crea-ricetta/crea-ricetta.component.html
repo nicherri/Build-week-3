@@ -1,0 +1,74 @@
+<h1>Create a New Recipe</h1>
+<form [formGroup]="recipeForm" (ngSubmit)="onSubmit()">
+  <label for="nome_ricetta">Recipe Name:</label>
+  <input
+    id="nome_ricetta"
+    formControlName="nome_ricetta"
+    type="text"
+    required
+  />
+
+  <label for="immagine">Image URL:</label>
+  <input id="immagine" formControlName="immagine" type="url" required />
+
+  <label for="ingredienti">Ingredients:</label>
+  <div
+    formArrayName="ingredienti"
+    *ngFor="let ingredient of ingredienti.controls; let i = index"
+  >
+    <div [formGroupName]="i" class="ingredient-item">
+      <input
+        formControlName="ingrediente"
+        type="text"
+        placeholder="Ingredient"
+        required
+      />
+      <input
+        formControlName="quantita"
+        type="text"
+        placeholder="Quantity"
+        required
+      />
+      <button type="button" (click)="removeIngredient(i)">Remove</button>
+    </div>
+  </div>
+  <button type="button" (click)="addIngredient()">Add Ingredient</button>
+
+  <label for="tempo_preparazione">Preparation Time (minutes):</label>
+  <input
+    id="tempo_preparazione"
+    formControlName="tempo_preparazione"
+    type="number"
+    required
+  />
+
+  <label for="tempo_cottura">Cooking Time (minutes):</label>
+  <input
+    id="tempo_cottura"
+    formControlName="tempo_cottura"
+    type="number"
+    required
+  />
+
+  <label for="porzioni">Servings:</label>
+  <input id="porzioni" formControlName="porzioni" type="number" required />
+
+  <label for="difficolta">Difficulty:</label>
+  <select id="difficolta" formControlName="difficolta" required>
+    <option value="Easy">Easy</option>
+    <option value="Medium">Medium</option>
+    <option value="Hard">Hard</option>
+  </select>
+
+  <label for="preparazione">Preparation Steps:</label>
+  <textarea
+    id="preparazione"
+    formControlName="preparazione"
+    required
+  ></textarea>
+
+  <label for="portata">Course:</label>
+  <input id="portata" formControlName="portata" type="text" required />
+
+  <button type="submit">Create Recipe</button>
+</form>
