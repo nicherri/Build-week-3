@@ -11,10 +11,10 @@ import { HomeModule } from './home/home.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
+
 @NgModule({
   declarations: [AppComponent, NavbarComponent, FooterComponent],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule, CreaRicettaModule, FormsModule],
-
+  imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule, CreaRicettaModule],
   providers: [],
   bootstrap: [AppComponent],
 })
