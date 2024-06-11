@@ -1,5 +1,5 @@
 <div class="container mt-5">
-  <h1>Crea una Nuova Ricetta</h1>
+  <h1 class="text-orange">Crea una Nuova Ricetta</h1>
   <form [formGroup]="recipeForm" (ngSubmit)="onSubmit()">
     <label for="nome_ricetta">Nome Ricetta:</label>
     <input
@@ -30,10 +30,12 @@
           placeholder="Quantity"
           required
         />
-        <button type="button" (click)="removeIngredient(i)">Rimuovi</button>
+        <button type="button" class="bg-blue" (click)="removeIngredient(i)">
+          Rimuovi
+        </button>
       </div>
     </div>
-    <button type="button" (click)="addIngredient()">
+    <button type="button" class="bg-blue" (click)="addIngredient()">
       Aggiungi Ingrediente
     </button>
 
@@ -73,6 +75,6 @@
     <label for="portata">Portata:</label>
     <input id="portata" formControlName="portata" type="text" required />
 
-    <button type="submit">Crea Ricetta</button>
+    <button type="submit" class="bg-blue">Crea Ricetta</button>
   </form>
 </div>
