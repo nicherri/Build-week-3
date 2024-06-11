@@ -9,10 +9,12 @@ import { FooterComponent } from './main-components/footer/footer.component';
 
 import { CreaRicettaModule } from './crea-ricetta/crea-ricetta.module';
 import { HomeModule } from './home/home.module';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [AppComponent, NavbarComponent, FooterComponent],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule, CreaRicettaModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
