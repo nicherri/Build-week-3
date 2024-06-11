@@ -1261,35 +1261,7 @@
       "preparazione": "Cuocere le melanzane in forno a 200°C per 30 minuti. Una volta cotte, togliere la polpa e mescolarla con tahini, aglio tritato, succo di limone, olio d'oliva e sale. Frullare fino a ottenere una crema liscia. Decorare con prezzemolo e paprika.",
       "portata": "antipasto"
     },
-    {
-      "ricette": [
-        {
-          "id": 60,
-          "nome_ricetta": "Shakshuka",
-          "immagine": "https://images.squarespace-cdn.com/content/v1/609ae38fffcf097d87974ec5/1631275622947-3Y3ITKU5RFZWACL40S2I/Shakshuka.jpg",
-          "ingredienti": [
-            { "ingrediente": "Pomodori Pelati", "quantita": "800g" },
-            { "ingrediente": "Peperoni Rossi", "quantita": "2" },
-            { "ingrediente": "Cipolla", "quantita": "1" },
-            { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-            { "ingrediente": "Uova", "quantita": "4" },
-            { "ingrediente": "Cumino", "quantita": "1 cucchiaino" },
-            { "ingrediente": "Paprika Dolce", "quantita": "1 cucchiaino" },
-            { "ingrediente": "Peperoncino in Polvere", "quantita": "q.b." },
-            { "ingrediente": "Olio d'Oliva", "quantita": "2 cucchiai" },
-            { "ingrediente": "Sale", "quantita": "q.b." },
-            { "ingrediente": "Pepe", "quantita": "q.b." },
-            { "ingrediente": "Prezzemolo Fresco", "quantita": "q.b." }
-          ],
-          "tempo_preparazione": 15,
-          "tempo_cottura": 20,
-          "porzioni": 4,
-          "difficolta": "media",
-          "preparazione": "Soffriggere cipolla, aglio e peperoni rossi in olio d'oliva fino a quando sono morbidi. Aggiungere i pomodori pelati, cumino, paprika dolce, peperoncino in polvere, sale e pepe. Cuocere a fuoco medio per circa 10 minuti, fino a quando la salsa si addensa leggermente. Creare quattro buchi nella salsa e rompervi le uova. Coprire la padella e cuocere a fuoco lento fino a quando le uova sono cotte a piacere. Guarnire con prezzemolo fresco tritato prima di servire.",
-          "portata": "secondo"
-        }
-      ]
-    },
+
     {
       "id": 61,
       "nome_ricetta": "Pizza Quattro Stagioni",
@@ -2215,7 +2187,7 @@
       "preparazione": "Impastare la farina con lo strutto, l'acqua e il sale fino a ottenere un impasto liscio. Stendere l'impasto e ritagliare dei dischi. Disporre al centro di metà dei dischi il formaggio pecorino a fette. Coprire con l'altra metà dei dischi e sigillare bene i bordi. Friggere in olio caldo fino a doratura. Servire le seadas calde, cosparse di miele.",
       "portata": "dolce"
     }
-  ], "ingredienti":
+  ], "ingredients":
   [
     {"ingrediente": "Spaghetti", "immagine": ""},
     {"ingrediente": "Guanciale", "immagine": ""},

@@ -9,11 +9,13 @@ import { FooterComponent } from './main-components/footer/footer.component';
 import { CreaRicettaModule } from './crea-ricetta/crea-ricetta.module';
 import { HomeModule } from './home/home.module';
 import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { ListaRicetteComponent } from './Pages/lista-ricette/lista-ricette.component';
 
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, FooterComponent],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule, CreaRicettaModule, FormsModule],
+  declarations: [AppComponent, NavbarComponent, FooterComponent,ListaRicetteComponent],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule, CreaRicettaModule, FormsModule,CommonModule],
 
   providers: [],
   bootstrap: [AppComponent],
