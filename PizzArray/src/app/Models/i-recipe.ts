@@ -1,2 +1,1 @@
-export interface IRecipe {
-}
+export interface iRecipe {}
