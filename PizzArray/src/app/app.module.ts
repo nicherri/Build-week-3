@@ -6,15 +6,16 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './main-components/navbar/navbar.component';
 import { FooterComponent } from './main-components/footer/footer.component';
-
 import { CreaRicettaModule } from './crea-ricetta/crea-ricetta.module';
 import { HomeModule } from './home/home.module';
 import { FormsModule } from '@angular/forms';
 
 
+
 @NgModule({
   declarations: [AppComponent, NavbarComponent, FooterComponent],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule, CreaRicettaModule, FormsModule],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule, CreaRicettaModule],
+
   providers: [],
   bootstrap: [AppComponent],
 })
