@@ -2740,71 +2740,6 @@
       "portata": "antipasto"
     },
     {
-      "ricette": [
-        {
-          "id": 60,
-          "nome_ricetta": "Shakshuka",
-          "immagine": "https://images.squarespace-cdn.com/content/v1/609ae38fffcf097d87974ec5/1631275622947-3Y3ITKU5RFZWACL40S2I/Shakshuka.jpg",
-          "ingredienti": [
-            {
-              "ingrediente": "Pomodori Pelati",
-              "quantita": "800g"
-            },
-            {
-              "ingrediente": "Peperoni Rossi",
-              "quantita": "2"
-            },
-            {
-              "ingrediente": "Cipolla",
-              "quantita": "1"
-            },
-            {
-              "ingrediente": "Aglio",
-              "quantita": "2 spicchi"
-            },
-            {
-              "ingrediente": "Uova",
-              "quantita": "4"
-            },
-            {
-              "ingrediente": "Cumino",
-              "quantita": "1 cucchiaino"
-            },
-            {
-              "ingrediente": "Paprika Dolce",
-              "quantita": "1 cucchiaino"
-            },
-            {
-              "ingrediente": "Peperoncino in Polvere",
-              "quantita": "q.b."
-            },
-            {
-              "ingrediente": "Olio d'Oliva",
-              "quantita": "2 cucchiai"
-            },
-            {
-              "ingrediente": "Sale",
-              "quantita": "q.b."
-            },
-            {
-              "ingrediente": "Pepe",
-              "quantita": "q.b."
-            },
-            {
-              "ingrediente": "Prezzemolo Fresco",
-              "quantita": "q.b."
-            }
-          ],
-          "tempo_preparazione": 15,
-          "tempo_cottura": 20,
-          "porzioni": 4,
-          "difficolta": "media",
-          "preparazione": "Soffriggere cipolla, aglio e peperoni rossi in olio d'oliva fino a quando sono morbidi. Aggiungere i pomodori pelati, cumino, paprika dolce, peperoncino in polvere, sale e pepe. Cuocere a fuoco medio per circa 10 minuti, fino a quando la salsa si addensa leggermente. Creare quattro buchi nella salsa e rompervi le uova. Coprire la padella e cuocere a fuoco lento fino a quando le uova sono cotte a piacere. Guarnire con prezzemolo fresco tritato prima di servire.",
-          "portata": "secondo"
-        }
-      ]
-    },
-    {
       "id": 61,
       "nome_ricetta": "Pizza Quattro Stagioni",
       "immagine": "https://primochef.it/wp-content/uploads/2020/04/SH_pizza_quattro_stagioni.jpg",
@@ -5552,6 +5487,21 @@
       "id": 102,
       "ingrediente": "Formaggio Pecorino Fresco",
       "immagine": "https://www.formagginorcia.it/wp-content/uploads/2020/05/pecorino-fresco-pixel.jpg"
+    }
+  ],
+
+  "users": [
+    {
+      "email": "mario@email.it",
+      "password": "$2a$10$LGcVsjJZET77besH5b8lr.o9B5sJjYPhXjBbVKV15tbMZkPSogRTq",
+      "nome": "Mario",
+      "id": 1
+    },
+    {
+      "email": "luca@email.it",
+      "password": "$2a$10$1bLNOpsG5sZz.fqhaumTEOQOUMl.H/FHIqcYgVh9QaeXbkBjcKVY6",
+      "nome": "Luca",
+      "id": 2
     }
   ]
 }
