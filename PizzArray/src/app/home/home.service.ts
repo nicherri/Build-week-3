@@ -11,8 +11,9 @@ export class HomeService {
 
 
   constructor(private http: HttpClient) {}
-
+/*
   recipesUrl: string = 'http://localhost:3000/ricette';
+
 
   getAllIngredients(): Observable<string[]> {
     return this.http.get<iRecipe[]>(this.recipesUrl).pipe(
@@ -31,5 +32,5 @@ export class HomeService {
         return Array.from(ingredientsSet);
       })
     );
-  }
+  }*/
 }
