@@ -11,7 +11,7 @@ export class HomeService {
 
 
   constructor(private http: HttpClient) {}
-/*
+
   recipesUrl: string = 'http://localhost:3000/ricette';
 
 
@@ -32,5 +32,5 @@ export class HomeService {
         return Array.from(ingredientsSet);
       })
     );
-  }*/
+  }
 }

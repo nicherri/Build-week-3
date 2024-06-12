@@ -15,8 +15,8 @@ export class ListaIngredientiComponent {
   constructor(private recipeSvc:RecipeService){}
 
   ngOnInit(){
-    this.recipeSvc.getIngredients().subscribe(ingredients=>{
-      this.ingredients=ingredients
+    this.recipeSvc.getIngredients().subscribe(ingr=>{console.log(ingr)
+      this.ingredients=ingr
     })
   }
 }
