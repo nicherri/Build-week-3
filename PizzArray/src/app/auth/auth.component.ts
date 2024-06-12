@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, TemplateRef, inject } from '@angular/core';
+
 
 @Component({
   selector: 'app-auth',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './auth.component.scss'
 })
 export class AuthComponent {
+
+
 
 }

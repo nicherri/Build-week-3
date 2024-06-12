@@ -1,15 +1,68 @@
-import { Component, AfterViewInit, HostListener } from '@angular/core';
+import {
+  Component,
+  AfterViewInit,
+  HostListener,
+  inject,
+  TemplateRef,
+} from '@angular/core';
+import { ModalDismissReasons, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import * as bootstrap from 'bootstrap';
+import { AuthService } from '../../auth/auth.service';
+import { Router } from '@angular/router';
+import { iAuthData } from '../../Models/i-auth-data';
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss']
+  styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements AfterViewInit {
   show: boolean = false;
   showSearchForm: boolean = false;
   isMobile: boolean = window.innerWidth <= 500;
+
+  constructor(private authSvc: AuthService, private router: Router) {}
+
+  //LOGIN
+  authData: iAuthData = {
+    email: '',
+    password: '',
+  };
+
+  login(): void {
+    this.authSvc.login(this.authData).subscribe(() => {
+      this.router.navigate(['/']);
+    });
+  }
+
+  //MODALE
+  closeResult = '';
+  private modalSvc = inject(NgbModal);
+
+  //MODALE
+  open(content: TemplateRef<any>) {
+    this.modalSvc
+      .open(content, { ariaLabelledBy: 'modal-basic-title' })
+      .result.then(
+        (result) => {
+          this.closeResult = `Closed with: ${result}`;
+        },
+        (reason) => {
+          this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+        }
+      );
+  }
+
+  private getDismissReason(reason: any): string {
+    switch (reason) {
+      case ModalDismissReasons.ESC:
+        return 'by pressing ESC';
+      case ModalDismissReasons.BACKDROP_CLICK:
+        return 'by clicking on a backdrop';
+      default:
+        return `with: ${reason}`;
+    }
+  }
 
   toggleShow() {
     this.show = !this.show;

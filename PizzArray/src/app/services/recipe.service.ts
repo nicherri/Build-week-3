@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Observable, map, tap } from 'rxjs';
 import { iRecipe } from '../Models/i-recipe';
 import { iIngredient } from '../Models/i-ingredient';
@@ -14,30 +14,31 @@ export class RecipeService {
   constructor(private http: HttpClient) {}
 
   addRecipe(recipe: iRecipe): Observable<iRecipe> {
-    const headers = new HttpHeaders({
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${localStorage.getItem('token')}`
-    });
-
-    return this.http.post<iRecipe>(this.recipesUrl, recipe, { headers });
+    return this.http.post<iRecipe>(this.recipesUrl, recipe);
   }
-/*
+
+  /*
   getRecipe(ingrediente: string): Observable<iRecipe[]> {
     return this.http.get<iRecipe[]>(this.recipesUrl).pipe(
-      map(recipes => recipes.filter(recipe => {
-        recipe.ingredienti.some(ing => ing.ingrediente.toLowerCase().includes(ingrediente.toLowerCase())); console.log(recipe)}
+      map(recipes => recipes.filter(recipe =>
+        recipe.ingredienti.some(ing => ing.ingrediente.toLowerCase().includes(ingrediente.toLowerCase()))
       ))
     )
   }*/
 
+
     getRecipe(ingrediente: string): Observable<iRecipe[]> {
       return this.http.get<iRecipe[]>(this.recipesUrl).pipe(
-        //tap(data => console.log('Dati ricevuti dall\'API:', data)), // Per il debug
+        tap(data => console.log('Dati ricevuti dall\'API:', data)), // Per il debug
         map(recipes => recipes.filter(recipe =>
           recipe.ingredienti.some(ing => ing.ingrediente.toLowerCase().includes(ingrediente.toLowerCase()))
         ))
       )
     }
+
+
+
+
 
     getIngredients(){
       return this.http.get<iIngredient[]>(this.ingredientsUrl)
