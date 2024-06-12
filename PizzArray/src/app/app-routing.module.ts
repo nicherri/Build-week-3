@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: 'auth', loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule) },
   { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) },
   { path: 'crea-ricetta', loadChildren: () => import('./crea-ricetta/crea-ricetta.module').then(m => m.CreaRicettaModule) },
-  { path: 'lista-ricette',
+  { path: 'lista-ricette/:ingrediente',
     component: ListaRicetteComponent
    },
   { path: 'lista-ingredienti',

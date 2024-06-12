@@ -1,13 +1,14 @@
 <div class="container">
   <div class="row">
     <div *ngFor="let ingredient of displayedIngredients" class="col-4">
+      <a [routerLink]="['/lista-ricette', ingredient.ingrediente]">
       <div class="card dimensioneIngredienti bg-transparent">
         <img [src]="ingredient.immagine" class="card-img-top" alt="{{ ingredient.ingrediente }}" />
         <div class="card-body">
           <h5 class="card-title text-orange">{{ ingredient.ingrediente }}</h5>
-          <a href="#" class="btn bg-blue">Ricette</a>
         </div>
       </div>
+    </a>
     </div>
   </div>
 
