@@ -1,16 +1,22 @@
+.dimensioneIngredienti{
+  width: 7em;
 
-.ngb-custom-pages-item.custom-page-item {
-  background-color: transparent !important;
-  color: #f26419 !important;
+}
+@media screen and (min-width:992px) {
+  .dimensioneIngredienti{
+    width: 10em;
+
+  }
+
 }
 
-.ngb-custom-pages-item.custom-page-item .form-control.custom-pages-input {
-  background-color: transparent !important;
-  color: #f26419 !important;
-  border: 1px solid #f26419 !important;
+  .dimensioneIngredienti img{
+    aspect-ratio: 1;
+    animation: radius 8s linear infinite;
 }
 
-.ngb-custom-pages-item.custom-page-item label,
-.ngb-custom-pages-item.custom-page-item span {
-  color: #f26419 !important;
-}
+@keyframes radius {
+  0%, 100% { border-radius: 55% 45% 70% 30% / 43% 30% 70% 60%;}
+  33% { border-radius: 40% 60% 40% 60% / 70% 60% 40% 30%;}
+ 66% { border-radius: 20% 80% 20% 80% / 50% 45% 55% 50%;}
+  }
