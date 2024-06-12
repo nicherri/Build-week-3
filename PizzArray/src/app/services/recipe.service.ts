@@ -30,6 +30,7 @@ export class RecipeService {
     )
   }*/
 
+
     getRecipe(ingrediente: string): Observable<iRecipe[]> {
       return this.http.get<iRecipe[]>(this.recipesUrl).pipe(
         //tap(data => console.log('Dati ricevuti dall\'API:', data)), // Per il debug
@@ -38,6 +39,10 @@ export class RecipeService {
         ))
       )
     }
+
+
+
+
 
     getIngredients(){
       return this.http.get<iIngredient[]>(this.ingredientsUrl)
