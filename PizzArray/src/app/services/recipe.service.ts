@@ -42,4 +42,9 @@ export class RecipeService {
     getIngredients(){
       return this.http.get<iIngredient[]>(this.ingredientsUrl)
     }
+
+    getRecipeById(id: number): Observable<iRecipe> {
+      const url = `${this.recipesUrl}/${id}`
+      return this.http.get<iRecipe>(url)
+    }
 }

@@ -6,7 +6,10 @@
         <div class="row no-gutters">
           <div class="col-md-8 d-flex align-items-center">
             <div class="card-body">
-              <h3 class="card-title text-orange" routerLink="">
+              <h3
+                class="card-title text-orange"
+                [routerLink]="['/ricetta', r.id]"
+              >
                 {{ r.nome_ricetta }}
               </h3>
               <p>Difficoltà: {{ r.difficolta }}</p>
@@ -23,7 +26,7 @@
               [src]="[r.immagine]"
               class="img-fluid"
               [alt]="[r.nome_ricetta]"
-              routerLink=""
+              [routerLink]="['/ricetta', r.id]"
             />
           </div>
         </div>
