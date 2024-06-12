@@ -1,1 +1,23 @@
-<p>login works!</p>
+<div class="row col-6 border border-black mt-5">
+  <h1 class="text-orange">Login</h1>
+  <div class="cont my-3">
+    <div>
+      <form>
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          class="form-control"
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          class="form-control mt-3"
+        />
+
+        <button (click)="login()" class="btn bg-blue mt-5">Accedi</button>
+      </form>
+    </div>
+  </div>
+</div>
