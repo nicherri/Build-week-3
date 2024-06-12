@@ -2,17 +2,7 @@
   height: auto;
   max-height: 75vh;
 }
-/*@media screen and (min-width: 500px) {
-  .carousel-item {
-    height: 15vh;
-  }
-}
 
-@media screen and (min-width: 800px) {
-  .carousel-item {
-    height: 75vh;
-  }
-}*/
 
 .carousel-item img {
     height: 100%; /* Adatta l'altezza dell'immagine al contenitore */
@@ -20,3 +10,19 @@
     object-fit: contain; /* Mantiene le proporzioni dell'immagine senza ritagliarla */
     object-position: center; /* Centra l'immagine all'interno del contenitore */
   }
+
+  .dimensioneIngredienti{
+    width: 7em;
+
+  }
+
+    .dimensioneIngredienti img{
+      aspect-ratio: 1;
+      animation: radius 8s linear infinite;
+  }
+
+  @keyframes radius {
+    0%, 100% { border-radius: 55% 45% 70% 30% / 43% 30% 70% 60%;}
+    33% { border-radius: 40% 60% 40% 60% / 70% 60% 40% 30%;}
+   66% { border-radius: 20% 80% 20% 80% / 50% 45% 55% 50%;}
+    }

@@ -4,6 +4,8 @@ import { ListaRicetteComponent } from './Pages/lista-ricette/lista-ricette.compo
 import { GuestGuard } from './auth/guest.guard';
 import { AuthGuard } from './auth/auth.guard';
 import { RegisterComponent } from './auth/register/register.component';
+import { ListaIngredientiComponent } from './Pages/lista-ingredienti/lista-ingredienti.component';
+import { RicettaComponent } from './Pages/ricetta/ricetta.component';
 
 const routes: Routes = [
   { path: 'auth',
@@ -24,15 +26,24 @@ const routes: Routes = [
     canActivateChild: [AuthGuard],
   },
 
-  { path: 'lista-ricette',
+  { path: 'lista-ricette/:ingrediente',
     component: ListaRicetteComponent
+   },
+
+   { path: 'lista-ingredienti',
+    component: ListaIngredientiComponent
+   },
+   {path:"ricetta/:id",
+    component:RicettaComponent
    },
 
   { path: 'register', component: RegisterComponent},
 
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', redirectTo: '/home' }
-];
+  ]
+
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

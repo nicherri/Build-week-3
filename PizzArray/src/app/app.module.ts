@@ -6,24 +6,20 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './main-components/navbar/navbar.component';
 import { FooterComponent } from './main-components/footer/footer.component';
-
 import { CreaRicettaModule } from './crea-ricetta/crea-ricetta.module';
 import { HomeModule } from './home/home.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { ListaRicetteComponent } from './Pages/lista-ricette/lista-ricette.component';
+import { ListaIngredientiComponent } from './Pages/lista-ingredienti/lista-ingredienti.component';
+import { RicettaComponent } from './Pages/ricetta/ricetta.component';
+
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    FooterComponent,
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule,
-    HomeModule
+  declarations: [AppComponent, NavbarComponent, FooterComponent,ListaRicetteComponent, ListaIngredientiComponent, RicettaComponent],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule, CreaRicettaModule, FormsModule,CommonModule],
 
-  ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

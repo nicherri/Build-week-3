@@ -68,7 +68,8 @@ export class NavbarComponent implements AfterViewInit {
     this.show = !this.show;
   }
 
-  toggleSearchForm() {
+  toggleSearchForm(event: Event) {
+    event.preventDefault(); // Prevenire il comportamento predefinito del link
     this.showSearchForm = !this.showSearchForm;
   }
 

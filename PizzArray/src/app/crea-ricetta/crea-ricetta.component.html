@@ -1,1 +1,91 @@
-<p>crea-ricetta works!</p>
+<div class="container mt-5">
+  <h1 class="text-orange">Crea una Nuova Ricetta</h1>
+  <form [formGroup]="recipeForm" (ngSubmit)="onSubmit()">
+    <label for="nome_ricetta">Nome Ricetta:</label>
+    <input
+      id="nome_ricetta"
+      formControlName="nome_ricetta"
+      type="text"
+      required
+    />
+
+    <label for="immagine">Image URL:</label>
+    <input id="immagine" formControlName="immagine" type="url" required />
+
+    <label for="ingredienti">Ingredienti:</label>
+    <div
+      formArrayName="ingredienti"
+      *ngFor="let ingredient of ingredienti.controls; let i = index"
+    >
+      <div [formGroupName]="i" class="ingredient-item">
+        <input
+          id="ingrediente_{{ i }}"
+          formControlName="ingrediente"
+          type="text"
+          placeholder="Ingredient"
+          required
+          (input)="onIngredientInput($event, i)"
+        />
+        <ul *ngIf="suggestions[i]?.length">
+          <li
+            *ngFor="let suggestion of suggestions[i]"
+            (click)="selectSuggestion(suggestion, i)"
+          >
+            {{ suggestion }}
+          </li>
+        </ul>
+        <input
+          id="quantita_{{ i }}"
+          formControlName="quantita"
+          type="text"
+          placeholder="Quantity"
+          required
+        />
+        <button type="button" class="bg-blue" (click)="removeIngredient(i)">
+          Rimuovi
+        </button>
+      </div>
+    </div>
+    <button type="button" class="bg-blue" (click)="addIngredient()">
+      Aggiungi Ingrediente
+    </button>
+
+    <label for="tempo_preparazione">Tempo di Preparazione (minuti):</label>
+    <input
+      id="tempo_preparazione"
+      formControlName="tempo_preparazione"
+      type="number"
+      required
+    />
+
+    <label for="tempo_cottura">Tempo di Cottura (minuti):</label>
+    <input
+      id="tempo_cottura"
+      formControlName="tempo_cottura"
+      type="number"
+      required
+    />
+
+    <label for="porzioni">Porzioni:</label>
+    <input id="porzioni" formControlName="porzioni" type="number" required />
+
+    <label for="difficolta">Difficoltà:</label>
+    <select id="difficolta" formControlName="difficolta" required>
+      <option value="facile">Facile</option>
+      <option value="media">Media</option>
+      <option value="difficile">Difficile</option>
+    </select>
+
+    <label for="preparazione">Preparazione:</label>
+    <textarea
+      id="preparazione"
+      formControlName="preparazione"
+      required
+    ></textarea>
+
+    <label for="portata">Portata:</label>
+    <input id="portata" formControlName="portata" type="text" required />
+
+    <button type="submit" class="bg-blue">Crea Ricetta</button>
+  </form>
+</div>

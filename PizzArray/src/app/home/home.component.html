@@ -27,21 +27,21 @@
   <div class="carousel-inner mt-4">
     <div class="carousel-item active">
       <img
-        src="https://blog.giallozafferano.it/valeriaciccotti/wp-content/uploads/2022/08/pasta-s.jpg"
+        src="../../assets/Img/Carosello/1.png"
         class="d-block w-100"
         alt="..."
       />
     </div>
     <div class="carousel-item">
       <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxOTDifIEMKHWbbv7dM44eYW8K73ju1eYZ3Q&s"
+        src="../../assets/Img/Carosello/2.png"
         class="d-block w-100"
         alt="..."
       />
     </div>
     <div class="carousel-item">
       <img
-        src="https://www.giallozafferano.it/images/235-23505/Pasta-con-crema-di-peperoni-e-ricotta_780x520_wm.jpg"
+        src="../../assets/Img/Carosello/3.png"
         class="d-block w-100"
         alt="..."
       />
@@ -68,7 +68,7 @@
 </div>
 
 <div class="my-5 p-5">
-  <h2>Non buttare via, cucina con noi!</h2>
+  <h2 class="text-orange">Non buttare via, cucina con noi!</h2>
   <p class="text-white">
     Hai degli ingredienti che non sai come utilizzare? Non buttarli via!
     Inserisci gli ingredienti che hai nel frigo qui sotto e scopri una ricetta
@@ -82,33 +82,35 @@
       placeholder="Scrivi i tuoi ingredienti"
       aria-label="Search"
     />
-    <button class="btn btn-primary" type="submit">Cerca</button>
+    <button class="btn bg-blue" type="submit">Cerca</button>
   </form>
 </div>
 
 <div class="container">
   <div class="row">
     <div class="col-12 d-flex justify-content-between">
-      <h2>Ingredienti</h2>
-      <a href="#" class="text-primary">Mostra tutti gli ingredienti</a>
+      <h2 class="text-orange">Ingredienti</h2>
+      <a href="#" class="text-blue text-decoration-none"
+        >Mostra tutti gli ingredienti</a
+      >
     </div>
     <div class="col-12 d-flex flex-column flex-md-row mt-3">
       <div class="col-4">
-        <div class="card" style="width: 18rem">
+        <div class="card bg-transparent dimensioneIngredienti">
           <img
             src="https://www.carrefour.it/on/demandware.static/-/Sites-carrefour-master-catalog-IT/default/dw1af8ef87/large/OLIODICOCCOBIO-8058333350271-1.png"
             class="card-img-top"
             alt="..."
           />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title text-orange">Card title</h5>
 
-            <a href="#" class="btn btn-primary">Ricette</a>
+            <a href="#" class="btn bg-blue">Ricette</a>
           </div>
         </div>
       </div>
       <div class="col-4">
-        <div class="card" style="width: 18rem">
+        <div class="card dimensioneIngredienti bg-transparent" >
           <img
             src="https://www.madiventura.it/pages/wp-content/uploads/2019/01/fico.png"
             class="card-img-top"
@@ -117,12 +119,12 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
 
-            <a href="#" class="btn btn-primary">Ricette</a>
+            <a href="#" class="btn bg-blue">Ricette</a>
           </div>
         </div>
       </div>
       <div class="col-4">
-        <div class="card" style="width: 18rem">
+        <div class="card dimensioneIngredienti bg-transparent">
           <img
             src="https://www.orto.it/148/img/zucca-la-dolcissima_oit_12270.jpg"
             class="card-img-top"
@@ -131,7 +133,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
 
-            <a href="#" class="btn btn-primary">Ricette</a>
+            <a href="#" class="btn bg-blue">Ricette</a>
           </div>
         </div>
       </div>
@@ -141,7 +143,7 @@
 
 <div class="container my-5">
   <div class="row">
-    <h2>Le Top ricette di oggi</h2>
+    <h2 class="text-orange">Le Top ricette di oggi</h2>
     <div class="col-12 d-flex flex-column flex-md-row mt-3">
       <div class="col-4">
         <div class="card" style="width: 18rem">
@@ -156,7 +158,7 @@
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <a href="#" class="btn btn-primary">Vai alla ricetta</a>
+            <a href="#" class="btn bg-blue">Vai alla ricetta</a>
           </div>
         </div>
       </div>
@@ -168,7 +170,7 @@
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <a href="#" class="btn btn-primary">Vai alla ricetta</a>
+            <a href="#" class="btn bg-blue">Vai alla ricetta</a>
           </div>
           <img
             src="https://osteriaromana.it/wp-content/uploads/2017/03/piatti-romani-ricette-lasagne.jpg"
@@ -190,10 +192,11 @@
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
-            <a href="#" class="btn btn-primary">Vai alla ricetta</a>
+            <a href="#" class="btn bg-blue">Vai alla ricetta</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <a routerLink="/lista-ricette" class="text-orange">lista ricette</a>
 </div>

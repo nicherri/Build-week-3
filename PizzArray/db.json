@@ -2739,38 +2739,6 @@
       "preparazione": "Cuocere le melanzane in forno a 200°C per 30 minuti. Una volta cotte, togliere la polpa e mescolarla con tahini, aglio tritato, succo di limone, olio d'oliva e sale. Frullare fino a ottenere una crema liscia. Decorare con prezzemolo e paprika.",
       "portata": "antipasto"
     },
-<<<<<<< Updated upstream
-    {
-      "ricette": [
-        {
-          "id": 60,
-          "nome_ricetta": "Shakshuka",
-          "immagine": "https://images.squarespace-cdn.com/content/v1/609ae38fffcf097d87974ec5/1631275622947-3Y3ITKU5RFZWACL40S2I/Shakshuka.jpg",
-          "ingredienti": [
-            { "ingrediente": "Pomodori Pelati", "quantita": "800g" },
-            { "ingrediente": "Peperoni Rossi", "quantita": "2" },
-            { "ingrediente": "Cipolla", "quantita": "1" },
-            { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-            { "ingrediente": "Uova", "quantita": "4" },
-            { "ingrediente": "Cumino", "quantita": "1 cucchiaino" },
-            { "ingrediente": "Paprika Dolce", "quantita": "1 cucchiaino" },
-            { "ingrediente": "Peperoncino in Polvere", "quantita": "q.b." },
-            { "ingrediente": "Olio d'Oliva", "quantita": "2 cucchiai" },
-            { "ingrediente": "Sale", "quantita": "q.b." },
-            { "ingrediente": "Pepe", "quantita": "q.b." },
-            { "ingrediente": "Prezzemolo Fresco", "quantita": "q.b." }
-          ],
-          "tempo_preparazione": 15,
-          "tempo_cottura": 20,
-          "porzioni": 4,
-          "difficolta": "media",
-          "preparazione": "Soffriggere cipolla, aglio e peperoni rossi in olio d'oliva fino a quando sono morbidi. Aggiungere i pomodori pelati, cumino, paprika dolce, peperoncino in polvere, sale e pepe. Cuocere a fuoco medio per circa 10 minuti, fino a quando la salsa si addensa leggermente. Creare quattro buchi nella salsa e rompervi le uova. Coprire la padella e cuocere a fuoco lento fino a quando le uova sono cotte a piacere. Guarnire con prezzemolo fresco tritato prima di servire.",
-          "portata": "secondo"
-        }
-      ]
-    },
-=======
->>>>>>> Stashed changes
     {
       "id": 61,
       "nome_ricetta": "Pizza Quattro Stagioni",
@@ -4865,422 +4833,663 @@
       "difficolta": "media",
       "preparazione": "Impastare la farina con lo strutto, l'acqua e il sale fino a ottenere un impasto liscio. Stendere l'impasto e ritagliare dei dischi. Disporre al centro di metà dei dischi il formaggio pecorino a fette. Coprire con l'altra metà dei dischi e sigillare bene i bordi. Friggere in olio caldo fino a doratura. Servire le seadas calde, cosparse di miele.",
       "portata": "dolce"
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [
+        {
+          "ingrediente": "",
+          "quantita": ""
+        }
+      ],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 101
+    },
+    {
+      "nome_ricetta": "prova2",
+      "immagine": "",
+      "ingredienti": [
+        {
+          "ingrediente": "sassi",
+          "quantita": "3"
+        },
+        {
+          "ingrediente": "calze",
+          "quantita": "2"
+        }
+      ],
+      "tempo_preparazione": 3,
+      "tempo_cottura": 1,
+      "porzioni": 6,
+      "difficolta": "Medium",
+      "preparazione": "sdfsdfddsfsdf",
+      "portata": "dolce",
+      "id": 102
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 103
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [
+        {
+          "ingrediente": "sale",
+          "quantita": "q.b."
+        }
+      ],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 104
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 105
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [
+        {
+          "ingrediente": "sale",
+          "quantita": ""
+        }
+      ],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 106
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 107
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [
+        {
+          "ingrediente": "sassi",
+          "quantita": ""
+        }
+      ],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 108
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [
+        {
+          "ingrediente": "miao",
+          "quantita": ""
+        }
+      ],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 109
     }
-<<<<<<< Updated upstream
-  ]
-}
-=======
   ],
   "ingredients": [
     {
+      "id": 1,
       "ingrediente": "Spaghetti",
-      "immagine": ""
+      "immagine": "https://static.vecteezy.com/system/resources/previews/003/114/787/large_2x/close-up-a-spaghetti-and-red-sauce-in-white-dish-on-white-background-free-photo.jpg"
     },
     {
+      "id": 2,
       "ingrediente": "Guanciale",
-      "immagine": ""
+      "immagine": "https://cdn.leitesculinaria.com/wp-content/uploads/2020/10/guanciale-fp.jpg.optimal.jpg"
     },
     {
+      "id": 3,
       "ingrediente": "Uova",
-      "immagine": ""
+      "immagine": "https://www.donnamoderna.com/wp-content/uploads/2014/04/Uova-ingrediente-cucina.jpg"
     },
     {
+      "id": 4,
       "ingrediente": "Pecorino Romano",
-      "immagine": ""
+      "immagine": "https://cdn11.bigcommerce.com/s-8hw6y8no/images/stencil/1920w/products/222/474/99212__99740.1388646300.jpg?c=2"
     },
     {
+      "id": 5,
       "ingrediente": "Pepe Nero",
-      "immagine": ""
+      "immagine": "https://www.ambientebio.it/wp-content/uploads/2020/08/PEPE-NERO-1.jpeg"
     },
     {
+      "id": 6,
       "ingrediente": "Riso Carnaroli",
-      "immagine": ""
+      "immagine": "https://www.agrodolce.it/app/uploads/2016/09/riso-arborio.jpg"
     },
     {
+      "id": 7,
       "ingrediente": "Funghi Porcini",
-      "immagine": ""
+      "immagine": "http://blog.saporedicastagne.com/wp-content/uploads/2019/02/forest-1804281_1280.jpg"
     },
     {
+      "id": 8,
       "ingrediente": "Brodo Vegetale",
-      "immagine": ""
+      "immagine": "http://www.ricettaidea.it/articoli/ricette-tradizionali/rustici/original_brodo-vegetale.jpg"
     },
     {
+      "id": 9,
       "ingrediente": "Parmigiano Reggiano",
-      "immagine": ""
+      "immagine": "https://www.specialityfoodmagazine.com/assets/images/other/Parmagiano_Reggiano.jpg"
     },
     {
+      "id": 10,
       "ingrediente": "Burro",
-      "immagine": ""
+      "immagine": "https://www.chedonna.it/wp-content/uploads/2020/10/Come-sostituire-il-burro-1068x712.jpg"
     },
     {
+      "id": 11,
       "ingrediente": "Scalogno",
-      "immagine": ""
+      "immagine": "https://www.ristorantiweb.com/wp-content/uploads/sites/9/2018/04/scalogno.jpg"
     },
     {
+      "id": 12,
       "ingrediente": "Olio d'Oliva",
-      "immagine": ""
+      "immagine": "https://up2lab.it/wp-content/uploads/2017/07/olio-oliva-01-scaled.jpg"
     },
     {
+      "id": 13,
       "ingrediente": "Prezzemolo",
-      "immagine": ""
+      "immagine": "http://www.cucinare.meglio.it/img/i/prezzemolo.1024x768.jpg"
     },
     {
+      "id": 14,
       "ingrediente": "Pasta per Lasagne",
-      "immagine": ""
+      "immagine": "https://www.gustoblog.it/wp-content/uploads/2017/04/pasta-lasagne.jpg"
     },
     {
+      "id": 15,
       "ingrediente": "Ragù alla Bolognese",
-      "immagine": ""
+      "immagine": "https://www.tinastable.com/wp-content/uploads/2023/04/APC_6599-1-scaled.jpeg"
     },
     {
+      "id": 16,
       "ingrediente": "Besciamella",
-      "immagine": ""
+      "immagine": "http://www.gocciagoccia.it/wp-content/uploads/2018/11/besciamella.jpg"
     },
     {
+      "id": 17,
       "ingrediente": "Savoiardi",
-      "immagine": ""
+      "immagine": "https://img.freepik.com/premium-photo/traditional-italian-savoiardi-ladyfingers-biscuits-isolated-white-background-tiramisu-ingredient_511235-8433.jpg?w=2000"
     },
     {
+      "id": 18,
       "ingrediente": "Mascarpone",
-      "immagine": ""
+      "immagine": "https://julieblanner.com/wp-content/uploads/2015/08/mascarpone-cream-5.jpeg"
     },
     {
+      "id": 19,
       "ingrediente": "Zucchero",
-      "immagine": ""
+      "immagine": "https://e7.pngegg.com/pngimages/9/750/png-clipart-sugar-sugar.png"
     },
     {
+      "id": 20,
       "ingrediente": "Caffè",
-      "immagine": ""
+      "immagine": "https://images.creativemarket.com/0.1.0/ps/1327207/1360/879/m1/fpnw/wm1/x5bzvvkfmqcvpddmhyghelmsa4ldplc8ep7tvuttxtk5lhuwzwbzsupirqpjqsmn-.jpg?1464772145&s=135f8c456849d10db6d8439a24ee02e4"
     },
     {
+      "id": 21,
       "ingrediente": "Cacao Amaro",
-      "immagine": ""
+      "immagine": "https://img.freepik.com/premium-photo/cocoa-pods-cocoa-beans-cacao-powder-with-leaves-isolated-white-background_38145-707.jpg?w=2000"
     },
     {
+      "id": 22,
       "ingrediente": "Pollo",
-      "immagine": ""
+      "immagine": "http://www.fusionloja.com/wp-content/uploads/2019/04/Pollo-asado.png"
     },
     {
+      "id": 23,
       "ingrediente": "Pomodori Pelati",
-      "immagine": ""
+      "immagine": "https://www.donnad.it/sites/default/files/styles/r_visual_d/public/202040/Pomodori-pelati-ricetta.jpg?itok=JRhzFIPy"
     },
     {
+      "id": 24,
       "ingrediente": "Carote",
-      "immagine": ""
+      "immagine": "https://pngimg.com/uploads/carrot/carrot_PNG4985.png"
     },
     {
+      "id": 25,
       "ingrediente": "Sedano",
-      "immagine": ""
+      "immagine": "http://www.melaeco.it/images/stories/virtuemart/product/sedano-bianco-mercato-easy_9f35ed35-7eab-47c7-b1e3-0943185befc8.jpg"
     },
     {
+      "id": 26,
       "ingrediente": "Cipolla",
-      "immagine": ""
+      "immagine": "https://www.portaledelverde.it/upload/catalogo/categorie/img/foto_cipolla.jpg"
     },
     {
+      "id": 27,
       "ingrediente": "Vino Rosso",
-      "immagine": ""
+      "immagine": "https://wallpapercave.com/wp/wp4775899.jpg"
     },
     {
+      "id": 28,
       "ingrediente": "Rosmarino",
-      "immagine": ""
+      "immagine": "https://static.cookist.it/wp-content/uploads/sites/21/2020/06/rosmarino-2.jpg"
     },
     {
+      "id": 29,
       "ingrediente": "Zucchine",
-      "immagine": ""
+      "immagine": "https://img.freepik.com/premium-photo/zucchini-isolated-white-background_319514-4249.jpg?w=2000"
     },
     {
+      "id": 30,
       "ingrediente": "Patate",
-      "immagine": ""
+      "immagine": "http://clipart-library.com/image_gallery2/Potato.png"
     },
     {
+      "id": 31,
       "ingrediente": "Fagioli Borlotti",
-      "immagine": ""
+      "immagine": "https://www.dissapore.com/wp-content/uploads/2020/05/borlotti-scaled.jpg"
     },
     {
+      "id": 32,
       "ingrediente": "Pomodori",
-      "immagine": ""
+      "immagine": "https://s1.1zoom.me/big0/96/Salads_Vegetables_Tomatoes_Olive_White_background_590955_1280x853.jpg"
     },
     {
+      "id": 33,
       "ingrediente": "Spinaci",
-      "immagine": ""
+      "immagine": "https://www.thegreenrevolution.it/wp-content/uploads/2017/08/04_SETT_17-Semina-spinaci-2.jpg"
     },
     {
+      "id": 34,
       "ingrediente": "Sale",
-      "immagine": ""
+      "immagine": "https://www.lospicchiodaglio.it/img/materie/sale.jpg"
     },
     {
+      "id": 35,
       "ingrediente": "Pepe",
-      "immagine": ""
+      "immagine": "https://assets.stickpng.com/images/58486a72849cf46a2a931338.png"
     },
     {
+      "id": 36,
       "ingrediente": "Mozzarella di Bufala",
-      "immagine": ""
+      "immagine": "https://www.eggandplant.ch/wp-content/uploads/2022/08/EP_Mozzarella_Bufalo-1900x1425.jpg"
     },
     {
+      "id": 37,
       "ingrediente": "Basilico",
-      "immagine": ""
+      "immagine": "https://www.nonsapeviche.com/wp-content/uploads/2021/06/basilico_2-696x465.jpg"
     },
     {
+      "id": 38,
       "ingrediente": "Melanzane",
-      "immagine": ""
+      "immagine": "https://thumbs.dreamstime.com/z/melanzana-vettoriale-isolata-su-bianco-ingrediente-vegetale-per-alimenti-illustrazione-moderna-stile-disegno-mano-224331965.jpg"
     },
     {
+      "id": 39,
       "ingrediente": "Mozzarella",
-      "immagine": ""
+      "immagine": "https://www.alimentarium.org/sites/default/files/media/image/2016-09/web-mozzarella_0.png"
     },
     {
+      "id": 40,
       "ingrediente": "Panna Fresca",
-      "immagine": ""
+      "immagine": "https://www.carnini.it/wp-content/uploads/2016/01/8006250000083_T1-1024x1024.jpg"
     },
     {
+      "id": 41,
       "ingrediente": "Vaniglia",
-      "immagine": ""
+      "immagine": "https://emarat-news.ae/wp-content/uploads/2022/01/emarat-news_2022-01-31_18-06-51_961789.jpg"
     },
     {
+      "id": 42,
       "ingrediente": "Gelatina in Fogli",
-      "immagine": ""
+      "immagine": "https://www.salepepe.it/files/2021/06/gelatina-in-fogli.jpg"
     },
     {
+      "id": 43,
       "ingrediente": "Pangrattato",
-      "immagine": ""
+      "immagine": "https://www.stile.it/wp-content/uploads/2017/05/iStock-463060803-e1494603950155.jpg"
     },
     {
+      "id": 44,
       "ingrediente": "Prosciutto Crudo",
-      "immagine": ""
+      "immagine": "https://www.menatti.com/app/uploads/2023/02/prosciutto-crudo-dolce-salato-gusto.jpg"
     },
     {
+      "id": 45,
       "ingrediente": "Vitello",
-      "immagine": ""
+      "immagine": "https://destepti.ro/wp-content/uploads/2012/07/Vitel.jpg"
     },
     {
+      "id": 46,
       "ingrediente": "Salvia",
-      "immagine": ""
+      "immagine": "https://www.provenwinners.com/sites/provenwinners.com/files/imagecache/low-resolution/ifa_upload/salvia_white_profusion_apj22_2.jpg"
     },
     {
+      "id": 47,
       "ingrediente": "Salmone Affumicato",
-      "immagine": ""
+      "immagine": "https://www.android-news.eu/wp-content/uploads/2020/06/salmone.jpg"
     },
     {
+      "id": 48,
       "ingrediente": "Pasta Sfoglia",
-      "immagine": ""
+      "immagine": "https://i.pinimg.com/originals/3a/ec/95/3aec95affcb9713f298fe144be88bd99.jpg"
     },
     {
+      "id": 49,
       "ingrediente": "Formaggio Caprino",
-      "immagine": ""
+      "immagine": "https://www.buttalapasta.it/wp-content/uploads/2022/03/ricette-con-formaggio-caprino.jpg"
     },
     {
+      "id": 50,
       "ingrediente": "Miele",
-      "immagine": ""
+      "immagine": "https://brandslogo.net/wp-content/uploads/2013/04/miele-black-vector-logo.png"
     },
     {
+      "id": 51,
       "ingrediente": "Noci",
-      "immagine": ""
+      "immagine": "https://www.nonsprecare.it/wp-content/uploads/2017/10/benefici-delle-noci-4.jpg"
     },
     {
+      "id": 52,
       "ingrediente": "Pane",
-      "immagine": ""
+      "immagine": "http://naturalmenteitalia.com/wp-content/uploads/2014/04/pane.jpg"
     },
     {
+      "id": 53,
       "ingrediente": "Fegatini di Pollo",
-      "immagine": ""
+      "immagine": "https://i.pinimg.com/originals/1e/35/a7/1e35a761e2d6e0f414f51fddd0e86dc5.jpg"
     },
     {
+      "id": 54,
       "ingrediente": "Brodo di Pollo",
-      "immagine": ""
+      "immagine": "http://s23991.pcdn.co/wp-content/uploads/2017/02/brodo-di-pollo-recipe.jpg"
     },
     {
+      "id": 55,
       "ingrediente": "Fagioli Cannellini",
-      "immagine": ""
+      "immagine": "https://www.finedininglovers.it/sites/g/files/xknfdk1106/files/2022-04/fagioli cannellini.jpg"
     },
     {
+      "id": 56,
       "ingrediente": "Farro",
-      "immagine": ""
+      "immagine": "https://www.kitchenskip.com/wp-content/uploads/2020/08/farro-that-is-cooked.jpg"
     },
     {
+      "id": 57,
       "ingrediente": "Pomodori Secchi",
-      "immagine": ""
+      "immagine": "https://www.leitv.it/wp-content/uploads/2022/09/spaghetti-with-tomatoes-canned-tuna-sauce-light-background-top-view.jpg?v=149783"
     },
     {
+      "id": 58,
       "ingrediente": "Melone",
-      "immagine": ""
+      "immagine": "https://www.azernews.az/media/2017/07/05/melon.png"
     },
     {
+      "id": 59,
       "ingrediente": "Prosciutto di Parma",
-      "immagine": ""
+      "immagine": "https://media-assets.lacucinaitaliana.it/photos/61faf8abf6b806549a638312/16:9/w_2560%2Cc_limit/prosciutto-parma.jpg"
     },
     {
+      "id": 60,
       "ingrediente": "Formaggio Grattugiato",
-      "immagine": ""
+      "immagine": "https://www.cabre.it/wp-content/uploads/2019/10/cabre-leonessa-grattuggiato-mosse-facili-per-avere-formaggio-grattuggiato-fresco.jpeg"
     },
     {
+      "id": 61,
       "ingrediente": "Erbette Aromatiche",
-      "immagine": ""
+      "immagine": "http://www.lifegate.it/app/uploads/Erbe-aromatiche.gif"
     },
     {
+      "id": 62,
       "ingrediente": "Crostini di Pane",
-      "immagine": ""
+      "immagine": "https://blog.giallozafferano.it/statusmamma/wp-content/uploads/2021/10/CROSTINI-DI-PANE.jpg"
     },
     {
+      "id": 63,
       "ingrediente": "Biscotti Digestive",
-      "immagine": ""
+      "immagine": "http://blog.giallozafferano.it/ricettedellaprovenza/wp-content/uploads/2018/02/08761237-624A-48D9-9B8B-72EB7979CE31.jpeg"
     },
     {
+      "id": 64,
       "ingrediente": "Formaggio Spalmabile",
-      "immagine": ""
+      "immagine": "https://www.carrefour.it/on/demandware.static/-/Sites-carrefour-master-catalog-IT/default/dwe8eda64c/large/PHILADELPHIAREGULARGR250-8001590640258-5.png"
     },
     {
+      "id": 65,
       "ingrediente": "Estratto di Vaniglia",
-      "immagine": ""
+      "immagine": "https://it.thecookinghacks.com/wp-content/uploads/sites/2/2020/11/estratto-vaniglia-1024x683.jpg"
     },
     {
+      "id": 66,
       "ingrediente": "Confettura di Fragole",
-      "immagine": ""
+      "immagine": "https://www.ricettedigusto.info/wp-content/uploads/2014/04/confettura-di-fragole-1.jpg"
     },
     {
+      "id": 67,
       "ingrediente": "Semi di Cumino",
-      "immagine": ""
+      "immagine": "https://www.misya.info/wp-content/uploads/2012/11/Semi-di-cumino.jpg"
     },
     {
+      "id": 68,
       "ingrediente": "Coriandolo in Polvere",
-      "immagine": ""
+      "immagine": "https://www.macrolibrarsi.it/data/cop/zoom/c/coriandolo-in-polvere-bio-201731.jpg"
     },
     {
+      "id": 69,
       "ingrediente": "Garam Masala",
-      "immagine": ""
+      "immagine": "https://www.spicejungle.com/wp/files/2022/02/SpicesToGrind.jpg"
     },
     {
+      "id": 70,
       "ingrediente": "Panna",
-      "immagine": ""
+      "immagine": "https://img.freepik.com/premium-photo/strawberry-panna-cotta-creamy-dessert-isolated-white-background-panna-cotta-with-strawberry_503274-1979.jpg?w=2000"
     },
     {
+      "id": 71,
       "ingrediente": "Cavolo",
-      "immagine": ""
+      "immagine": "https://www.ciaoitaliarussia.it/wp-content/uploads/2020/05/Polpette-di-cavolo-ingredienti.jpg"
     },
     {
+      "id": 72,
       "ingrediente": "Latte di Cocco",
-      "immagine": ""
+      "immagine": "https://www.salepepe.it/files/2017/06/latte-cocco.jpg"
     },
     {
+      "id": 73,
       "ingrediente": "Curry in Polvere",
-      "immagine": ""
+      "immagine": "https://r.restore.shopping/resizer/go?s=https:%2f%2frsbackend.blob.core.windows.net%2fbrandbank-pen%2f112022_0.png&w=1000&h=1000"
     },
     {
+      "id": 74,
       "ingrediente": "Coriandolo Fresco",
-      "immagine": ""
+      "immagine": "https://it.thecookinghacks.com/wp-content/uploads/sites/2/2019/08/fresh-coriander-1024x683.jpg"
     },
     {
+      "id": 75,
       "ingrediente": "Carne di Manzo",
-      "immagine": ""
+      "immagine": "https://wallpaperaccess.com/full/1462795.jpg"
     },
     {
+      "id": 76,
       "ingrediente": "Cipolle",
-      "immagine": ""
+      "immagine": "https://cipollefreddi.it/wp-content/uploads/2016/10/cipolle-varie-benessere-salute.jpg"
     },
     {
+      "id": 77,
       "ingrediente": "Brodo di Carne",
-      "immagine": ""
+      "immagine": "https://www.soniaperonaci.it/wp-content/uploads/2020/10/Brodo-di-carne-960x1440.jpg"
     },
     {
+      "id": 78,
       "ingrediente": "Pancetta",
-      "immagine": ""
+      "immagine": "https://www.shutterstock.com/shutterstock/photos/1279534900/display_1500/stock-photo-rolls-of-pancetta-bacon-isolated-on-white-background-1279534900.jpg"
     },
     {
+      "id": 79,
       "ingrediente": "Funghi Champignon",
-      "immagine": ""
+      "immagine": "https://www.salepepe.it/files/2014/03/Funghi-champignon-tecnica-di-base.jpg"
     },
     {
+      "id": 80,
       "ingrediente": "Alloro",
-      "immagine": ""
+      "immagine": "http://www.gustissimo.it/articoli/ingredienti/erbe-aromi-spezie/alloro.jpg"
     },
     {
+      "id": 81,
       "ingrediente": "Tortellini",
-      "immagine": ""
+      "immagine": "https://live.staticflickr.com/65535/49874674337_19a7efe57d_k_d.jpg"
     },
     {
+      "id": 82,
       "ingrediente": "Trofie",
-      "immagine": ""
+      "immagine": "https://images.creativemarket.com/0.1.0/ps/6138873/1820/2730/m1/fpnw/wm1/ewpazytlx9l04xywecv7wowetyjlse8li3gp5khfze1f4z8pxvjj1tgua4ui8odr-.jpg?1553626049&s=9a79960af02eefff2447310f20d349fe"
     },
     {
+      "id": 83,
       "ingrediente": "Basilico Fresco",
-      "immagine": ""
+      "immagine": "https://www.nonsapeviche.com/wp-content/uploads/2021/06/basilico_2-696x465.jpg"
     },
     {
+      "id": 84,
       "ingrediente": "Pinoli",
-      "immagine": ""
+      "immagine": "https://image.freepik.com/free-vector/vector-realistic-pile-shelled-pine-nuts-close-up-top-view-isolated-white-background_1284-46349.jpg"
     },
     {
+      "id": 85,
       "ingrediente": "Pecorino",
-      "immagine": ""
+      "immagine": "https://www.volpetti.com/cms/wp-content/uploads/2018/04/12-pecorino-romano_001.jpg"
     },
     {
+      "id": 86,
       "ingrediente": "Riso Arborio",
-      "immagine": ""
+      "immagine": "https://www.agrodolce.it/app/uploads/2016/09/riso-arborio.jpg"
     },
     {
+      "id": 87,
       "ingrediente": "Sfoglia per Lasagne",
-      "immagine": ""
+      "immagine": "https://cdn.ilclubdellericette.it/wp-content/uploads/2020/11/sfoglia-bianca-per-lasagne-1200x630.jpg"
     },
     {
+      "id": 88,
       "ingrediente": "Amido di Mais",
-      "immagine": ""
+      "immagine": "https://it.thecookinghacks.com/wp-content/uploads/sites/2/2020/03/cornflour-1024x683.jpg"
     },
     {
+      "id": 89,
       "ingrediente": "Ossobuco di Vitello",
-      "immagine": ""
+      "immagine": "https://www.cicaci.it/wp-content/uploads/2022/01/cicaci-ossobuco-di-vitello.jpg"
     },
     {
+      "id": 90,
       "ingrediente": "Fettuccine",
-      "immagine": ""
+      "immagine": "https://thumbs.dreamstime.com/z/fettuccine-raw-white-background-75880975.jpg"
     },
     {
+      "id": 91,
       "ingrediente": "Lenticchie",
-      "immagine": ""
+      "immagine": "https://www.chedonna.it/wp-content/uploads/2020/02/background-4620888_1280-1.jpg"
     },
     {
+      "id": 92,
       "ingrediente": "Farina 00",
-      "immagine": ""
+      "immagine": "https://www.pianetadonne.blog/wp-content/uploads/2021/04/come-sostituire-la-farina-00-AdobeStock_27279605-scaled.jpeg"
     },
     {
+      "id": 93,
       "ingrediente": "Semola Rimacinata",
-      "immagine": ""
+      "immagine": "https://www.molinobassini1899.it/media/catalog/product/cache/1/image/800x920/9df78eab33525d08d6e5fb8d27136e95/r/i/rimacinata.jpg"
     },
     {
+      "id": 94,
       "ingrediente": "Patata",
-      "immagine": ""
+      "immagine": "https://wallpapercave.com/wp/wp1885906.jpg"
     },
     {
+      "id": 95,
       "ingrediente": "Pomodorini",
-      "immagine": ""
+      "immagine": "http://www.gustissimo.it/articoli/ingredienti/verdure-legumi-ortaggi/original_pomodorini.jpg"
     },
     {
+      "id": 96,
       "ingrediente": "Pane in Cassetta",
-      "immagine": ""
+      "immagine": "https://www.starbene.it/content/uploads/2018/01/pane-in-cassetta-1.jpg"
     },
     {
+      "id": 97,
       "ingrediente": "Formaggio a Fette",
-      "immagine": ""
+      "immagine": "https://www.orizzontenergia.it/wp-content/uploads/2022/06/Fette-di-formaggio-su-tagliere.jpg"
     },
     {
+      "id": 98,
       "ingrediente": "Malloreddus",
-      "immagine": ""
+      "immagine": "https://thumbs.dreamstime.com/z/sardinian-gnocchetti-pasta-also-known-as-malloreddus-macarrones-de-punzu-isolated-white-background-sardinian-gnocchetti-242369133.jpg"
     },
     {
+      "id": 99,
       "ingrediente": "Salsiccia Sarda",
-      "immagine": ""
+      "immagine": "https://www.torronificiocrobe.it/wp-content/uploads/2022/08/Torronificio-Crobe-Salsiccia-Sarda.jpg"
     },
     {
+      "id": 100,
       "ingrediente": "Pecorino Sardo",
-      "immagine": ""
+      "immagine": "https://www.italia.it/content/dam/tdh/it/interests/sardegna/il-pecorino-sardo/media/20210315094206-pecorino-sardo.jpg"
     },
     {
+      "id": 101,
       "ingrediente": "Strutto",
-      "immagine": ""
+      "immagine": "https://primochef.it/wp-content/uploads/2019/03/SH_strutto.jpg"
     },
     {
+      "id": 102,
       "ingrediente": "Formaggio Pecorino Fresco",
-      "immagine": ""
+      "immagine": "https://www.formagginorcia.it/wp-content/uploads/2020/05/pecorino-fresco-pixel.jpg"
     }
   ],
+
   "users": [
     {
       "email": "mario@email.it",
@@ -5296,4 +5505,4 @@
     }
   ]
 }
->>>>>>> Stashed changes
+
