@@ -23,7 +23,16 @@
           type="text"
           placeholder="Ingredient"
           required
+          (input)="onIngredientInput($event, i)"
         />
+        <ul *ngIf="suggestions[i]?.length">
+          <li
+            *ngFor="let suggestion of suggestions[i]"
+            (click)="selectSuggestion(suggestion, i)"
+          >
+            {{ suggestion }}
+          </li>
+        </ul>
         <input
           formControlName="quantita"
           type="text"
