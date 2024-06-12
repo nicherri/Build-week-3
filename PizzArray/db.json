@@ -5,11 +5,26 @@
       "nome_ricetta": "Spaghetti alla Carbonara",
       "immagine": "https://www.tavolartegusto.it/wp/wp-content/uploads/2020/03/Carbonara-Spaghetti-alla-carbonara-Ricetta-Carbonara.jpg",
       "ingredienti": [
-        { "ingrediente": "Spaghetti", "quantita": "400g" },
-        { "ingrediente": "Guanciale", "quantita": "150g" },
-        { "ingrediente": "Uova", "quantita": "4" },
-        { "ingrediente": "Pecorino Romano", "quantita": "100g" },
-        { "ingrediente": "Pepe Nero", "quantita": "q.b." }
+        {
+          "ingrediente": "Spaghetti",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Guanciale",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "4"
+        },
+        {
+          "ingrediente": "Pecorino Romano",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Pepe Nero",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 15,
@@ -23,14 +38,38 @@
       "nome_ricetta": "Risotto ai Funghi",
       "immagine": "https://www.ghiottogalfre.it/50/risotto-ai-funghi-porcini.jpg",
       "ingredienti": [
-        { "ingrediente": "Riso Carnaroli", "quantita": "320g" },
-        { "ingrediente": "Funghi Porcini", "quantita": "300g" },
-        { "ingrediente": "Brodo Vegetale", "quantita": "1 litro" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" },
-        { "ingrediente": "Burro", "quantita": "50g" },
-        { "ingrediente": "Scalogno", "quantita": "1" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Prezzemolo", "quantita": "q.b." }
+        {
+          "ingrediente": "Riso Carnaroli",
+          "quantita": "320g"
+        },
+        {
+          "ingrediente": "Funghi Porcini",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Brodo Vegetale",
+          "quantita": "1 litro"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Scalogno",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Prezzemolo",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 25,
@@ -44,10 +83,22 @@
       "nome_ricetta": "Lasagne alla Bolognese",
       "immagine": "https://www.elitesurgelati.it/wp-content/uploads/2019/12/3427.jpg",
       "ingredienti": [
-        { "ingrediente": "Pasta per Lasagne", "quantita": "250g" },
-        { "ingrediente": "Ragù alla Bolognese", "quantita": "500g" },
-        { "ingrediente": "Besciamella", "quantita": "500ml" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "100g" }
+        {
+          "ingrediente": "Pasta per Lasagne",
+          "quantita": "250g"
+        },
+        {
+          "ingrediente": "Ragù alla Bolognese",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Besciamella",
+          "quantita": "500ml"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "100g"
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 40,
@@ -61,12 +112,30 @@
       "nome_ricetta": "Tiramisù",
       "immagine": "https://t3.ftcdn.net/jpg/03/28/01/60/360_F_328016056_Ro67OjyMT2dnGFL6v4VKKoAkIcakElTW.jpg",
       "ingredienti": [
-        { "ingrediente": "Savoiardi", "quantita": "300g" },
-        { "ingrediente": "Mascarpone", "quantita": "500g" },
-        { "ingrediente": "Uova", "quantita": "4" },
-        { "ingrediente": "Zucchero", "quantita": "100g" },
-        { "ingrediente": "Caffè", "quantita": "300ml" },
-        { "ingrediente": "Cacao Amaro", "quantita": "q.b." }
+        {
+          "ingrediente": "Savoiardi",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Mascarpone",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "4"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Caffè",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Cacao Amaro",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 0,
@@ -80,14 +149,38 @@
       "nome_ricetta": "Pollo alla Cacciatora",
       "immagine": "https://www.mangimifusco.it/new/wp-content/uploads/2021/03/SH_pollo_cacciatora-1200x800-1.jpg",
       "ingredienti": [
-        { "ingrediente": "Pollo", "quantita": "1kg" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Carote", "quantita": "2" },
-        { "ingrediente": "Sedano", "quantita": "2 coste" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Vino Rosso", "quantita": "200ml" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Rosmarino", "quantita": "q.b." }
+        {
+          "ingrediente": "Pollo",
+          "quantita": "1kg"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Sedano",
+          "quantita": "2 coste"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Vino Rosso",
+          "quantita": "200ml"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Rosmarino",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 60,
@@ -101,15 +194,42 @@
       "nome_ricetta": "Minestrone di Verdure",
       "immagine": "https://www.salepepe.it/files/2017/12/Minestrone-di-farro-al-basilico-1140x636.jpg",
       "ingredienti": [
-        { "ingrediente": "Carote", "quantita": "2" },
-        { "ingrediente": "Zucchine", "quantita": "2" },
-        { "ingrediente": "Patate", "quantita": "2" },
-        { "ingrediente": "Sedano", "quantita": "2 coste" },
-        { "ingrediente": "Fagioli Borlotti", "quantita": "200g" },
-        { "ingrediente": "Pomodori", "quantita": "4" },
-        { "ingrediente": "Spinaci", "quantita": "100g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." }
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Zucchine",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Patate",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Sedano",
+          "quantita": "2 coste"
+        },
+        {
+          "ingrediente": "Fagioli Borlotti",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Pomodori",
+          "quantita": "4"
+        },
+        {
+          "ingrediente": "Spinaci",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 40,
@@ -123,12 +243,30 @@
       "nome_ricetta": "Frittata di Patate",
       "immagine": "https://www.giallozafferano.it/images/204-20451/Frittata-di-patate_650x433_wm.jpg",
       "ingredienti": [
-        { "ingrediente": "Uova", "quantita": "6" },
-        { "ingrediente": "Patate", "quantita": "400g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Uova",
+          "quantita": "6"
+        },
+        {
+          "ingrediente": "Patate",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 20,
@@ -142,12 +280,30 @@
       "nome_ricetta": "Insalata Caprese",
       "immagine": "https://previews.123rf.com/images/margouillat/margouillat1606/margouillat160600399/58521627-insalata-caprese.jpg",
       "ingredienti": [
-        { "ingrediente": "Pomodori", "quantita": "4" },
-        { "ingrediente": "Mozzarella di Bufala", "quantita": "200g" },
-        { "ingrediente": "Basilico", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Pomodori",
+          "quantita": "4"
+        },
+        {
+          "ingrediente": "Mozzarella di Bufala",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Basilico",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 0,
@@ -161,14 +317,38 @@
       "nome_ricetta": "Parmigiana di Melanzane",
       "immagine": "https://www.fattoincasadabenedetta.it/wp-content/uploads/2022/02/AdobeStock_296698970-min-min-scaled.jpeg",
       "ingredienti": [
-        { "ingrediente": "Melanzane", "quantita": "1kg" },
-        { "ingrediente": "Mozzarella", "quantita": "200g" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "100g" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "800g" },
-        { "ingrediente": "Basilico", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Melanzane",
+          "quantita": "1kg"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "800g"
+        },
+        {
+          "ingrediente": "Basilico",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 60,
@@ -182,10 +362,22 @@
       "nome_ricetta": "Panna Cotta",
       "immagine": "https://www.garnishwithlemon.com/wp-content/uploads/2023/04/VANILLA-BEAN-PANNA-COTTA-FEATURED-IMAGE.jpg",
       "ingredienti": [
-        { "ingrediente": "Panna Fresca", "quantita": "500ml" },
-        { "ingrediente": "Zucchero", "quantita": "100g" },
-        { "ingrediente": "Vaniglia", "quantita": "1 baccello" },
-        { "ingrediente": "Gelatina in Fogli", "quantita": "10g" }
+        {
+          "ingrediente": "Panna Fresca",
+          "quantita": "500ml"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Vaniglia",
+          "quantita": "1 baccello"
+        },
+        {
+          "ingrediente": "Gelatina in Fogli",
+          "quantita": "10g"
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 10,
@@ -199,15 +391,42 @@
       "nome_ricetta": "Gnocchi alla Sorrentina",
       "immagine": "https://www.themediterraneandish.com/wp-content/uploads/2023/05/Gnocchi-alla-Sorrentina_30.jpg",
       "ingredienti": [
-        { "ingrediente": "Gnocchi di Patate", "quantita": "500g" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Mozzarella", "quantita": "200g" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" },
-        { "ingrediente": "Basilico", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Aglio", "quantita": "1 spicchio" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Gnocchi di Patate",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Basilico",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "1 spicchio"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 20,
@@ -221,13 +440,34 @@
       "nome_ricetta": "Bruschetta al Pomodoro",
       "immagine": "https://www.cucchiaio.it/content/dam/cucchiaio/it/ricette/2009/11/ricetta-bruschetta-pomodoro/_MG_8642.jpg",
       "ingredienti": [
-        { "ingrediente": "Pane Casereccio", "quantita": "4 fette" },
-        { "ingrediente": "Pomodori", "quantita": "3" },
-        { "ingrediente": "Basilico", "quantita": "q.b." },
-        { "ingrediente": "Aglio", "quantita": "1 spicchio" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Pane Casereccio",
+          "quantita": "4 fette"
+        },
+        {
+          "ingrediente": "Pomodori",
+          "quantita": "3"
+        },
+        {
+          "ingrediente": "Basilico",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "1 spicchio"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 5,
@@ -241,14 +481,38 @@
       "nome_ricetta": "Arancini di Riso",
       "immagine": "https://media-assets.lacucinaitaliana.it/photos/620fbec0613e4caf44807002/4:3/w_1332,h_999,c_limit/arancini.jpg",
       "ingredienti": [
-        { "ingrediente": "Riso", "quantita": "500g" },
-        { "ingrediente": "Ragù", "quantita": "200g" },
-        { "ingrediente": "Piselli", "quantita": "100g" },
-        { "ingrediente": "Mozzarella", "quantita": "100g" },
-        { "ingrediente": "Uova", "quantita": "3" },
-        { "ingrediente": "Pangrattato", "quantita": "200g" },
-        { "ingrediente": "Olio per Friggere", "quantita": "q.b." },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" }
+        {
+          "ingrediente": "Riso",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Ragù",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Piselli",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "3"
+        },
+        {
+          "ingrediente": "Pangrattato",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Olio per Friggere",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        }
       ],
       "tempo_preparazione": 40,
       "tempo_cottura": 20,
@@ -262,15 +526,42 @@
       "nome_ricetta": "Pasta alla Norma",
       "immagine": "https://www.nonsprecare.it/wp-content/uploads/2015/08/ricetta-pasta-norma-siciliana-varianti-21.jpg",
       "ingredienti": [
-        { "ingrediente": "Pasta", "quantita": "400g" },
-        { "ingrediente": "Melanzane", "quantita": "2" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Ricotta Salata", "quantita": "100g" },
-        { "ingrediente": "Basilico", "quantita": "q.b." },
-        { "ingrediente": "Aglio", "quantita": "1 spicchio" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Pasta",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Melanzane",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Ricotta Salata",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Basilico",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "1 spicchio"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 30,
@@ -284,15 +575,42 @@
       "nome_ricetta": "Zuppa di Pesce",
       "immagine": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/050aa2c5-e52d-4eac-89c3-112edac9cab1/Derivates/2000491c-fa06-4c7f-8389-560da2c00810.jpg",
       "ingredienti": [
-        { "ingrediente": "Pesce Misto", "quantita": "1kg" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Prezzemolo", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Vino Bianco", "quantita": "200ml" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Peperoncino", "quantita": "q.b." }
+        {
+          "ingrediente": "Pesce Misto",
+          "quantita": "1kg"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Prezzemolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Vino Bianco",
+          "quantita": "200ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Peperoncino",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 40,
@@ -306,12 +624,30 @@
       "nome_ricetta": "Crostata di Marmellata",
       "immagine": "https://recipesblob.paneangeli.it/assets/6dabfa92ffc242ab8f53684882dd8338/1272x764/crostata-confettura.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "300g" },
-        { "ingrediente": "Burro", "quantita": "150g" },
-        { "ingrediente": "Zucchero", "quantita": "100g" },
-        { "ingrediente": "Uova", "quantita": "2" },
-        { "ingrediente": "Marmellata", "quantita": "200g" },
-        { "ingrediente": "Lievito per Dolci", "quantita": "1 cucchiaino" }
+        {
+          "ingrediente": "Farina",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Marmellata",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Lievito per Dolci",
+          "quantita": "1 cucchiaino"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 30,
@@ -325,12 +661,30 @@
       "nome_ricetta": "Focaccia Genovese",
       "immagine": "https://www.giallozafferano.com/images/229-22904/focaccia-fugassa-alla-genovese-genoa-style-focaccia_1200x800.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "300ml" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Lievito di Birra", "quantita": "25g" },
-        { "ingrediente": "Sale", "quantita": "10g" },
-        { "ingrediente": "Zucchero", "quantita": "10g" }
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "10g"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 25,
@@ -344,15 +698,42 @@
       "nome_ricetta": "Polenta con Salsiccia",
       "immagine": "https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2023/02/Polenta-salsiccia-1200x675.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina di Mais", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "2 litri" },
-        { "ingrediente": "Salsiccia", "quantita": "500g" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Farina di Mais",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "2 litri"
+        },
+        {
+          "ingrediente": "Salsiccia",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 40,
@@ -366,12 +747,30 @@
       "nome_ricetta": "Torta al Cioccolato",
       "immagine": "https://www.fattoincasadabenedetta.it/wp-content/uploads/2020/12/sito-2-TORTA-AL-CIOCCOLATO-E-YOGURT.jpg",
       "ingredienti": [
-        { "ingrediente": "Cioccolato Fondente", "quantita": "200g" },
-        { "ingrediente": "Burro", "quantita": "150g" },
-        { "ingrediente": "Zucchero", "quantita": "150g" },
-        { "ingrediente": "Uova", "quantita": "3" },
-        { "ingrediente": "Farina", "quantita": "100g" },
-        { "ingrediente": "Lievito per Dolci", "quantita": "1 cucchiaino" }
+        {
+          "ingrediente": "Cioccolato Fondente",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "3"
+        },
+        {
+          "ingrediente": "Farina",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Lievito per Dolci",
+          "quantita": "1 cucchiaino"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 30,
@@ -385,16 +784,46 @@
       "nome_ricetta": "Caponata Siciliana",
       "immagine": "https://media-assets.lacucinaitaliana.it/photos/64ad64d4da53b8e5e1b60fb1/4:3/w_3791,h_2843,c_limit/GettyImages-1036880656.jpg",
       "ingredienti": [
-        { "ingrediente": "Melanzane", "quantita": "500g" },
-        { "ingrediente": "Pomodori", "quantita": "300g" },
-        { "ingrediente": "Sedano", "quantita": "2 coste" },
-        { "ingrediente": "Olive Verdi", "quantita": "100g" },
-        { "ingrediente": "Capperi", "quantita": "50g" },
-        { "ingrediente": "Aceto", "quantita": "50ml" },
-        { "ingrediente": "Zucchero", "quantita": "20g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Melanzane",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Pomodori",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Sedano",
+          "quantita": "2 coste"
+        },
+        {
+          "ingrediente": "Olive Verdi",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Capperi",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Aceto",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "20g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 40,
@@ -408,16 +837,46 @@
       "nome_ricetta": "Pizza Margherita",
       "immagine": "https://www.finedininglovers.it/sites/g/files/xknfdk1106/files/styles/recipes_1200_800_fallback/public/fdl_content_import_it/margherita-50kalo.jpg?itok=v9nHxNMS",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "300ml" },
-        { "ingrediente": "Lievito di Birra", "quantita": "25g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Sale", "quantita": "10g" },
-        { "ingrediente": "Zucchero", "quantita": "5g" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Mozzarella", "quantita": "300g" },
-        { "ingrediente": "Basilico", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." }
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "5g"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Basilico",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 15,
@@ -431,14 +890,38 @@
       "nome_ricetta": "Saltimbocca alla Romana",
       "immagine": "https://www.sfizioso.it/wp-content/uploads/2021/06/Saltimbocca-alla-romana.jpeg",
       "ingredienti": [
-        { "ingrediente": "Vitello", "quantita": "500g" },
-        { "ingrediente": "Prosciutto Crudo", "quantita": "100g" },
-        { "ingrediente": "Salvia", "quantita": "q.b." },
-        { "ingrediente": "Burro", "quantita": "50g" },
-        { "ingrediente": "Vino Bianco", "quantita": "100ml" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Vitello",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Prosciutto Crudo",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Salvia",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Vino Bianco",
+          "quantita": "100ml"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 15,
@@ -452,13 +935,34 @@
       "nome_ricetta": "Torta di Mele",
       "immagine": "https://recipesblob.paneangeli.it/assets/7eb3315163174b0cb92f21821620379e/1272x764/torta-soffice-cuor-di-mele.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "300g" },
-        { "ingrediente": "Zucchero", "quantita": "200g" },
-        { "ingrediente": "Uova", "quantita": "3" },
-        { "ingrediente": "Burro", "quantita": "150g" },
-        { "ingrediente": "Latte", "quantita": "100ml" },
-        { "ingrediente": "Lievito per Dolci", "quantita": "1 bustina" },
-        { "ingrediente": "Mele", "quantita": "3" }
+        {
+          "ingrediente": "Farina",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "3"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Latte",
+          "quantita": "100ml"
+        },
+        {
+          "ingrediente": "Lievito per Dolci",
+          "quantita": "1 bustina"
+        },
+        {
+          "ingrediente": "Mele",
+          "quantita": "3"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 40,
@@ -472,13 +976,34 @@
       "nome_ricetta": "Orecchiette con Cime di Rapa",
       "immagine": "https://blog.giallozafferano.it/dulcisinforno/wp-content/uploads/2021/01/Orecchiette-con-cime-di-rapa-3139.jpg",
       "ingredienti": [
-        { "ingrediente": "Orecchiette", "quantita": "400g" },
-        { "ingrediente": "Cime di Rapa", "quantita": "1kg" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Acciughe", "quantita": "4 filetti" },
-        { "ingrediente": "Peperoncino", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." }
+        {
+          "ingrediente": "Orecchiette",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Cime di Rapa",
+          "quantita": "1kg"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Acciughe",
+          "quantita": "4 filetti"
+        },
+        {
+          "ingrediente": "Peperoncino",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 15,
@@ -492,13 +1017,34 @@
       "nome_ricetta": "Cantucci",
       "immagine": "https://primochef.it/wp-content/uploads/2015/11/SH_biscotti_cantucci-640x350.jpg.webp",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "300g" },
-        { "ingrediente": "Zucchero", "quantita": "200g" },
-        { "ingrediente": "Mandorle", "quantita": "200g" },
-        { "ingrediente": "Uova", "quantita": "3" },
-        { "ingrediente": "Burro", "quantita": "50g" },
-        { "ingrediente": "Lievito per Dolci", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Sale", "quantita": "1 pizzico" }
+        {
+          "ingrediente": "Farina",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Mandorle",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "3"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Lievito per Dolci",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "1 pizzico"
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 30,
@@ -512,15 +1058,42 @@
       "nome_ricetta": "Vitello Tonnato",
       "immagine": "https://angelasimonelli.it/wp-content/uploads/2020/06/vitello-tonnato-11.jpg",
       "ingredienti": [
-        { "ingrediente": "Vitello", "quantita": "1kg" },
-        { "ingrediente": "Tonno", "quantita": "200g" },
-        { "ingrediente": "Maionese", "quantita": "200g" },
-        { "ingrediente": "Capperi", "quantita": "30g" },
-        { "ingrediente": "Acciughe", "quantita": "4 filetti" },
-        { "ingrediente": "Limone", "quantita": "1" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Vitello",
+          "quantita": "1kg"
+        },
+        {
+          "ingrediente": "Tonno",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Maionese",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Capperi",
+          "quantita": "30g"
+        },
+        {
+          "ingrediente": "Acciughe",
+          "quantita": "4 filetti"
+        },
+        {
+          "ingrediente": "Limone",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 60,
@@ -534,14 +1107,38 @@
       "nome_ricetta": "Frittelle di Zucchine",
       "immagine": "https://www.arborea1956.com/wp-content/uploads/2018/05/frittelle-di-zucchine-dolci-thumb.jpg",
       "ingredienti": [
-        { "ingrediente": "Zucchine", "quantita": "500g" },
-        { "ingrediente": "Uova", "quantita": "2" },
-        { "ingrediente": "Farina", "quantita": "100g" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" },
-        { "ingrediente": "Prezzemolo", "quantita": "q.b." },
-        { "ingrediente": "Olio per Friggere", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Zucchine",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Farina",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Prezzemolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio per Friggere",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 10,
@@ -555,17 +1152,50 @@
       "nome_ricetta": "Pasta e Fagioli",
       "immagine": "https://www.giallozafferano.it/images/ricette/230/23070/foto_hd/hd450x300.jpg",
       "ingredienti": [
-        { "ingrediente": "Pasta", "quantita": "200g" },
-        { "ingrediente": "Fagioli Borlotti", "quantita": "300g" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "200g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Carota", "quantita": "1" },
-        { "ingrediente": "Sedano", "quantita": "1 costa" },
-        { "ingrediente": "Aglio", "quantita": "1 spicchio" },
-        { "ingrediente": "Rosmarino", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Pasta",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Fagioli Borlotti",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Carota",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Sedano",
+          "quantita": "1 costa"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "1 spicchio"
+        },
+        {
+          "ingrediente": "Rosmarino",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 60,
@@ -579,14 +1209,38 @@
       "nome_ricetta": "Cozze alla Marinara",
       "immagine": "https://www.giallozafferano.it/images/19-1913/Cozze-alla-marinara_650x433_wm.jpg",
       "ingredienti": [
-        { "ingrediente": "Cozze", "quantita": "1kg" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Prezzemolo", "quantita": "q.b." },
-        { "ingrediente": "Vino Bianco", "quantita": "100ml" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Peperoncino", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Cozze",
+          "quantita": "1kg"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Prezzemolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Vino Bianco",
+          "quantita": "100ml"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Peperoncino",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 10,
@@ -600,12 +1254,30 @@
       "nome_ricetta": "Cannoli Siciliani",
       "immagine": "https://www.giallozafferano.it/images/206-20605/Cannoli-siciliani_650x433_wm.jpg",
       "ingredienti": [
-        { "ingrediente": "Ricotta", "quantita": "500g" },
-        { "ingrediente": "Zucchero", "quantita": "200g" },
-        { "ingrediente": "Gocce di Cioccolato", "quantita": "100g" },
-        { "ingrediente": "Scorza d'Arancia Candita", "quantita": "50g" },
-        { "ingrediente": "Cannoli", "quantita": "12" },
-        { "ingrediente": "Pistacchi", "quantita": "50g" }
+        {
+          "ingrediente": "Ricotta",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Gocce di Cioccolato",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Scorza d'Arancia Candita",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Cannoli",
+          "quantita": "12"
+        },
+        {
+          "ingrediente": "Pistacchi",
+          "quantita": "50g"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 0,
@@ -619,16 +1291,46 @@
       "nome_ricetta": "Ribollita Toscana",
       "immagine": "https://www.pisatoday.it/~media/horizontal-hi/32430460292495/ribollita-2.jpg",
       "ingredienti": [
-        { "ingrediente": "Cavolo Nero", "quantita": "300g" },
-        { "ingrediente": "Fagioli Cannellini", "quantita": "200g" },
-        { "ingrediente": "Pane Toscano", "quantita": "200g" },
-        { "ingrediente": "Carota", "quantita": "1" },
-        { "ingrediente": "Sedano", "quantita": "1 costa" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "200g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Cavolo Nero",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Fagioli Cannellini",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Pane Toscano",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Carota",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Sedano",
+          "quantita": "1 costa"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 120,
@@ -642,12 +1344,30 @@
       "nome_ricetta": "Frittata di Asparagi",
       "immagine": "https://media-assets.lacucinaitaliana.it/photos/643900e18dd1b74b72e55938/master/pass/GettyImages-1144161135.jpg",
       "ingredienti": [
-        { "ingrediente": "Asparagi", "quantita": "300g" },
-        { "ingrediente": "Uova", "quantita": "6" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Asparagi",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "6"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 20,
@@ -661,10 +1381,22 @@
       "nome_ricetta": "Panna Cotta al Caffè",
       "immagine": "https://blog.giallozafferano.it/allacciateilgrembiule/wp-content/uploads/2019/06/panna-cotta-al-caffe.jpg",
       "ingredienti": [
-        { "ingrediente": "Panna Fresca", "quantita": "500ml" },
-        { "ingrediente": "Zucchero", "quantita": "100g" },
-        { "ingrediente": "Caffè", "quantita": "100ml" },
-        { "ingrediente": "Gelatina in Fogli", "quantita": "10g" }
+        {
+          "ingrediente": "Panna Fresca",
+          "quantita": "500ml"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Caffè",
+          "quantita": "100ml"
+        },
+        {
+          "ingrediente": "Gelatina in Fogli",
+          "quantita": "10g"
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 10,
@@ -678,14 +1410,38 @@
       "nome_ricetta": "Risotto allo Zafferano",
       "immagine": "https://static.wixstatic.com/media/c13269_8fdcdb73a43341d089710dbece830ee0~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/c13269_8fdcdb73a43341d089710dbece830ee0~mv2.jpg",
       "ingredienti": [
-        { "ingrediente": "Riso Carnaroli", "quantita": "320g" },
-        { "ingrediente": "Brodo di Pollo", "quantita": "1 litro" },
-        { "ingrediente": "Zafferano", "quantita": "1 bustina" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Burro", "quantita": "50g" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" },
-        { "ingrediente": "Vino Bianco", "quantita": "100ml" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." }
+        {
+          "ingrediente": "Riso Carnaroli",
+          "quantita": "320g"
+        },
+        {
+          "ingrediente": "Brodo di Pollo",
+          "quantita": "1 litro"
+        },
+        {
+          "ingrediente": "Zafferano",
+          "quantita": "1 bustina"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Vino Bianco",
+          "quantita": "100ml"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 20,
@@ -699,14 +1455,38 @@
       "nome_ricetta": "Torta Salata con Spinaci e Ricotta",
       "immagine": "https://www.cucchiaio.it/content/cucchiaio/it/ricette/2019/02/torta-salata-ricotta-e-spinaci/_jcr_content/header-par/image-single.img.jpg/1551113087357.jpg",
       "ingredienti": [
-        { "ingrediente": "Pasta Sfoglia", "quantita": "1 rotolo" },
-        { "ingrediente": "Spinaci", "quantita": "500g" },
-        { "ingrediente": "Ricotta", "quantita": "250g" },
-        { "ingrediente": "Uova", "quantita": "2" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Noce Moscata", "quantita": "q.b." }
+        {
+          "ingrediente": "Pasta Sfoglia",
+          "quantita": "1 rotolo"
+        },
+        {
+          "ingrediente": "Spinaci",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Ricotta",
+          "quantita": "250g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Noce Moscata",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 30,
@@ -720,12 +1500,30 @@
       "nome_ricetta": "Tagliatelle al Tartufo",
       "immagine": "https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2022/11/tagliatelle-al-tartufo.jpg",
       "ingredienti": [
-        { "ingrediente": "Tagliatelle", "quantita": "400g" },
-        { "ingrediente": "Tartufo Nero", "quantita": "50g" },
-        { "ingrediente": "Burro", "quantita": "50g" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Tagliatelle",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Tartufo Nero",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 10,
@@ -739,16 +1537,46 @@
       "nome_ricetta": "Calamari Ripieni",
       "immagine": "https://www.cucchiaio.it/content/cucchiaio/it/ricette/2018/10/calamari-ripieni-al-forno/_jcr_content/header-par/image-single.img.jpg/1538895387756.jpg",
       "ingredienti": [
-        { "ingrediente": "Calamari", "quantita": "4" },
-        { "ingrediente": "Pane Grattugiato", "quantita": "100g" },
-        { "ingrediente": "Aglio", "quantita": "1 spicchio" },
-        { "ingrediente": "Prezzemolo", "quantita": "q.b." },
-        { "ingrediente": "Capperi", "quantita": "20g" },
-        { "ingrediente": "Olive Nere", "quantita": "50g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Vino Bianco", "quantita": "100ml" }
+        {
+          "ingrediente": "Calamari",
+          "quantita": "4"
+        },
+        {
+          "ingrediente": "Pane Grattugiato",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "1 spicchio"
+        },
+        {
+          "ingrediente": "Prezzemolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Capperi",
+          "quantita": "20g"
+        },
+        {
+          "ingrediente": "Olive Nere",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Vino Bianco",
+          "quantita": "100ml"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 30,
@@ -762,16 +1590,46 @@
       "nome_ricetta": "Polpette al Sugo",
       "immagine": "https://wips.plug.it/cips/buonissimo.org/cms/2023/05/polpette-al-sugo.jpg",
       "ingredienti": [
-        { "ingrediente": "Carne Macinata", "quantita": "500g" },
-        { "ingrediente": "Pane Grattugiato", "quantita": "100g" },
-        { "ingrediente": "Uova", "quantita": "2" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" },
-        { "ingrediente": "Prezzemolo", "quantita": "q.b." },
-        { "ingrediente": "Aglio", "quantita": "1 spicchio" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Carne Macinata",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Pane Grattugiato",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Prezzemolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "1 spicchio"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 40,
@@ -785,13 +1643,34 @@
       "nome_ricetta": "Tiramisu alle Fragole",
       "immagine": "https://www.lucake.it/wp-content/uploads/2023/05/torta-tiramisu-alle-fragole.jpg",
       "ingredienti": [
-        { "ingrediente": "Savoiardi", "quantita": "300g" },
-        { "ingrediente": "Mascarpone", "quantita": "500g" },
-        { "ingrediente": "Panna Fresca", "quantita": "200ml" },
-        { "ingrediente": "Fragole", "quantita": "500g" },
-        { "ingrediente": "Zucchero", "quantita": "150g" },
-        { "ingrediente": "Succo di Limone", "quantita": "1" },
-        { "ingrediente": "Latte", "quantita": "200ml" }
+        {
+          "ingrediente": "Savoiardi",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Mascarpone",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Panna Fresca",
+          "quantita": "200ml"
+        },
+        {
+          "ingrediente": "Fragole",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Succo di Limone",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Latte",
+          "quantita": "200ml"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 0,
@@ -805,16 +1684,46 @@
       "nome_ricetta": "Insalata di Mare",
       "immagine": "https://www.tavolartegusto.it/wp/wp-content/uploads/2022/07/Insalata-di-mare-.jpg",
       "ingredienti": [
-        { "ingrediente": "Calamari", "quantita": "300g" },
-        { "ingrediente": "Gamberi", "quantita": "300g" },
-        { "ingrediente": "Polpo", "quantita": "300g" },
-        { "ingrediente": "Cozze", "quantita": "300g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Limone", "quantita": "2" },
-        { "ingrediente": "Prezzemolo", "quantita": "q.b." },
-        { "ingrediente": "Aglio", "quantita": "1 spicchio" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Calamari",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Gamberi",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Polpo",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Cozze",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Limone",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Prezzemolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "1 spicchio"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 30,
@@ -828,16 +1737,46 @@
       "nome_ricetta": "Crostini Toscani",
       "immagine": "https://www.ricetteperbimby.it/foto-ricette/crostini-di-fegatini-toscani-bimby.jpg",
       "ingredienti": [
-        { "ingrediente": "Fegatini di Pollo", "quantita": "200g" },
-        { "ingrediente": "Crostini di Pane", "quantita": "8" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Acciughe", "quantita": "2 filetti" },
-        { "ingrediente": "Capperi", "quantita": "20g" },
-        { "ingrediente": "Vino Bianco", "quantita": "100ml" },
-        { "ingrediente": "Burro", "quantita": "50g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Fegatini di Pollo",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Crostini di Pane",
+          "quantita": "8"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Acciughe",
+          "quantita": "2 filetti"
+        },
+        {
+          "ingrediente": "Capperi",
+          "quantita": "20g"
+        },
+        {
+          "ingrediente": "Vino Bianco",
+          "quantita": "100ml"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 20,
@@ -851,14 +1790,38 @@
       "nome_ricetta": "Cassata Siciliana",
       "immagine": "https://www.edelmodica.com/wp-content/uploads/2017/04/ricetta-cassata-siciliana-originale.jpg",
       "ingredienti": [
-        { "ingrediente": "Ricotta", "quantita": "500g" },
-        { "ingrediente": "Zucchero", "quantita": "200g" },
-        { "ingrediente": "Pan di Spagna", "quantita": "1" },
-        { "ingrediente": "Frutta Candita", "quantita": "100g" },
-        { "ingrediente": "Gocce di Cioccolato", "quantita": "100g" },
-        { "ingrediente": "Marzapane", "quantita": "200g" },
-        { "ingrediente": "Liquore", "quantita": "50ml" },
-        { "ingrediente": "Zucchero a Velo", "quantita": "q.b." }
+        {
+          "ingrediente": "Ricotta",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Pan di Spagna",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Frutta Candita",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Gocce di Cioccolato",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Marzapane",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Liquore",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Zucchero a Velo",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 40,
       "tempo_cottura": 0,
@@ -867,24 +1830,59 @@
       "preparazione": "Mescolare la ricotta con zucchero, gocce di cioccolato e frutta candita. Tagliare il pan di spagna in tre strati. Bagnare con il liquore. Farcire con la crema di ricotta. Ricoprire con marzapane e decorare con zucchero a velo.",
       "portata": "dolce"
     },
-
     {
       "id": 43,
       "nome_ricetta": "Pad Thai",
       "immagine": "https://hot-thai-kitchen.com/wp-content/uploads/2019/09/pad-thai-blog.jpg",
       "ingredienti": [
-        { "ingrediente": "Noodles di Riso", "quantita": "200g" },
-        { "ingrediente": "Gamberi", "quantita": "200g" },
-        { "ingrediente": "Tofu", "quantita": "100g" },
-        { "ingrediente": "Uova", "quantita": "2" },
-        { "ingrediente": "Germogli di Soia", "quantita": "100g" },
-        { "ingrediente": "Arachidi Tritate", "quantita": "50g" },
-        { "ingrediente": "Cipollotto", "quantita": "2" },
-        { "ingrediente": "Salsa di Pesce", "quantita": "3 cucchiai" },
-        { "ingrediente": "Succo di Lime", "quantita": "2 cucchiai" },
-        { "ingrediente": "Zucchero", "quantita": "1 cucchiaio" },
-        { "ingrediente": "Olio di Arachidi", "quantita": "q.b." },
-        { "ingrediente": "Peperoncino in Polvere", "quantita": "q.b." }
+        {
+          "ingrediente": "Noodles di Riso",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Gamberi",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Tofu",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Germogli di Soia",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Arachidi Tritate",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Cipollotto",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Salsa di Pesce",
+          "quantita": "3 cucchiai"
+        },
+        {
+          "ingrediente": "Succo di Lime",
+          "quantita": "2 cucchiai"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "1 cucchiaio"
+        },
+        {
+          "ingrediente": "Olio di Arachidi",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Peperoncino in Polvere",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 15,
@@ -898,18 +1896,54 @@
       "nome_ricetta": "Tacos di Pollo",
       "immagine": "https://i.pinimg.com/originals/f5/dd/41/f5dd412446e9929fd2bee69d78abc866.jpg",
       "ingredienti": [
-        { "ingrediente": "Tortillas di Mais", "quantita": "8" },
-        { "ingrediente": "Petto di Pollo", "quantita": "500g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Peperone", "quantita": "1" },
-        { "ingrediente": "Pomodoro", "quantita": "1" },
-        { "ingrediente": "Lattuga", "quantita": "100g" },
-        { "ingrediente": "Coriandolo", "quantita": "q.b." },
-        { "ingrediente": "Lime", "quantita": "2" },
-        { "ingrediente": "Spezie Messicane", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Tortillas di Mais",
+          "quantita": "8"
+        },
+        {
+          "ingrediente": "Petto di Pollo",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Peperone",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Pomodoro",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Lattuga",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Coriandolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Lime",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Spezie Messicane",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 10,
@@ -923,17 +1957,50 @@
       "nome_ricetta": "Sushi Maki",
       "immagine": "https://www.justonecookbook.com/wp-content/uploads/2020/01/Sushi-Rolls-Maki-Sushi-%E2%80%93-Hosomaki-1117-I.jpg",
       "ingredienti": [
-        { "ingrediente": "Riso per Sushi", "quantita": "300g" },
-        { "ingrediente": "Alga Nori", "quantita": "5 fogli" },
-        { "ingrediente": "Salmone Fresco", "quantita": "200g" },
-        { "ingrediente": "Cetriolo", "quantita": "1" },
-        { "ingrediente": "Avocado", "quantita": "1" },
-        { "ingrediente": "Aceto di Riso", "quantita": "3 cucchiai" },
-        { "ingrediente": "Zucchero", "quantita": "1 cucchiaio" },
-        { "ingrediente": "Sale", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Salsa di Soia", "quantita": "q.b." },
-        { "ingrediente": "Wasabi", "quantita": "q.b." },
-        { "ingrediente": "Zenzero in Salamoia", "quantita": "q.b." }
+        {
+          "ingrediente": "Riso per Sushi",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Alga Nori",
+          "quantita": "5 fogli"
+        },
+        {
+          "ingrediente": "Salmone Fresco",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Cetriolo",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Avocado",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Aceto di Riso",
+          "quantita": "3 cucchiai"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "1 cucchiaio"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Salsa di Soia",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Wasabi",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Zenzero in Salamoia",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 20,
@@ -947,15 +2014,42 @@
       "nome_ricetta": "Falafel",
       "immagine": "https://img.freepik.com/free-photo/falafel-hummus-pita-middle-eastern-arabic-dishes-halal-food_2829-14339.jpg",
       "ingredienti": [
-        { "ingrediente": "Ceci Secchi", "quantita": "250g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Prezzemolo", "quantita": "q.b." },
-        { "ingrediente": "Coriandolo", "quantita": "q.b." },
-        { "ingrediente": "Cumino", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Olio per Friggere", "quantita": "q.b." }
+        {
+          "ingrediente": "Ceci Secchi",
+          "quantita": "250g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Prezzemolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Coriandolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Cumino",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio per Friggere",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 10,
@@ -969,16 +2063,46 @@
       "nome_ricetta": "Gazpacho",
       "immagine": "https://www.seriouseats.com/thmb/M0V55hkUtqWV3zqKnhwOYKL1ELc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-gazpacho-recipe-hero-1-7ad49d7b9488406b8c92d576dbe5b205.JPG",
       "ingredienti": [
-        { "ingrediente": "Pomodori", "quantita": "1kg" },
-        { "ingrediente": "Cetriolo", "quantita": "1" },
-        { "ingrediente": "Peperone Rosso", "quantita": "1" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Aglio", "quantita": "1 spicchio" },
-        { "ingrediente": "Pane", "quantita": "100g" },
-        { "ingrediente": "Aceto di Vino", "quantita": "2 cucchiai" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Pomodori",
+          "quantita": "1kg"
+        },
+        {
+          "ingrediente": "Cetriolo",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Peperone Rosso",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "1 spicchio"
+        },
+        {
+          "ingrediente": "Pane",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Aceto di Vino",
+          "quantita": "2 cucchiai"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 0,
@@ -992,19 +2116,58 @@
       "nome_ricetta": "Couscous con Verdure",
       "immagine": "https://www.cucchiaio.it/content/cucchiaio/it/ricette/2019/07/cous-cous-freddo-con-verdure/_jcr_content/header-par/image-single.img.jpg/1562170238228.jpg",
       "ingredienti": [
-        { "ingrediente": "Couscous", "quantita": "300g" },
-        { "ingrediente": "Zucchine", "quantita": "2" },
-        { "ingrediente": "Carote", "quantita": "2" },
-        { "ingrediente": "Peperone", "quantita": "1" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Pomodori", "quantita": "2" },
-        { "ingrediente": "Ceci Cotti", "quantita": "200g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Brodo Vegetale", "quantita": "500ml" },
-        { "ingrediente": "Curcuma", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Prezzemolo", "quantita": "q.b." }
+        {
+          "ingrediente": "Couscous",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Zucchine",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Peperone",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Pomodori",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Ceci Cotti",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Brodo Vegetale",
+          "quantita": "500ml"
+        },
+        {
+          "ingrediente": "Curcuma",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Prezzemolo",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 20,
@@ -1018,18 +2181,54 @@
       "nome_ricetta": "Ramen",
       "immagine": "https://media.istockphoto.com/id/1406672650/photo/japanese-tonkotsu-ramen.jpg?s=612x612&w=0&k=20&c=XfwavYs_chHo-S-M7IWoK7IxEXzYxd3dFyihnvC_zkI=",
       "ingredienti": [
-        { "ingrediente": "Noodles di Ramen", "quantita": "200g" },
-        { "ingrediente": "Brodo di Pollo", "quantita": "1 litro" },
-        { "ingrediente": "Petto di Pollo", "quantita": "200g" },
-        { "ingrediente": "Uova", "quantita": "2" },
-        { "ingrediente": "Funghi Shiitake", "quantita": "100g" },
-        { "ingrediente": "Bambù", "quantita": "50g" },
-        { "ingrediente": "Alghe Nori", "quantita": "1 foglio" },
-        { "ingrediente": "Salsa di Soia", "quantita": "3 cucchiai" },
-        { "ingrediente": "Olio di Sesamo", "quantita": "1 cucchiaio" },
-        { "ingrediente": "Zenzero", "quantita": "1 pezzo" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Cipollotto", "quantita": "2" }
+        {
+          "ingrediente": "Noodles di Ramen",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Brodo di Pollo",
+          "quantita": "1 litro"
+        },
+        {
+          "ingrediente": "Petto di Pollo",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Funghi Shiitake",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Bambù",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Alghe Nori",
+          "quantita": "1 foglio"
+        },
+        {
+          "ingrediente": "Salsa di Soia",
+          "quantita": "3 cucchiai"
+        },
+        {
+          "ingrediente": "Olio di Sesamo",
+          "quantita": "1 cucchiaio"
+        },
+        {
+          "ingrediente": "Zenzero",
+          "quantita": "1 pezzo"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Cipollotto",
+          "quantita": "2"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 30,
@@ -1043,10 +2242,22 @@
       "nome_ricetta": "Moussaka",
       "immagine": "https://www.mygreekdish.com/wp-content/uploads/2013/05/Moussaka-recipe-Traditional-Greek-Moussaka-with-Eggplants.jpg",
       "ingredienti": [
-        { "ingrediente": "Melanzane", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Cannella", "quantita": "1 pizzico" }
+        {
+          "ingrediente": "Melanzane",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Cannella",
+          "quantita": "1 pizzico"
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 60,
@@ -1060,21 +2271,66 @@
       "nome_ricetta": "Paella",
       "immagine": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Paella-mixta.jpg",
       "ingredienti": [
-        { "ingrediente": "Riso", "quantita": "300g" },
-        { "ingrediente": "Gamberi", "quantita": "200g" },
-        { "ingrediente": "Cozze", "quantita": "200g" },
-        { "ingrediente": "Calamari", "quantita": "200g" },
-        { "ingrediente": "Pollo", "quantita": "200g" },
-        { "ingrediente": "Piselli", "quantita": "100g" },
-        { "ingrediente": "Peperone Rosso", "quantita": "1" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "200g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Brodo di Pesce", "quantita": "1 litro" },
-        { "ingrediente": "Zafferano", "quantita": "1 bustina" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Riso",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Gamberi",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Cozze",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Calamari",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Pollo",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Piselli",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Peperone Rosso",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Brodo di Pesce",
+          "quantita": "1 litro"
+        },
+        {
+          "ingrediente": "Zafferano",
+          "quantita": "1 bustina"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 40,
@@ -1088,18 +2344,54 @@
       "nome_ricetta": "Chili con Carne",
       "immagine": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/C31E5540-45D4-4913-B967-AC64E7FD7CF4/Derivates/fba045ac-c208-4dea-a6ba-3b4a3203d7b4.jpg",
       "ingredienti": [
-        { "ingrediente": "Carne Macinata", "quantita": "500g" },
-        { "ingrediente": "Fagioli Rossi", "quantita": "400g" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Peperone", "quantita": "1" },
-        { "ingrediente": "Peperoncino", "quantita": "1" },
-        { "ingrediente": "Cumino", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Paprika", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Carne Macinata",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Fagioli Rossi",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Peperone",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Peperoncino",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Cumino",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Paprika",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 60,
@@ -1113,14 +2405,38 @@
       "nome_ricetta": "Baklava",
       "immagine": "https://t4.ftcdn.net/jpg/02/45/23/79/360_F_245237999_4a0u6Oz7LDiIJdF3b9CjxvQTJaeVeUpY.jpg",
       "ingredienti": [
-        { "ingrediente": "Pasta Fillo", "quantita": "500g" },
-        { "ingrediente": "Noci", "quantita": "300g" },
-        { "ingrediente": "Mandorle", "quantita": "200g" },
-        { "ingrediente": "Burro", "quantita": "200g" },
-        { "ingrediente": "Miele", "quantita": "200ml" },
-        { "ingrediente": "Zucchero", "quantita": "100g" },
-        { "ingrediente": "Cannella", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Acqua di Rose", "quantita": "1 cucchiaio" }
+        {
+          "ingrediente": "Pasta Fillo",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Noci",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Mandorle",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Miele",
+          "quantita": "200ml"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Cannella",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Acqua di Rose",
+          "quantita": "1 cucchiaio"
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 45,
@@ -1134,12 +2450,30 @@
       "nome_ricetta": "Crepes",
       "immagine": "https://hips.hearstapps.com/hmg-prod/images/crepes-index-64347419e3c7a.jpg?crop=0.888888888888889xw:1xh;center,top",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "250g" },
-        { "ingrediente": "Latte", "quantita": "500ml" },
-        { "ingrediente": "Uova", "quantita": "3" },
-        { "ingrediente": "Burro", "quantita": "50g" },
-        { "ingrediente": "Zucchero", "quantita": "2 cucchiai" },
-        { "ingrediente": "Sale", "quantita": "1 pizzico" }
+        {
+          "ingrediente": "Farina",
+          "quantita": "250g"
+        },
+        {
+          "ingrediente": "Latte",
+          "quantita": "500ml"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "3"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "2 cucchiai"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "1 pizzico"
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 20,
@@ -1153,16 +2487,46 @@
       "nome_ricetta": "Ratatouille",
       "immagine": "https://images2.corriereobjects.it/methode_image/2021/11/02/Cucina/Foto%20Cucina%20-%20Trattate/ratatouille-kRKC-U3300584020065kvG-1124x631@Corriere-Web-Sezioni.JPG?v=202111040802",
       "ingredienti": [
-        { "ingrediente": "Zucchine", "quantita": "2" },
-        { "ingrediente": "Melanzane", "quantita": "2" },
-        { "ingrediente": "Peperoni", "quantita": "2" },
-        { "ingrediente": "Pomodori", "quantita": "4" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Timo", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Zucchine",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Melanzane",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Peperoni",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Pomodori",
+          "quantita": "4"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Timo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 40,
@@ -1176,13 +2540,34 @@
       "nome_ricetta": "Pancakes",
       "immagine": "https://www.realsimple.com/thmb/Fi3e-DS5Duo4WPqX-l5RGNOtNeE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-make-pancakes-step-by-step-bf45f02d4b3c4392bddf92e05c9e17eb.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "200g" },
-        { "ingrediente": "Latte", "quantita": "300ml" },
-        { "ingrediente": "Uova", "quantita": "2" },
-        { "ingrediente": "Burro Fuso", "quantita": "50g" },
-        { "ingrediente": "Zucchero", "quantita": "2 cucchiai" },
-        { "ingrediente": "Lievito in Polvere", "quantita": "2 cucchiaini" },
-        { "ingrediente": "Sale", "quantita": "1 pizzico" }
+        {
+          "ingrediente": "Farina",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Latte",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Burro Fuso",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "2 cucchiai"
+        },
+        {
+          "ingrediente": "Lievito in Polvere",
+          "quantita": "2 cucchiaini"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "1 pizzico"
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 20,
@@ -1196,14 +2581,38 @@
       "nome_ricetta": "Guacamole",
       "immagine": "https://www.meteoweb.eu/wp-content/uploads/2016/04/guacamole.jpg",
       "ingredienti": [
-        { "ingrediente": "Avocado", "quantita": "3" },
-        { "ingrediente": "Pomodoro", "quantita": "1" },
-        { "ingrediente": "Cipolla", "quantita": "1/2" },
-        { "ingrediente": "Coriandolo", "quantita": "q.b." },
-        { "ingrediente": "Succo di Lime", "quantita": "2 cucchiai" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Peperoncino", "quantita": "q.b." }
+        {
+          "ingrediente": "Avocado",
+          "quantita": "3"
+        },
+        {
+          "ingrediente": "Pomodoro",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1/2"
+        },
+        {
+          "ingrediente": "Coriandolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Succo di Lime",
+          "quantita": "2 cucchiai"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Peperoncino",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 0,
@@ -1217,21 +2626,66 @@
       "nome_ricetta": "Biryani di Pollo",
       "immagine": "https://www.cucchiaio.it/content/cucchiaio/it/ricette/2023/07/biryani-pollo/_jcr_content/header-par/image-single.img.jpg/1690448468222.jpg",
       "ingredienti": [
-        { "ingrediente": "Riso Basmati", "quantita": "300g" },
-        { "ingrediente": "Pollo", "quantita": "500g" },
-        { "ingrediente": "Yogurt", "quantita": "200g" },
-        { "ingrediente": "Cipolla", "quantita": "2" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Zenzero", "quantita": "1 pezzo" },
-        { "ingrediente": "Pomodori", "quantita": "2" },
-        { "ingrediente": "Spezie Biryani", "quantita": "2 cucchiai" },
-        { "ingrediente": "Zafferano", "quantita": "1 pizzico" },
-        { "ingrediente": "Latte", "quantita": "50ml" },
-        { "ingrediente": "Olio di Ghee", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Menta", "quantita": "q.b." },
-        { "ingrediente": "Coriandolo", "quantita": "q.b." }
+        {
+          "ingrediente": "Riso Basmati",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Pollo",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Yogurt",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Zenzero",
+          "quantita": "1 pezzo"
+        },
+        {
+          "ingrediente": "Pomodori",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Spezie Biryani",
+          "quantita": "2 cucchiai"
+        },
+        {
+          "ingrediente": "Zafferano",
+          "quantita": "1 pizzico"
+        },
+        {
+          "ingrediente": "Latte",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Olio di Ghee",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Menta",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Coriandolo",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 40,
@@ -1245,14 +2699,38 @@
       "nome_ricetta": "Baba Ganoush",
       "immagine": "https://hips.hearstapps.com/hmg-prod/images/delish-190605-babaghanoush-276-landscape-pf-1560443633.jpg",
       "ingredienti": [
-        { "ingrediente": "Melanzane", "quantita": "2" },
-        { "ingrediente": "Tahini", "quantita": "3 cucchiai" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Succo di Limone", "quantita": "2 cucchiai" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "2 cucchiai" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Prezzemolo", "quantita": "q.b." },
-        { "ingrediente": "Paprika", "quantita": "q.b." }
+        {
+          "ingrediente": "Melanzane",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Tahini",
+          "quantita": "3 cucchiai"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Succo di Limone",
+          "quantita": "2 cucchiai"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "2 cucchiai"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Prezzemolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Paprika",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 30,
@@ -1267,18 +2745,54 @@
       "nome_ricetta": "Pizza Quattro Stagioni",
       "immagine": "https://primochef.it/wp-content/uploads/2020/04/SH_pizza_quattro_stagioni.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "300ml" },
-        { "ingrediente": "Lievito di Birra", "quantita": "25g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Sale", "quantita": "10g" },
-        { "ingrediente": "Zucchero", "quantita": "5g" },
-        { "ingrediente": "Passata di Pomodoro", "quantita": "200g" },
-        { "ingrediente": "Mozzarella", "quantita": "300g" },
-        { "ingrediente": "Funghi", "quantita": "100g" },
-        { "ingrediente": "Carciofi", "quantita": "100g" },
-        { "ingrediente": "Prosciutto Cotto", "quantita": "100g" },
-        { "ingrediente": "Olive", "quantita": "50g" }
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "5g"
+        },
+        {
+          "ingrediente": "Passata di Pomodoro",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Funghi",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Carciofi",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Prosciutto Cotto",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Olive",
+          "quantita": "50g"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 15,
@@ -1292,19 +2806,58 @@
       "nome_ricetta": "Pizza Capricciosa",
       "immagine": "https://previews.123rf.com/images/claudiocaridi/claudiocaridi2006/claudiocaridi200600024/149787686-pizza-capricciosa-pizza-capricciosa-cibo-tradizionale-italiano-su-sfondo-bianco.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "300ml" },
-        { "ingrediente": "Lievito di Birra", "quantita": "25g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Sale", "quantita": "10g" },
-        { "ingrediente": "Zucchero", "quantita": "5g" },
-        { "ingrediente": "Passata di Pomodoro", "quantita": "200g" },
-        { "ingrediente": "Mozzarella", "quantita": "300g" },
-        { "ingrediente": "Carciofi", "quantita": "100g" },
-        { "ingrediente": "Funghi", "quantita": "100g" },
-        { "ingrediente": "Prosciutto Cotto", "quantita": "100g" },
-        { "ingrediente": "Olive", "quantita": "50g" },
-        { "ingrediente": "Uova", "quantita": "2" }
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "5g"
+        },
+        {
+          "ingrediente": "Passata di Pomodoro",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Carciofi",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Funghi",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Prosciutto Cotto",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Olive",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "2"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 15,
@@ -1318,16 +2871,46 @@
       "nome_ricetta": "Pizza ai Quattro Formaggi",
       "immagine": "https://wips.plug.it/cips/buonissimo.org/cms/2022/05/pizza-ai-quattro-formaggi.jpg?w=713&a=c&h=407",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "300ml" },
-        { "ingrediente": "Lievito di Birra", "quantita": "25g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Sale", "quantita": "10g" },
-        { "ingrediente": "Zucchero", "quantita": "5g" },
-        { "ingrediente": "Mozzarella", "quantita": "200g" },
-        { "ingrediente": "Gorgonzola", "quantita": "100g" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" },
-        { "ingrediente": "Fontina", "quantita": "100g" }
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "5g"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Gorgonzola",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Fontina",
+          "quantita": "100g"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 15,
@@ -1341,16 +2924,46 @@
       "nome_ricetta": "Pizza Marinara",
       "immagine": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7hoW2BCngmBn5pna2Va-1moNyv2_OG4iImQ&s",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "300ml" },
-        { "ingrediente": "Lievito di Birra", "quantita": "25g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Sale", "quantita": "10g" },
-        { "ingrediente": "Zucchero", "quantita": "5g" },
-        { "ingrediente": "Passata di Pomodoro", "quantita": "200g" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Origano", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." }
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "5g"
+        },
+        {
+          "ingrediente": "Passata di Pomodoro",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Origano",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 15,
@@ -1364,20 +2977,62 @@
       "nome_ricetta": "Pizza Vegetariana",
       "immagine": "https://media.istockphoto.com/id/842082336/it/foto/pizza-vegetariana-fatta-in-casa-con-peperoni-ai-funghi.jpg?s=612x612&w=0&k=20&c=fleBhQe9vDeg2qbzqFCeGpwxcWlZcA3-caABZBp2jXU=",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "300ml" },
-        { "ingrediente": "Lievito di Birra", "quantita": "25g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Sale", "quantita": "10g" },
-        { "ingrediente": "Zucchero", "quantita": "5g" },
-        { "ingrediente": "Passata di Pomodoro", "quantita": "200g" },
-        { "ingrediente": "Mozzarella", "quantita": "200g" },
-        { "ingrediente": "Zucchine", "quantita": "100g" },
-        { "ingrediente": "Peperoni", "quantita": "100g" },
-        { "ingrediente": "Melanzane", "quantita": "100g" },
-        { "ingrediente": "Funghi", "quantita": "100g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Origano", "quantita": "q.b." }
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "5g"
+        },
+        {
+          "ingrediente": "Passata di Pomodoro",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Zucchine",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Peperoni",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Melanzane",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Funghi",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Origano",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 15,
@@ -1390,17 +3045,50 @@
       "nome_ricetta": "Pizza Napoli",
       "immagine": "https://www.donnamoderna.com/content/uploads/2021/08/pizza-napoli.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "300ml" },
-        { "ingrediente": "Lievito di Birra", "quantita": "25g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Sale", "quantita": "10g" },
-        { "ingrediente": "Zucchero", "quantita": "5g" },
-        { "ingrediente": "Passata di Pomodoro", "quantita": "200g" },
-        { "ingrediente": "Mozzarella", "quantita": "300g" },
-        { "ingrediente": "Acciughe", "quantita": "100g" },
-        { "ingrediente": "Capperi", "quantita": "50g" },
-        { "ingrediente": "Origano", "quantita": "q.b." }
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "5g"
+        },
+        {
+          "ingrediente": "Passata di Pomodoro",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Acciughe",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Capperi",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Origano",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 15,
@@ -1414,16 +3102,46 @@
       "nome_ricetta": "Pizza Prosciutto e Funghi",
       "immagine": "https://media-cdn.tripadvisor.com/media/photo-s/06/bc/77/40/caption.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "300ml" },
-        { "ingrediente": "Lievito di Birra", "quantita": "25g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Sale", "quantita": "10g" },
-        { "ingrediente": "Zucchero", "quantita": "5g" },
-        { "ingrediente": "Passata di Pomodoro", "quantita": "200g" },
-        { "ingrediente": "Mozzarella", "quantita": "300g" },
-        { "ingrediente": "Prosciutto Cotto", "quantita": "150g" },
-        { "ingrediente": "Funghi", "quantita": "100g" }
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "5g"
+        },
+        {
+          "ingrediente": "Passata di Pomodoro",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Prosciutto Cotto",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Funghi",
+          "quantita": "100g"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 15,
@@ -1437,16 +3155,46 @@
       "nome_ricetta": "Pizza Michele (Prof l'abbiamo messa solo per te)",
       "immagine": "https://www.iffco.it/sites/default/files/styles/free_crop/public/img/recipe/gran-cucina-pizza-diavola.jpg?h=de92a0b7&itok=eC0EvTVI",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "300ml" },
-        { "ingrediente": "Lievito di Birra", "quantita": "25g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Sale", "quantita": "10g" },
-        { "ingrediente": "Zucchero", "quantita": "5g" },
-        { "ingrediente": "Passata di Pomodoro", "quantita": "200g" },
-        { "ingrediente": "Mozzarella", "quantita": "300g" },
-        { "ingrediente": "Salame Piccante", "quantita": "100g" },
-        { "ingrediente": "Peperoncino", "quantita": "q.b." }
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "5g"
+        },
+        {
+          "ingrediente": "Passata di Pomodoro",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Salame Piccante",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Peperoncino",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 15,
@@ -1460,16 +3208,46 @@
       "nome_ricetta": "Pizza Hawaiana",
       "immagine": "https://media.istockphoto.com/id/1349383878/it/foto/pizza-hawaiana-con-prosciutto-e-ananas.jpg?s=612x612&w=0&k=20&c=m13yLhIIFiOSkX2Re-ZSn_LE3jKOD-PMztNJKcFH1Qs=",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "300ml" },
-        { "ingrediente": "Lievito di Birra", "quantita": "25g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Sale", "quantita": "10g" },
-        { "ingrediente": "Zucchero", "quantita": "5g" },
-        { "ingrediente": "Passata di Pomodoro", "quantita": "200g" },
-        { "ingrediente": "Mozzarella", "quantita": "300g" },
-        { "ingrediente": "Prosciutto Cotto", "quantita": "150g" },
-        { "ingrediente": "Ananas", "quantita": "100g" }
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "5g"
+        },
+        {
+          "ingrediente": "Passata di Pomodoro",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Prosciutto Cotto",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Ananas",
+          "quantita": "100g"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 15,
@@ -1483,16 +3261,46 @@
       "nome_ricetta": "Pizza Bianca con Patate e Rosmarino",
       "immagine": "https://www.romagnolipatate.it/images/Pizza_Mozzarella_e_Rosmarino_Fotor.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "300ml" },
-        { "ingrediente": "Lievito di Birra", "quantita": "25g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Sale", "quantita": "10g" },
-        { "ingrediente": "Zucchero", "quantita": "5g" },
-        { "ingrediente": "Patate", "quantita": "300g" },
-        { "ingrediente": "Rosmarino", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale Grosso", "quantita": "q.b." }
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "5g"
+        },
+        {
+          "ingrediente": "Patate",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Rosmarino",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale Grosso",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 15,
@@ -1506,10 +3314,22 @@
       "nome_ricetta": "Cacio e Pepe",
       "immagine": "https://www.giallozafferano.com/images/228-22822/Spaghetti-Cacio-e-Pepe-Pecorino-and-black-pepper-spaghetti_1200x800.jpg",
       "ingredienti": [
-        { "ingrediente": "Spaghetti", "quantita": "400g" },
-        { "ingrediente": "Pecorino Romano", "quantita": "200g" },
-        { "ingrediente": "Pepe Nero", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." }
+        {
+          "ingrediente": "Spaghetti",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Pecorino Romano",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Pepe Nero",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 15,
@@ -1523,14 +3343,38 @@
       "nome_ricetta": "Polenta e Salsiccia",
       "immagine": "https://www.polentavalsugana.it/wp-content/uploads/2022/06/Polenta_con_salsiccia-PolentaValsugana.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina di Mais", "quantita": "500g" },
-        { "ingrediente": "Acqua", "quantita": "2 litri" },
-        { "ingrediente": "Salsiccia", "quantita": "500g" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Farina di Mais",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "2 litri"
+        },
+        {
+          "ingrediente": "Salsiccia",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 40,
@@ -1544,13 +3388,34 @@
       "nome_ricetta": "Ravioli di Ricotta e Spinaci",
       "immagine": "https://wips.plug.it/cips/buonissimo.org/cms/2018/12/ravioli-ricotta-spinaci.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "300g" },
-        { "ingrediente": "Uova", "quantita": "3" },
-        { "ingrediente": "Ricotta", "quantita": "q.b." },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "q.b." },
-        { "ingrediente": "Noce Moscata", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Farina",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "3"
+        },
+        {
+          "ingrediente": "Ricotta",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Noce Moscata",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 5,
@@ -1564,16 +3429,46 @@
       "nome_ricetta": "Insalata Greca",
       "immagine": "https://www.giallozafferano.it/images/2-265/Insalata-greca_650x433_wm.jpg",
       "ingredienti": [
-        { "ingrediente": "Pomodori", "quantita": "4" },
-        { "ingrediente": "Cetrioli", "quantita": "2" },
-        { "ingrediente": "Peperone Verde", "quantita": "1" },
-        { "ingrediente": "Cipolla Rossa", "quantita": "1" },
-        { "ingrediente": "Olive Kalamata", "quantita": "100g" },
-        { "ingrediente": "Feta", "quantita": "200g" },
-        { "ingrediente": "Origano", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Pomodori",
+          "quantita": "4"
+        },
+        {
+          "ingrediente": "Cetrioli",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Peperone Verde",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Cipolla Rossa",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Olive Kalamata",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Feta",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Origano",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 0,
@@ -1587,21 +3482,54 @@
       "nome_ricetta": "Fajitas di Pollo",
       "immagine": "https://blog.americanuncle.it/wp-content/uploads/2021/08/fajitas-1-scaled.jpg",
       "ingredienti": [
-        { "ingrediente": "Petto di Pollo", "quantita": "500g" },
-        { "ingrediente": "Peperone Rosso", "quantita": "1" },
-        { "ingrediente": "Peperone Giallo", "quantita": "1" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Cumino", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Paprika", "quantita": "1 cucchiaino" },
+        {
+          "ingrediente": "Petto di Pollo",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Peperone Rosso",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Peperone Giallo",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Cumino",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Paprika",
+          "quantita": "1 cucchiaino"
+        },
         {
           "ingrediente": "Peperoncino in Polvere",
           "quantita": "1/2 cucchiaino"
         },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Tortillas di Mais", "quantita": "8" }
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Tortillas di Mais",
+          "quantita": "8"
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 10,
@@ -1615,14 +3543,38 @@
       "nome_ricetta": "Cheesecake",
       "immagine": "https://www.marthastewart.com/thmb/3jcvhpkydxP94H_vRXWoIep-De4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSL-313705-classic-cheesecake-hero-horiz-0723-e3906c2723d94cbd8e3f582ac1040ea0.jpg",
       "ingredienti": [
-        { "ingrediente": "Biscotti Digestive", "quantita": "200g" },
-        { "ingrediente": "Burro", "quantita": "100g" },
-        { "ingrediente": "Formaggio Spalmabile", "quantita": "400g" },
-        { "ingrediente": "Zucchero", "quantita": "150g" },
-        { "ingrediente": "Panna Fresca", "quantita": "200ml" },
-        { "ingrediente": "Gelatina in Fogli", "quantita": "10g" },
-        { "ingrediente": "Estratto di Vaniglia", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Confettura di Fragole", "quantita": "200g" }
+        {
+          "ingrediente": "Biscotti Digestive",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Formaggio Spalmabile",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Panna Fresca",
+          "quantita": "200ml"
+        },
+        {
+          "ingrediente": "Gelatina in Fogli",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Estratto di Vaniglia",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Confettura di Fragole",
+          "quantita": "200g"
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 0,
@@ -1636,22 +3588,58 @@
       "nome_ricetta": "Samosa",
       "immagine": "https://media.istockphoto.com/id/848708640/photo/asian-food-vegetarian-samsa-with-tomato-sauce-and-herbs-dark-background.jpg?s=612x612&w=0&k=20&c=bVznPeT3rQPKKx99xfPb-yiVFvWYpML8TGLb3jfZO28=",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "200g" },
-        { "ingrediente": "Patate", "quantita": "300g" },
-        { "ingrediente": "Piselli", "quantita": "100g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Zenzero", "quantita": "1 pezzo" },
-        { "ingrediente": "Semi di Cumino", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Coriandolo in Polvere", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Curcuma", "quantita": "1/2 cucchiaino" },
+        {
+          "ingrediente": "Farina",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Patate",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Piselli",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Zenzero",
+          "quantita": "1 pezzo"
+        },
+        {
+          "ingrediente": "Semi di Cumino",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Coriandolo in Polvere",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Curcuma",
+          "quantita": "1/2 cucchiaino"
+        },
         {
           "ingrediente": "Peperoncino in Polvere",
           "quantita": "1/2 cucchiaino"
         },
-        { "ingrediente": "Olio per Friggere", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Acqua", "quantita": "q.b." }
+        {
+          "ingrediente": "Olio per Friggere",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 30,
@@ -1665,23 +3653,62 @@
       "nome_ricetta": "Tikka Masala",
       "immagine": "https://winedharma.com/wine-dharma/uploads/2020/10/839-chicken-tikka-masala-la-ricetta-originale-indiana-con-ingredienti-dosi-e-vino.jpg",
       "ingredienti": [
-        { "ingrediente": "Petto di Pollo", "quantita": "500g" },
-        { "ingrediente": "Yogurt", "quantita": "200g" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Zenzero", "quantita": "1 pezzo" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Cumino", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Paprika", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Curcuma", "quantita": "1/2 cucchiaino" },
+        {
+          "ingrediente": "Petto di Pollo",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Yogurt",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Zenzero",
+          "quantita": "1 pezzo"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Cumino",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Paprika",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Curcuma",
+          "quantita": "1/2 cucchiaino"
+        },
         {
           "ingrediente": "Peperoncino in Polvere",
           "quantita": "1/2 cucchiaino"
         },
-        { "ingrediente": "Garam Masala", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Panna", "quantita": "100ml" }
+        {
+          "ingrediente": "Garam Masala",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Panna",
+          "quantita": "100ml"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 30,
@@ -1695,18 +3722,54 @@
       "nome_ricetta": "Pancit",
       "immagine": "https://images.squarespace-cdn.com/content/v1/55f75131e4b0e6fba5cfffa5/1535640983693-L97QNNSQN8CF1LIZ021Q/IMG_4490.JPG",
       "ingredienti": [
-        { "ingrediente": "Noodles di Riso", "quantita": "200g" },
-        { "ingrediente": "Pollo", "quantita": "200g" },
-        { "ingrediente": "Gamberi", "quantita": "200g" },
-        { "ingrediente": "Cavolo", "quantita": "100g" },
-        { "ingrediente": "Carote", "quantita": "2" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Salsa di Soia", "quantita": "4 cucchiai" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Limone", "quantita": "1" }
+        {
+          "ingrediente": "Noodles di Riso",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Pollo",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Gamberi",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Cavolo",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Salsa di Soia",
+          "quantita": "4 cucchiai"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Limone",
+          "quantita": "1"
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 20,
@@ -1720,23 +3783,62 @@
       "nome_ricetta": "Curry di Verdure",
       "immagine": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/B74717F0-656A-40C9-932F-6E8812D3D59E/Derivates/be73059e-3fe1-4030-9ee9-e99a12b7b020.jpg",
       "ingredienti": [
-        { "ingrediente": "Patate", "quantita": "200g" },
-        { "ingrediente": "Carote", "quantita": "200g" },
-        { "ingrediente": "Zucchine", "quantita": "200g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Zenzero", "quantita": "1 pezzo" },
-        { "ingrediente": "Latte di Cocco", "quantita": "400ml" },
-        { "ingrediente": "Curry in Polvere", "quantita": "2 cucchiai" },
-        { "ingrediente": "Cumino", "quantita": "1 cucchiaino" },
-        { "ingrediente": "Curcuma", "quantita": "1 cucchiaino" },
+        {
+          "ingrediente": "Patate",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Carote",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Zucchine",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Zenzero",
+          "quantita": "1 pezzo"
+        },
+        {
+          "ingrediente": "Latte di Cocco",
+          "quantita": "400ml"
+        },
+        {
+          "ingrediente": "Curry in Polvere",
+          "quantita": "2 cucchiai"
+        },
+        {
+          "ingrediente": "Cumino",
+          "quantita": "1 cucchiaino"
+        },
+        {
+          "ingrediente": "Curcuma",
+          "quantita": "1 cucchiaino"
+        },
         {
           "ingrediente": "Peperoncino in Polvere",
           "quantita": "1/2 cucchiaino"
         },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Coriandolo Fresco", "quantita": "q.b." }
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Coriandolo Fresco",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 30,
@@ -1750,21 +3852,66 @@
       "nome_ricetta": "Boeuf Bourguignon",
       "immagine": "https://www.thespruceeats.com/thmb/gEH_GL4ianQny5H8tfa_dBbF6qc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-classic-beef-bourguignon-recipe-7498352-hero-A-f3d470b196ee4c97acb778bc068eec13.jpg",
       "ingredienti": [
-        { "ingrediente": "Carne di Manzo", "quantita": "1kg" },
-        { "ingrediente": "Vino Rosso", "quantita": "500ml" },
-        { "ingrediente": "Carote", "quantita": "3" },
-        { "ingrediente": "Cipolle", "quantita": "2" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Brodo di Carne", "quantita": "500ml" },
-        { "ingrediente": "Pancetta", "quantita": "200g" },
-        { "ingrediente": "Funghi Champignon", "quantita": "200g" },
-        { "ingrediente": "Farina", "quantita": "2 cucchiai" },
-        { "ingrediente": "Burro", "quantita": "50g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Timo", "quantita": "q.b." },
-        { "ingrediente": "Alloro", "quantita": "2 foglie" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Carne di Manzo",
+          "quantita": "1kg"
+        },
+        {
+          "ingrediente": "Vino Rosso",
+          "quantita": "500ml"
+        },
+        {
+          "ingrediente": "Carote",
+          "quantita": "3"
+        },
+        {
+          "ingrediente": "Cipolle",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Brodo di Carne",
+          "quantita": "500ml"
+        },
+        {
+          "ingrediente": "Pancetta",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Funghi Champignon",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Farina",
+          "quantita": "2 cucchiai"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Timo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Alloro",
+          "quantita": "2 foglie"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 180,
@@ -1778,11 +3925,26 @@
       "nome_ricetta": "Tortellini in Brodo",
       "immagine": "https://media.gqitalia.it/photos/5dfb5bc0df02740008691d28/4:3/w_1884,h_1413,c_limit/GettyImages-469251842.jpg",
       "ingredienti": [
-        { "ingrediente": "Tortellini", "quantita": "400g" },
-        { "ingrediente": "Brodo di Carne", "quantita": "2 litri" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Tortellini",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Brodo di Carne",
+          "quantita": "2 litri"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 20,
@@ -1796,17 +3958,50 @@
       "nome_ricetta": "Pollo alla Cacciatora",
       "immagine": "https://www.mangimifusco.it/new/wp-content/uploads/2021/03/SH_pollo_cacciatora-1200x800-1.jpg",
       "ingredienti": [
-        { "ingrediente": "Pollo", "quantita": "1kg" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Carota", "quantita": "1" },
-        { "ingrediente": "Sedano", "quantita": "1 costa" },
-        { "ingrediente": "Vino Bianco", "quantita": "200ml" },
-        { "ingrediente": "Rosmarino", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Pollo",
+          "quantita": "1kg"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Carota",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Sedano",
+          "quantita": "1 costa"
+        },
+        {
+          "ingrediente": "Vino Bianco",
+          "quantita": "200ml"
+        },
+        {
+          "ingrediente": "Rosmarino",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 40,
@@ -1820,15 +4015,42 @@
       "nome_ricetta": "Trofie al Pesto",
       "immagine": "https://wips.plug.it/cips/buonissimo.org/cms/2022/06/176832925_s.jpg",
       "ingredienti": [
-        { "ingrediente": "Trofie", "quantita": "400g" },
-        { "ingrediente": "Basilico Fresco", "quantita": "100g" },
-        { "ingrediente": "Pinoli", "quantita": "50g" },
-        { "ingrediente": "Aglio", "quantita": "1 spicchio" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" },
-        { "ingrediente": "Pecorino", "quantita": "50g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "100ml" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Trofie",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Basilico Fresco",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Pinoli",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "1 spicchio"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Pecorino",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "100ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 15,
@@ -1842,15 +4064,42 @@
       "nome_ricetta": "Melanzane alla Parmigiana",
       "immagine": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS03F4U1HrjlfOSZrHAIbNzlA4wxjx-C4aZ2w&s",
       "ingredienti": [
-        { "ingrediente": "Melanzane", "quantita": "1kg" },
-        { "ingrediente": "Mozzarella", "quantita": "200g" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "100g" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "800g" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Basilico", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Melanzane",
+          "quantita": "1kg"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "800g"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Basilico",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 60,
@@ -1864,12 +4113,30 @@
       "nome_ricetta": "Pasta alla Carbonara",
       "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Espaguetis_carbonara.jpg/1280px-Espaguetis_carbonara.jpg",
       "ingredienti": [
-        { "ingrediente": "Spaghetti", "quantita": "400g" },
-        { "ingrediente": "Guanciale", "quantita": "150g" },
-        { "ingrediente": "Uova", "quantita": "4" },
-        { "ingrediente": "Pecorino Romano", "quantita": "100g" },
-        { "ingrediente": "Pepe Nero", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." }
+        {
+          "ingrediente": "Spaghetti",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Guanciale",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "4"
+        },
+        {
+          "ingrediente": "Pecorino Romano",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Pepe Nero",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 15,
@@ -1883,16 +4150,46 @@
       "nome_ricetta": "Risotto alla Milanese",
       "immagine": "https://images2.corriereobjects.it/methode_image/Cassetto%20Redazionale/Sezioni/Cook/Ricette/Foto%20Cucina/risotto%20alla%20milanese.jpg?v=202107211425",
       "ingredienti": [
-        { "ingrediente": "Riso Arborio", "quantita": "320g" },
-        { "ingrediente": "Brodo di Carne", "quantita": "1 litro" },
-        { "ingrediente": "Zafferano", "quantita": "1 bustina" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Burro", "quantita": "80g" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" },
-        { "ingrediente": "Vino Bianco", "quantita": "100ml" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Riso Arborio",
+          "quantita": "320g"
+        },
+        {
+          "ingrediente": "Brodo di Carne",
+          "quantita": "1 litro"
+        },
+        {
+          "ingrediente": "Zafferano",
+          "quantita": "1 bustina"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "80g"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Vino Bianco",
+          "quantita": "100ml"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 20,
@@ -1906,18 +4203,54 @@
       "nome_ricetta": "Lasagne alla Bolognese",
       "immagine": "https://www.sempliceveloce.it/wordpress/wp-content/uploads/2018/02/lasagne_alla_bolognese-640x427.jpg",
       "ingredienti": [
-        { "ingrediente": "Sfoglia per Lasagne", "quantita": "250g" },
-        { "ingrediente": "Carne Macinata", "quantita": "500g" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "800g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Carota", "quantita": "1" },
-        { "ingrediente": "Sedano", "quantita": "1 costa" },
-        { "ingrediente": "Besciamella", "quantita": "500ml" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "100g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Vino Rosso", "quantita": "100ml" }
+        {
+          "ingrediente": "Sfoglia per Lasagne",
+          "quantita": "250g"
+        },
+        {
+          "ingrediente": "Carne Macinata",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "800g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Carota",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Sedano",
+          "quantita": "1 costa"
+        },
+        {
+          "ingrediente": "Besciamella",
+          "quantita": "500ml"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Vino Rosso",
+          "quantita": "100ml"
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 40,
@@ -1931,16 +4264,46 @@
       "nome_ricetta": "Torta della Nonna",
       "immagine": "https://cdn.ilclubdellericette.it/wp-content/uploads/2017/02/ricetta-torta-della-nonna-1200x630.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "300g" },
-        { "ingrediente": "Burro", "quantita": "150g" },
-        { "ingrediente": "Zucchero", "quantita": "150g" },
-        { "ingrediente": "Uova", "quantita": "2" },
-        { "ingrediente": "Limone", "quantita": "1" },
-        { "ingrediente": "Latte", "quantita": "500ml" },
-        { "ingrediente": "Amido di Mais", "quantita": "50g" },
-        { "ingrediente": "Vaniglia", "quantita": "1 bacca" },
-        { "ingrediente": "Pinoli", "quantita": "50g" },
-        { "ingrediente": "Zucchero a Velo", "quantita": "q.b." }
+        {
+          "ingrediente": "Farina",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Limone",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Latte",
+          "quantita": "500ml"
+        },
+        {
+          "ingrediente": "Amido di Mais",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Vaniglia",
+          "quantita": "1 bacca"
+        },
+        {
+          "ingrediente": "Pinoli",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Zucchero a Velo",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 40,
       "tempo_cottura": 30,
@@ -1954,18 +4317,54 @@
       "nome_ricetta": "Ossobuco alla Milanese",
       "immagine": "https://i0.wp.com/www.parliamodicucina.com/wp-content/uploads/2022/10/Ossobuco-alla-milanese.jpg?fit=1417%2C943&ssl=1",
       "ingredienti": [
-        { "ingrediente": "Ossobuco di Vitello", "quantita": "4" },
-        { "ingrediente": "Farina", "quantita": "q.b." },
-        { "ingrediente": "Burro", "quantita": "50g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Brodo di Carne", "quantita": "500ml" },
-        { "ingrediente": "Vino Bianco", "quantita": "100ml" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "200g" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Prezzemolo", "quantita": "q.b." },
-        { "ingrediente": "Limone", "quantita": "1" }
+        {
+          "ingrediente": "Ossobuco di Vitello",
+          "quantita": "4"
+        },
+        {
+          "ingrediente": "Farina",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Brodo di Carne",
+          "quantita": "500ml"
+        },
+        {
+          "ingrediente": "Vino Bianco",
+          "quantita": "100ml"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Prezzemolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Limone",
+          "quantita": "1"
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 90,
@@ -1979,12 +4378,30 @@
       "nome_ricetta": "Fettuccine Alfredo",
       "immagine": "https://people.com/thmb/2JEMLDieHqYi4nc7ktFerRsoYDw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2)/olivegarden-07f1633bd0f4406b94b84474c33ad494.jpg",
       "ingredienti": [
-        { "ingrediente": "Fettuccine", "quantita": "400g" },
-        { "ingrediente": "Burro", "quantita": "150g" },
-        { "ingrediente": "Panna", "quantita": "200ml" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "100g" },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Fettuccine",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Panna",
+          "quantita": "200ml"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 15,
@@ -1998,15 +4415,42 @@
       "nome_ricetta": "Involtini di Melanzane",
       "immagine": "https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2023/06/Involtini-di-melanzane.jpg",
       "ingredienti": [
-        { "ingrediente": "Melanzane", "quantita": "2" },
-        { "ingrediente": "Prosciutto Cotto", "quantita": "100g" },
-        { "ingrediente": "Mozzarella", "quantita": "150g" },
-        { "ingrediente": "Parmigiano Reggiano", "quantita": "50g" },
-        { "ingrediente": "Passata di Pomodoro", "quantita": "200ml" },
-        { "ingrediente": "Basilico", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Melanzane",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Prosciutto Cotto",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Mozzarella",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Parmigiano Reggiano",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Passata di Pomodoro",
+          "quantita": "200ml"
+        },
+        {
+          "ingrediente": "Basilico",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 20,
@@ -2020,14 +4464,38 @@
       "nome_ricetta": "Torta al Limone",
       "immagine": "https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2023/11/Torta-al-limone-foto-finale-ok.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "200g" },
-        { "ingrediente": "Zucchero", "quantita": "150g" },
-        { "ingrediente": "Burro", "quantita": "100g" },
-        { "ingrediente": "Uova", "quantita": "3" },
-        { "ingrediente": "Limone", "quantita": "2" },
-        { "ingrediente": "Lievito per Dolci", "quantita": "1 bustina" },
-        { "ingrediente": "Latte", "quantita": "100ml" },
-        { "ingrediente": "Zucchero a Velo", "quantita": "q.b." }
+        {
+          "ingrediente": "Farina",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Zucchero",
+          "quantita": "150g"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Uova",
+          "quantita": "3"
+        },
+        {
+          "ingrediente": "Limone",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Lievito per Dolci",
+          "quantita": "1 bustina"
+        },
+        {
+          "ingrediente": "Latte",
+          "quantita": "100ml"
+        },
+        {
+          "ingrediente": "Zucchero a Velo",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 40,
@@ -2041,16 +4509,46 @@
       "nome_ricetta": "Zuppa di Lenticchie",
       "immagine": "https://www.danielafood.com/wp-content/uploads/2020/09/zuppa-di-lenticchie-ricetta-e-preparazione.jpg",
       "ingredienti": [
-        { "ingrediente": "Lenticchie", "quantita": "300g" },
-        { "ingrediente": "Carote", "quantita": "2" },
-        { "ingrediente": "Sedano", "quantita": "2 coste" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Brodo Vegetale", "quantita": "1 litro" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Alloro", "quantita": "2 foglie" }
+        {
+          "ingrediente": "Lenticchie",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Sedano",
+          "quantita": "2 coste"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Brodo Vegetale",
+          "quantita": "1 litro"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Alloro",
+          "quantita": "2 foglie"
+        }
       ],
       "tempo_preparazione": 15,
       "tempo_cottura": 40,
@@ -2064,15 +4562,42 @@
       "nome_ricetta": "Polpo alla Pignata",
       "immagine": "https://www.lavecchiaosteriatotu.it/wp-content/uploads/2022/04/polpo-alla-pignata-Lecce.jpg",
       "ingredienti": [
-        { "ingrediente": "Polpo", "quantita": "1kg" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Patate", "quantita": "500g" },
-        { "ingrediente": "Prezzemolo", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." }
+        {
+          "ingrediente": "Polpo",
+          "quantita": "1kg"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Patate",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Prezzemolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 60,
@@ -2086,16 +4611,46 @@
       "nome_ricetta": "Focaccia Barese",
       "immagine": "https://www.caminvattin.it/wp-content/uploads/2017/10/focaccia-barese-ricetta.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina 00", "quantita": "300g" },
-        { "ingrediente": "Semola Rimacinata", "quantita": "200g" },
-        { "ingrediente": "Patata", "quantita": "1" },
-        { "ingrediente": "Acqua", "quantita": "300ml" },
-        { "ingrediente": "Lievito di Birra", "quantita": "10g" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "50ml" },
-        { "ingrediente": "Pomodorini", "quantita": "200g" },
-        { "ingrediente": "Olive Nere", "quantita": "100g" },
-        { "ingrediente": "Origano", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." }
+        {
+          "ingrediente": "Farina 00",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Semola Rimacinata",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Patata",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "10g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Pomodorini",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Olive Nere",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Origano",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 20,
       "tempo_cottura": 30,
@@ -2109,18 +4664,54 @@
       "nome_ricetta": "Riso, Patate e Cozze",
       "immagine": "https://www.giallozafferano.it/images/10-1054/Tiella-barese_450x300.jpg",
       "ingredienti": [
-        { "ingrediente": "Riso Arborio", "quantita": "300g" },
-        { "ingrediente": "Patate", "quantita": "500g" },
-        { "ingrediente": "Cozze", "quantita": "1kg" },
-        { "ingrediente": "Pomodori", "quantita": "200g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Aglio", "quantita": "2 spicchi" },
-        { "ingrediente": "Pecorino", "quantita": "50g" },
-        { "ingrediente": "Prezzemolo", "quantita": "q.b." },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pepe", "quantita": "q.b." },
-        { "ingrediente": "Brodo Vegetale", "quantita": "500ml" }
+        {
+          "ingrediente": "Riso Arborio",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Patate",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Cozze",
+          "quantita": "1kg"
+        },
+        {
+          "ingrediente": "Pomodori",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Aglio",
+          "quantita": "2 spicchi"
+        },
+        {
+          "ingrediente": "Pecorino",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Prezzemolo",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pepe",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Brodo Vegetale",
+          "quantita": "500ml"
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 45,
@@ -2134,10 +4725,22 @@
       "nome_ricetta": "Toast Classico",
       "immagine": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-155388694-1572904913.jpg?crop=1.00xw:0.757xh;0,0.0577xh&resize=1200:*",
       "ingredienti": [
-        { "ingrediente": "Pane in Cassetta", "quantita": "4 fette" },
-        { "ingrediente": "Prosciutto Cotto", "quantita": "2 fette" },
-        { "ingrediente": "Formaggio a Fette", "quantita": "2 fette" },
-        { "ingrediente": "Burro", "quantita": "q.b." }
+        {
+          "ingrediente": "Pane in Cassetta",
+          "quantita": "4 fette"
+        },
+        {
+          "ingrediente": "Prosciutto Cotto",
+          "quantita": "2 fette"
+        },
+        {
+          "ingrediente": "Formaggio a Fette",
+          "quantita": "2 fette"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 5,
       "tempo_cottura": 5,
@@ -2151,14 +4754,38 @@
       "nome_ricetta": "Malloreddus alla Campidanese",
       "immagine": "https://isaincucina.it/wp-content/uploads/2018/09/malloreddus-alla-Campidanese.jpg",
       "ingredienti": [
-        { "ingrediente": "Malloreddus", "quantita": "400g" },
-        { "ingrediente": "Salsiccia Sarda", "quantita": "300g" },
-        { "ingrediente": "Pomodori Pelati", "quantita": "400g" },
-        { "ingrediente": "Cipolla", "quantita": "1" },
-        { "ingrediente": "Zafferano", "quantita": "1 bustina" },
-        { "ingrediente": "Olio d'Oliva", "quantita": "q.b." },
-        { "ingrediente": "Sale", "quantita": "q.b." },
-        { "ingrediente": "Pecorino Sardo", "quantita": "100g" }
+        {
+          "ingrediente": "Malloreddus",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Salsiccia Sarda",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Pomodori Pelati",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        },
+        {
+          "ingrediente": "Zafferano",
+          "quantita": "1 bustina"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Pecorino Sardo",
+          "quantita": "100g"
+        }
       ],
       "tempo_preparazione": 10,
       "tempo_cottura": 20,
@@ -2172,13 +4799,34 @@
       "nome_ricetta": "Seadas",
       "immagine": "https://t4.ftcdn.net/jpg/02/45/91/29/360_F_245912940_jIekADLkWCMSaZMNp0BDpl6q6NkXxyiW.jpg",
       "ingredienti": [
-        { "ingrediente": "Farina", "quantita": "300g" },
-        { "ingrediente": "Strutto", "quantita": "50g" },
-        { "ingrediente": "Acqua", "quantita": "100ml" },
-        { "ingrediente": "Sale", "quantita": "1 pizzico" },
-        { "ingrediente": "Formaggio Pecorino Fresco", "quantita": "200g" },
-        { "ingrediente": "Miele", "quantita": "q.b." },
-        { "ingrediente": "Olio per Friggere", "quantita": "q.b." }
+        {
+          "ingrediente": "Farina",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Strutto",
+          "quantita": "50g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "100ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "1 pizzico"
+        },
+        {
+          "ingrediente": "Formaggio Pecorino Fresco",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Miele",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Olio per Friggere",
+          "quantita": "q.b."
+        }
       ],
       "tempo_preparazione": 30,
       "tempo_cottura": 10,
@@ -2186,113 +4834,661 @@
       "difficolta": "media",
       "preparazione": "Impastare la farina con lo strutto, l'acqua e il sale fino a ottenere un impasto liscio. Stendere l'impasto e ritagliare dei dischi. Disporre al centro di metà dei dischi il formaggio pecorino a fette. Coprire con l'altra metà dei dischi e sigillare bene i bordi. Friggere in olio caldo fino a doratura. Servire le seadas calde, cosparse di miele.",
       "portata": "dolce"
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [
+        {
+          "ingrediente": "",
+          "quantita": ""
+        }
+      ],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 101
+    },
+    {
+      "nome_ricetta": "prova2",
+      "immagine": "",
+      "ingredienti": [
+        {
+          "ingrediente": "sassi",
+          "quantita": "3"
+        },
+        {
+          "ingrediente": "calze",
+          "quantita": "2"
+        }
+      ],
+      "tempo_preparazione": 3,
+      "tempo_cottura": 1,
+      "porzioni": 6,
+      "difficolta": "Medium",
+      "preparazione": "sdfsdfddsfsdf",
+      "portata": "dolce",
+      "id": 102
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 103
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [
+        {
+          "ingrediente": "sale",
+          "quantita": "q.b."
+        }
+      ],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 104
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 105
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [
+        {
+          "ingrediente": "sale",
+          "quantita": ""
+        }
+      ],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 106
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 107
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [
+        {
+          "ingrediente": "sassi",
+          "quantita": ""
+        }
+      ],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 108
+    },
+    {
+      "nome_ricetta": "",
+      "immagine": "",
+      "ingredienti": [
+        {
+          "ingrediente": "miao",
+          "quantita": ""
+        }
+      ],
+      "tempo_preparazione": "",
+      "tempo_cottura": "",
+      "porzioni": "",
+      "difficolta": "",
+      "preparazione": "",
+      "portata": "",
+      "id": 109
     }
-  ], "ingredients":
-  [
-    {"id": 1, "ingrediente": "Spaghetti", "immagine": ""},
-    {"id": 2, "ingrediente": "Guanciale", "immagine": ""},
-    {"id": 3, "ingrediente": "Uova", "immagine": ""},
-    {"id": 4, "ingrediente": "Pecorino Romano", "immagine": ""},
-    {"id": 5, "ingrediente": "Pepe Nero", "immagine": ""},
-    {"id": 6, "ingrediente": "Riso Carnaroli", "immagine": ""},
-    {"id": 7, "ingrediente": "Funghi Porcini", "immagine": ""},
-    {"id": 8, "ingrediente": "Brodo Vegetale", "immagine": ""},
-    {"id": 9, "ingrediente": "Parmigiano Reggiano", "immagine": ""},
-    {"id": 10, "ingrediente": "Burro", "immagine": ""},
-    {"id": 11, "ingrediente": "Scalogno", "immagine": ""},
-    {"id": 12, "ingrediente": "Olio d'Oliva", "immagine": ""},
-    {"id": 13, "ingrediente": "Prezzemolo", "immagine": ""},
-    {"id": 14, "ingrediente": "Pasta per Lasagne", "immagine": ""},
-    {"id": 15, "ingrediente": "Ragù alla Bolognese", "immagine": ""},
-    {"id": 16, "ingrediente": "Besciamella", "immagine": ""},
-    {"id": 17, "ingrediente": "Savoiardi", "immagine": ""},
-    {"id": 18, "ingrediente": "Mascarpone", "immagine": ""},
-    {"id": 19, "ingrediente": "Zucchero", "immagine": ""},
-    {"id": 20, "ingrediente": "Caffè", "immagine": ""},
-    {"id": 21, "ingrediente": "Cacao Amaro", "immagine": ""},
-    {"id": 22, "ingrediente": "Pollo", "immagine": ""},
-    {"id": 23, "ingrediente": "Pomodori Pelati", "immagine": ""},
-    {"id": 24, "ingrediente": "Carote", "immagine": ""},
-    {"id": 25, "ingrediente": "Sedano", "immagine": ""},
-    {"id": 26, "ingrediente": "Cipolla", "immagine": ""},
-    {"id": 27, "ingrediente": "Vino Rosso", "immagine": ""},
-    {"id": 28, "ingrediente": "Rosmarino", "immagine": ""},
-    {"id": 29, "ingrediente": "Zucchine", "immagine": ""},
-    {"id": 30, "ingrediente": "Patate", "immagine": ""},
-    {"id": 31, "ingrediente": "Fagioli Borlotti", "immagine": ""},
-    {"id": 32, "ingrediente": "Pomodori", "immagine": ""},
-    {"id": 33, "ingrediente": "Spinaci", "immagine": ""},
-    {"id": 34, "ingrediente": "Sale", "immagine": ""},
-    {"id": 35, "ingrediente": "Pepe", "immagine": ""},
-    {"id": 36, "ingrediente": "Mozzarella di Bufala", "immagine": ""},
-    {"id": 37, "ingrediente": "Basilico", "immagine": ""},
-    {"id": 38, "ingrediente": "Melanzane", "immagine": ""},
-    {"id": 39, "ingrediente": "Mozzarella", "immagine": ""},
-    {"id": 40, "ingrediente": "Panna Fresca", "immagine": ""},
-    {"id": 41, "ingrediente": "Vaniglia", "immagine": ""},
-    {"id": 42, "ingrediente": "Gelatina in Fogli", "immagine": ""},
-    {"id": 43, "ingrediente": "Pangrattato", "immagine": ""},
-    {"id": 44, "ingrediente": "Prosciutto Crudo", "immagine": ""},
-    {"id": 45, "ingrediente": "Vitello", "immagine": ""},
-    {"id": 46, "ingrediente": "Salvia", "immagine": ""},
-    {"id": 47, "ingrediente": "Salmone Affumicato", "immagine": ""},
-    {"id": 48, "ingrediente": "Pasta Sfoglia", "immagine": ""},
-    {"id": 49, "ingrediente": "Formaggio Caprino", "immagine": ""},
-    {"id": 50, "ingrediente": "Miele", "immagine": ""},
-    {"id": 51, "ingrediente": "Noci", "immagine": ""},
-    {"id": 52, "ingrediente": "Pane", "immagine": ""},
-    {"id": 53, "ingrediente": "Fegatini di Pollo", "immagine": ""},
-    {"id": 54, "ingrediente": "Brodo di Pollo", "immagine": ""},
-    {"id": 55, "ingrediente": "Fagioli Cannellini", "immagine": ""},
-    {"id": 56, "ingrediente": "Farro", "immagine": ""},
-    {"id": 57, "ingrediente": "Pomodori Secchi", "immagine": ""},
-    {"id": 58, "ingrediente": "Melone", "immagine": ""},
-    {"id": 59, "ingrediente": "Prosciutto di Parma", "immagine": ""},
-    {"id": 60, "ingrediente": "Formaggio Grattugiato", "immagine": ""},
-    {"id": 61, "ingrediente": "Erbette Aromatiche", "immagine": ""},
-    {"id": 62, "ingrediente": "Crostini di Pane", "immagine": ""},
-    {"id": 63, "ingrediente": "Biscotti Digestive", "immagine": ""},
-    {"id": 64, "ingrediente": "Formaggio Spalmabile", "immagine": ""},
-    {"id": 65, "ingrediente": "Estratto di Vaniglia", "immagine": ""},
-    {"id": 66, "ingrediente": "Confettura di Fragole", "immagine": ""},
-    {"id": 67, "ingrediente": "Semi di Cumino", "immagine": ""},
-    {"id": 68, "ingrediente": "Coriandolo in Polvere", "immagine": ""},
-    {"id": 69, "ingrediente": "Garam Masala", "immagine": ""},
-    {"id": 70, "ingrediente": "Panna", "immagine": ""},
-    {"id": 71, "ingrediente": "Cavolo", "immagine": ""},
-    {"id": 72, "ingrediente": "Latte di Cocco", "immagine": ""},
-    {"id": 73, "ingrediente": "Curry in Polvere", "immagine": ""},
-    {"id": 74, "ingrediente": "Coriandolo Fresco", "immagine": ""},
-    {"id": 75, "ingrediente": "Carne di Manzo", "immagine": ""},
-    {"id": 76, "ingrediente": "Cipolle", "immagine": ""},
-    {"id": 77, "ingrediente": "Brodo di Carne", "immagine": ""},
-    {"id": 78, "ingrediente": "Pancetta", "immagine": ""},
-    {"id": 79, "ingrediente": "Funghi Champignon", "immagine": ""},
-    {"id": 80, "ingrediente": "Alloro", "immagine": ""},
-    {"id": 81, "ingrediente": "Tortellini", "immagine": ""},
-    {"id": 82, "ingrediente": "Trofie", "immagine": ""},
-    {"id": 83, "ingrediente": "Basilico Fresco", "immagine": ""},
-    {"id": 84, "ingrediente": "Pinoli", "immagine": ""},
-    {"id": 85, "ingrediente": "Pecorino", "immagine": ""},
-    {"id": 86, "ingrediente": "Riso Arborio", "immagine": ""},
-    {"id": 87, "ingrediente": "Sfoglia per Lasagne", "immagine": ""},
-    {"id": 88, "ingrediente": "Amido di Mais", "immagine": ""},
-    {"id": 89, "ingrediente": "Ossobuco di Vitello", "immagine": ""},
-    {"id": 90, "ingrediente": "Fettuccine", "immagine": ""},
-    {"id": 91, "ingrediente": "Lenticchie", "immagine": ""},
-    {"id": 92, "ingrediente": "Farina 00", "immagine": ""},
-    {"id": 93, "ingrediente": "Semola Rimacinata", "immagine": ""},
-    {"id": 94, "ingrediente": "Patata", "immagine": ""},
-    {"id": 95, "ingrediente": "Pomodorini", "immagine": ""},
-    {"id": 96, "ingrediente": "Pane in Cassetta", "immagine": ""},
-    {"id": 97, "ingrediente": "Formaggio a Fette", "immagine": ""},
-    {"id": 98, "ingrediente": "Malloreddus", "immagine": ""},
-    {"id": 99, "ingrediente": "Salsiccia Sarda", "immagine": ""},
-    {"id": 100, "ingrediente": "Pecorino Sardo", "immagine": ""},
-    {"id": 101, "ingrediente": "Strutto", "immagine": ""},
-    {"id": 102, "ingrediente": "Formaggio Pecorino Fresco", "immagine": ""}
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "ingrediente": "Spaghetti",
+      "immagine": "https://static.vecteezy.com/system/resources/previews/003/114/787/large_2x/close-up-a-spaghetti-and-red-sauce-in-white-dish-on-white-background-free-photo.jpg"
+    },
+    {
+      "id": 2,
+      "ingrediente": "Guanciale",
+      "immagine": "https://cdn.leitesculinaria.com/wp-content/uploads/2020/10/guanciale-fp.jpg.optimal.jpg"
+    },
+    {
+      "id": 3,
+      "ingrediente": "Uova",
+      "immagine": "https://www.donnamoderna.com/wp-content/uploads/2014/04/Uova-ingrediente-cucina.jpg"
+    },
+    {
+      "id": 4,
+      "ingrediente": "Pecorino Romano",
+      "immagine": "https://cdn11.bigcommerce.com/s-8hw6y8no/images/stencil/1920w/products/222/474/99212__99740.1388646300.jpg?c=2"
+    },
+    {
+      "id": 5,
+      "ingrediente": "Pepe Nero",
+      "immagine": "https://www.ambientebio.it/wp-content/uploads/2020/08/PEPE-NERO-1.jpeg"
+    },
+    {
+      "id": 6,
+      "ingrediente": "Riso Carnaroli",
+      "immagine": "https://www.agrodolce.it/app/uploads/2016/09/riso-arborio.jpg"
+    },
+    {
+      "id": 7,
+      "ingrediente": "Funghi Porcini",
+      "immagine": "http://blog.saporedicastagne.com/wp-content/uploads/2019/02/forest-1804281_1280.jpg"
+    },
+    {
+      "id": 8,
+      "ingrediente": "Brodo Vegetale",
+      "immagine": "http://www.ricettaidea.it/articoli/ricette-tradizionali/rustici/original_brodo-vegetale.jpg"
+    },
+    {
+      "id": 9,
+      "ingrediente": "Parmigiano Reggiano",
+      "immagine": "https://www.specialityfoodmagazine.com/assets/images/other/Parmagiano_Reggiano.jpg"
+    },
+    {
+      "id": 10,
+      "ingrediente": "Burro",
+      "immagine": "https://www.chedonna.it/wp-content/uploads/2020/10/Come-sostituire-il-burro-1068x712.jpg"
+    },
+    {
+      "id": 11,
+      "ingrediente": "Scalogno",
+      "immagine": "https://www.ristorantiweb.com/wp-content/uploads/sites/9/2018/04/scalogno.jpg"
+    },
+    {
+      "id": 12,
+      "ingrediente": "Olio d'Oliva",
+      "immagine": "https://up2lab.it/wp-content/uploads/2017/07/olio-oliva-01-scaled.jpg"
+    },
+    {
+      "id": 13,
+      "ingrediente": "Prezzemolo",
+      "immagine": "http://www.cucinare.meglio.it/img/i/prezzemolo.1024x768.jpg"
+    },
+    {
+      "id": 14,
+      "ingrediente": "Pasta per Lasagne",
+      "immagine": "https://www.gustoblog.it/wp-content/uploads/2017/04/pasta-lasagne.jpg"
+    },
+    {
+      "id": 15,
+      "ingrediente": "Ragù alla Bolognese",
+      "immagine": "https://www.tinastable.com/wp-content/uploads/2023/04/APC_6599-1-scaled.jpeg"
+    },
+    {
+      "id": 16,
+      "ingrediente": "Besciamella",
+      "immagine": "http://www.gocciagoccia.it/wp-content/uploads/2018/11/besciamella.jpg"
+    },
+    {
+      "id": 17,
+      "ingrediente": "Savoiardi",
+      "immagine": "https://img.freepik.com/premium-photo/traditional-italian-savoiardi-ladyfingers-biscuits-isolated-white-background-tiramisu-ingredient_511235-8433.jpg?w=2000"
+    },
+    {
+      "id": 18,
+      "ingrediente": "Mascarpone",
+      "immagine": "https://julieblanner.com/wp-content/uploads/2015/08/mascarpone-cream-5.jpeg"
+    },
+    {
+      "id": 19,
+      "ingrediente": "Zucchero",
+      "immagine": "https://e7.pngegg.com/pngimages/9/750/png-clipart-sugar-sugar.png"
+    },
+    {
+      "id": 20,
+      "ingrediente": "Caffè",
+      "immagine": "https://images.creativemarket.com/0.1.0/ps/1327207/1360/879/m1/fpnw/wm1/x5bzvvkfmqcvpddmhyghelmsa4ldplc8ep7tvuttxtk5lhuwzwbzsupirqpjqsmn-.jpg?1464772145&s=135f8c456849d10db6d8439a24ee02e4"
+    },
+    {
+      "id": 21,
+      "ingrediente": "Cacao Amaro",
+      "immagine": "https://img.freepik.com/premium-photo/cocoa-pods-cocoa-beans-cacao-powder-with-leaves-isolated-white-background_38145-707.jpg?w=2000"
+    },
+    {
+      "id": 22,
+      "ingrediente": "Pollo",
+      "immagine": "http://www.fusionloja.com/wp-content/uploads/2019/04/Pollo-asado.png"
+    },
+    {
+      "id": 23,
+      "ingrediente": "Pomodori Pelati",
+      "immagine": "https://www.donnad.it/sites/default/files/styles/r_visual_d/public/202040/Pomodori-pelati-ricetta.jpg?itok=JRhzFIPy"
+    },
+    {
+      "id": 24,
+      "ingrediente": "Carote",
+      "immagine": "https://pngimg.com/uploads/carrot/carrot_PNG4985.png"
+    },
+    {
+      "id": 25,
+      "ingrediente": "Sedano",
+      "immagine": "http://www.melaeco.it/images/stories/virtuemart/product/sedano-bianco-mercato-easy_9f35ed35-7eab-47c7-b1e3-0943185befc8.jpg"
+    },
+    {
+      "id": 26,
+      "ingrediente": "Cipolla",
+      "immagine": "https://www.portaledelverde.it/upload/catalogo/categorie/img/foto_cipolla.jpg"
+    },
+    {
+      "id": 27,
+      "ingrediente": "Vino Rosso",
+      "immagine": "https://wallpapercave.com/wp/wp4775899.jpg"
+    },
+    {
+      "id": 28,
+      "ingrediente": "Rosmarino",
+      "immagine": "https://static.cookist.it/wp-content/uploads/sites/21/2020/06/rosmarino-2.jpg"
+    },
+    {
+      "id": 29,
+      "ingrediente": "Zucchine",
+      "immagine": "https://img.freepik.com/premium-photo/zucchini-isolated-white-background_319514-4249.jpg?w=2000"
+    },
+    {
+      "id": 30,
+      "ingrediente": "Patate",
+      "immagine": "http://clipart-library.com/image_gallery2/Potato.png"
+    },
+    {
+      "id": 31,
+      "ingrediente": "Fagioli Borlotti",
+      "immagine": "https://www.dissapore.com/wp-content/uploads/2020/05/borlotti-scaled.jpg"
+    },
+    {
+      "id": 32,
+      "ingrediente": "Pomodori",
+      "immagine": "https://s1.1zoom.me/big0/96/Salads_Vegetables_Tomatoes_Olive_White_background_590955_1280x853.jpg"
+    },
+    {
+      "id": 33,
+      "ingrediente": "Spinaci",
+      "immagine": "https://www.thegreenrevolution.it/wp-content/uploads/2017/08/04_SETT_17-Semina-spinaci-2.jpg"
+    },
+    {
+      "id": 34,
+      "ingrediente": "Sale",
+      "immagine": "https://www.lospicchiodaglio.it/img/materie/sale.jpg"
+    },
+    {
+      "id": 35,
+      "ingrediente": "Pepe",
+      "immagine": "https://assets.stickpng.com/images/58486a72849cf46a2a931338.png"
+    },
+    {
+      "id": 36,
+      "ingrediente": "Mozzarella di Bufala",
+      "immagine": "https://www.eggandplant.ch/wp-content/uploads/2022/08/EP_Mozzarella_Bufalo-1900x1425.jpg"
+    },
+    {
+      "id": 37,
+      "ingrediente": "Basilico",
+      "immagine": "https://www.nonsapeviche.com/wp-content/uploads/2021/06/basilico_2-696x465.jpg"
+    },
+    {
+      "id": 38,
+      "ingrediente": "Melanzane",
+      "immagine": "https://thumbs.dreamstime.com/z/melanzana-vettoriale-isolata-su-bianco-ingrediente-vegetale-per-alimenti-illustrazione-moderna-stile-disegno-mano-224331965.jpg"
+    },
+    {
+      "id": 39,
+      "ingrediente": "Mozzarella",
+      "immagine": "https://www.alimentarium.org/sites/default/files/media/image/2016-09/web-mozzarella_0.png"
+    },
+    {
+      "id": 40,
+      "ingrediente": "Panna Fresca",
+      "immagine": "https://www.carnini.it/wp-content/uploads/2016/01/8006250000083_T1-1024x1024.jpg"
+    },
+    {
+      "id": 41,
+      "ingrediente": "Vaniglia",
+      "immagine": "https://emarat-news.ae/wp-content/uploads/2022/01/emarat-news_2022-01-31_18-06-51_961789.jpg"
+    },
+    {
+      "id": 42,
+      "ingrediente": "Gelatina in Fogli",
+      "immagine": "https://www.salepepe.it/files/2021/06/gelatina-in-fogli.jpg"
+    },
+    {
+      "id": 43,
+      "ingrediente": "Pangrattato",
+      "immagine": "https://www.stile.it/wp-content/uploads/2017/05/iStock-463060803-e1494603950155.jpg"
+    },
+    {
+      "id": 44,
+      "ingrediente": "Prosciutto Crudo",
+      "immagine": "https://www.menatti.com/app/uploads/2023/02/prosciutto-crudo-dolce-salato-gusto.jpg"
+    },
+    {
+      "id": 45,
+      "ingrediente": "Vitello",
+      "immagine": "https://destepti.ro/wp-content/uploads/2012/07/Vitel.jpg"
+    },
+    {
+      "id": 46,
+      "ingrediente": "Salvia",
+      "immagine": "https://www.provenwinners.com/sites/provenwinners.com/files/imagecache/low-resolution/ifa_upload/salvia_white_profusion_apj22_2.jpg"
+    },
+    {
+      "id": 47,
+      "ingrediente": "Salmone Affumicato",
+      "immagine": "https://www.android-news.eu/wp-content/uploads/2020/06/salmone.jpg"
+    },
+    {
+      "id": 48,
+      "ingrediente": "Pasta Sfoglia",
+      "immagine": "https://i.pinimg.com/originals/3a/ec/95/3aec95affcb9713f298fe144be88bd99.jpg"
+    },
+    {
+      "id": 49,
+      "ingrediente": "Formaggio Caprino",
+      "immagine": "https://www.buttalapasta.it/wp-content/uploads/2022/03/ricette-con-formaggio-caprino.jpg"
+    },
+    {
+      "id": 50,
+      "ingrediente": "Miele",
+      "immagine": "https://brandslogo.net/wp-content/uploads/2013/04/miele-black-vector-logo.png"
+    },
+    {
+      "id": 51,
+      "ingrediente": "Noci",
+      "immagine": "https://www.nonsprecare.it/wp-content/uploads/2017/10/benefici-delle-noci-4.jpg"
+    },
+    {
+      "id": 52,
+      "ingrediente": "Pane",
+      "immagine": "http://naturalmenteitalia.com/wp-content/uploads/2014/04/pane.jpg"
+    },
+    {
+      "id": 53,
+      "ingrediente": "Fegatini di Pollo",
+      "immagine": "https://i.pinimg.com/originals/1e/35/a7/1e35a761e2d6e0f414f51fddd0e86dc5.jpg"
+    },
+    {
+      "id": 54,
+      "ingrediente": "Brodo di Pollo",
+      "immagine": "http://s23991.pcdn.co/wp-content/uploads/2017/02/brodo-di-pollo-recipe.jpg"
+    },
+    {
+      "id": 55,
+      "ingrediente": "Fagioli Cannellini",
+      "immagine": "https://www.finedininglovers.it/sites/g/files/xknfdk1106/files/2022-04/fagioli cannellini.jpg"
+    },
+    {
+      "id": 56,
+      "ingrediente": "Farro",
+      "immagine": "https://www.kitchenskip.com/wp-content/uploads/2020/08/farro-that-is-cooked.jpg"
+    },
+    {
+      "id": 57,
+      "ingrediente": "Pomodori Secchi",
+      "immagine": "https://www.leitv.it/wp-content/uploads/2022/09/spaghetti-with-tomatoes-canned-tuna-sauce-light-background-top-view.jpg?v=149783"
+    },
+    {
+      "id": 58,
+      "ingrediente": "Melone",
+      "immagine": "https://www.azernews.az/media/2017/07/05/melon.png"
+    },
+    {
+      "id": 59,
+      "ingrediente": "Prosciutto di Parma",
+      "immagine": "https://media-assets.lacucinaitaliana.it/photos/61faf8abf6b806549a638312/16:9/w_2560%2Cc_limit/prosciutto-parma.jpg"
+    },
+    {
+      "id": 60,
+      "ingrediente": "Formaggio Grattugiato",
+      "immagine": "https://www.cabre.it/wp-content/uploads/2019/10/cabre-leonessa-grattuggiato-mosse-facili-per-avere-formaggio-grattuggiato-fresco.jpeg"
+    },
+    {
+      "id": 61,
+      "ingrediente": "Erbette Aromatiche",
+      "immagine": "http://www.lifegate.it/app/uploads/Erbe-aromatiche.gif"
+    },
+    {
+      "id": 62,
+      "ingrediente": "Crostini di Pane",
+      "immagine": "https://blog.giallozafferano.it/statusmamma/wp-content/uploads/2021/10/CROSTINI-DI-PANE.jpg"
+    },
+    {
+      "id": 63,
+      "ingrediente": "Biscotti Digestive",
+      "immagine": "http://blog.giallozafferano.it/ricettedellaprovenza/wp-content/uploads/2018/02/08761237-624A-48D9-9B8B-72EB7979CE31.jpeg"
+    },
+    {
+      "id": 64,
+      "ingrediente": "Formaggio Spalmabile",
+      "immagine": "https://www.carrefour.it/on/demandware.static/-/Sites-carrefour-master-catalog-IT/default/dwe8eda64c/large/PHILADELPHIAREGULARGR250-8001590640258-5.png"
+    },
+    {
+      "id": 65,
+      "ingrediente": "Estratto di Vaniglia",
+      "immagine": "https://it.thecookinghacks.com/wp-content/uploads/sites/2/2020/11/estratto-vaniglia-1024x683.jpg"
+    },
+    {
+      "id": 66,
+      "ingrediente": "Confettura di Fragole",
+      "immagine": "https://www.ricettedigusto.info/wp-content/uploads/2014/04/confettura-di-fragole-1.jpg"
+    },
+    {
+      "id": 67,
+      "ingrediente": "Semi di Cumino",
+      "immagine": "https://www.misya.info/wp-content/uploads/2012/11/Semi-di-cumino.jpg"
+    },
+    {
+      "id": 68,
+      "ingrediente": "Coriandolo in Polvere",
+      "immagine": "https://www.macrolibrarsi.it/data/cop/zoom/c/coriandolo-in-polvere-bio-201731.jpg"
+    },
+    {
+      "id": 69,
+      "ingrediente": "Garam Masala",
+      "immagine": "https://www.spicejungle.com/wp/files/2022/02/SpicesToGrind.jpg"
+    },
+    {
+      "id": 70,
+      "ingrediente": "Panna",
+      "immagine": "https://img.freepik.com/premium-photo/strawberry-panna-cotta-creamy-dessert-isolated-white-background-panna-cotta-with-strawberry_503274-1979.jpg?w=2000"
+    },
+    {
+      "id": 71,
+      "ingrediente": "Cavolo",
+      "immagine": "https://www.ciaoitaliarussia.it/wp-content/uploads/2020/05/Polpette-di-cavolo-ingredienti.jpg"
+    },
+    {
+      "id": 72,
+      "ingrediente": "Latte di Cocco",
+      "immagine": "https://www.salepepe.it/files/2017/06/latte-cocco.jpg"
+    },
+    {
+      "id": 73,
+      "ingrediente": "Curry in Polvere",
+      "immagine": "https://r.restore.shopping/resizer/go?s=https:%2f%2frsbackend.blob.core.windows.net%2fbrandbank-pen%2f112022_0.png&w=1000&h=1000"
+    },
+    {
+      "id": 74,
+      "ingrediente": "Coriandolo Fresco",
+      "immagine": "https://it.thecookinghacks.com/wp-content/uploads/sites/2/2019/08/fresh-coriander-1024x683.jpg"
+    },
+    {
+      "id": 75,
+      "ingrediente": "Carne di Manzo",
+      "immagine": "https://wallpaperaccess.com/full/1462795.jpg"
+    },
+    {
+      "id": 76,
+      "ingrediente": "Cipolle",
+      "immagine": "https://cipollefreddi.it/wp-content/uploads/2016/10/cipolle-varie-benessere-salute.jpg"
+    },
+    {
+      "id": 77,
+      "ingrediente": "Brodo di Carne",
+      "immagine": "https://www.soniaperonaci.it/wp-content/uploads/2020/10/Brodo-di-carne-960x1440.jpg"
+    },
+    {
+      "id": 78,
+      "ingrediente": "Pancetta",
+      "immagine": "https://www.shutterstock.com/shutterstock/photos/1279534900/display_1500/stock-photo-rolls-of-pancetta-bacon-isolated-on-white-background-1279534900.jpg"
+    },
+    {
+      "id": 79,
+      "ingrediente": "Funghi Champignon",
+      "immagine": "https://www.salepepe.it/files/2014/03/Funghi-champignon-tecnica-di-base.jpg"
+    },
+    {
+      "id": 80,
+      "ingrediente": "Alloro",
+      "immagine": "http://www.gustissimo.it/articoli/ingredienti/erbe-aromi-spezie/alloro.jpg"
+    },
+    {
+      "id": 81,
+      "ingrediente": "Tortellini",
+      "immagine": "https://live.staticflickr.com/65535/49874674337_19a7efe57d_k_d.jpg"
+    },
+    {
+      "id": 82,
+      "ingrediente": "Trofie",
+      "immagine": "https://images.creativemarket.com/0.1.0/ps/6138873/1820/2730/m1/fpnw/wm1/ewpazytlx9l04xywecv7wowetyjlse8li3gp5khfze1f4z8pxvjj1tgua4ui8odr-.jpg?1553626049&s=9a79960af02eefff2447310f20d349fe"
+    },
+    {
+      "id": 83,
+      "ingrediente": "Basilico Fresco",
+      "immagine": "https://www.nonsapeviche.com/wp-content/uploads/2021/06/basilico_2-696x465.jpg"
+    },
+    {
+      "id": 84,
+      "ingrediente": "Pinoli",
+      "immagine": "https://image.freepik.com/free-vector/vector-realistic-pile-shelled-pine-nuts-close-up-top-view-isolated-white-background_1284-46349.jpg"
+    },
+    {
+      "id": 85,
+      "ingrediente": "Pecorino",
+      "immagine": "https://www.volpetti.com/cms/wp-content/uploads/2018/04/12-pecorino-romano_001.jpg"
+    },
+    {
+      "id": 86,
+      "ingrediente": "Riso Arborio",
+      "immagine": "https://www.agrodolce.it/app/uploads/2016/09/riso-arborio.jpg"
+    },
+    {
+      "id": 87,
+      "ingrediente": "Sfoglia per Lasagne",
+      "immagine": "https://cdn.ilclubdellericette.it/wp-content/uploads/2020/11/sfoglia-bianca-per-lasagne-1200x630.jpg"
+    },
+    {
+      "id": 88,
+      "ingrediente": "Amido di Mais",
+      "immagine": "https://it.thecookinghacks.com/wp-content/uploads/sites/2/2020/03/cornflour-1024x683.jpg"
+    },
+    {
+      "id": 89,
+      "ingrediente": "Ossobuco di Vitello",
+      "immagine": "https://www.cicaci.it/wp-content/uploads/2022/01/cicaci-ossobuco-di-vitello.jpg"
+    },
+    {
+      "id": 90,
+      "ingrediente": "Fettuccine",
+      "immagine": "https://thumbs.dreamstime.com/z/fettuccine-raw-white-background-75880975.jpg"
+    },
+    {
+      "id": 91,
+      "ingrediente": "Lenticchie",
+      "immagine": "https://www.chedonna.it/wp-content/uploads/2020/02/background-4620888_1280-1.jpg"
+    },
+    {
+      "id": 92,
+      "ingrediente": "Farina 00",
+      "immagine": "https://www.pianetadonne.blog/wp-content/uploads/2021/04/come-sostituire-la-farina-00-AdobeStock_27279605-scaled.jpeg"
+    },
+    {
+      "id": 93,
+      "ingrediente": "Semola Rimacinata",
+      "immagine": "https://www.molinobassini1899.it/media/catalog/product/cache/1/image/800x920/9df78eab33525d08d6e5fb8d27136e95/r/i/rimacinata.jpg"
+    },
+    {
+      "id": 94,
+      "ingrediente": "Patata",
+      "immagine": "https://wallpapercave.com/wp/wp1885906.jpg"
+    },
+    {
+      "id": 95,
+      "ingrediente": "Pomodorini",
+      "immagine": "http://www.gustissimo.it/articoli/ingredienti/verdure-legumi-ortaggi/original_pomodorini.jpg"
+    },
+    {
+      "id": 96,
+      "ingrediente": "Pane in Cassetta",
+      "immagine": "https://www.starbene.it/content/uploads/2018/01/pane-in-cassetta-1.jpg"
+    },
+    {
+      "id": 97,
+      "ingrediente": "Formaggio a Fette",
+      "immagine": "https://www.orizzontenergia.it/wp-content/uploads/2022/06/Fette-di-formaggio-su-tagliere.jpg"
+    },
+    {
+      "id": 98,
+      "ingrediente": "Malloreddus",
+      "immagine": "https://thumbs.dreamstime.com/z/sardinian-gnocchetti-pasta-also-known-as-malloreddus-macarrones-de-punzu-isolated-white-background-sardinian-gnocchetti-242369133.jpg"
+    },
+    {
+      "id": 99,
+      "ingrediente": "Salsiccia Sarda",
+      "immagine": "https://www.torronificiocrobe.it/wp-content/uploads/2022/08/Torronificio-Crobe-Salsiccia-Sarda.jpg"
+    },
+    {
+      "id": 100,
+      "ingrediente": "Pecorino Sardo",
+      "immagine": "https://www.italia.it/content/dam/tdh/it/interests/sardegna/il-pecorino-sardo/media/20210315094206-pecorino-sardo.jpg"
+    },
+    {
+      "id": 101,
+      "ingrediente": "Strutto",
+      "immagine": "https://primochef.it/wp-content/uploads/2019/03/SH_strutto.jpg"
+    },
+    {
+      "id": 102,
+      "ingrediente": "Formaggio Pecorino Fresco",
+      "immagine": "https://www.formagginorcia.it/wp-content/uploads/2020/05/pecorino-fresco-pixel.jpg"
+    }
   ]
-
-
 }
 

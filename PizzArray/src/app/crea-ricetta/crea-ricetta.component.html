@@ -19,12 +19,23 @@
     >
       <div [formGroupName]="i" class="ingredient-item">
         <input
+          id="ingrediente_{{ i }}"
           formControlName="ingrediente"
           type="text"
           placeholder="Ingredient"
           required
+          (input)="onIngredientInput($event, i)"
         />
+        <ul *ngIf="suggestions[i]?.length">
+          <li
+            *ngFor="let suggestion of suggestions[i]"
+            (click)="selectSuggestion(suggestion, i)"
+          >
+            {{ suggestion }}
+          </li>
+        </ul>
         <input
+          id="quantita_{{ i }}"
           formControlName="quantita"
           type="text"
           placeholder="Quantity"
@@ -60,9 +71,9 @@
 
     <label for="difficolta">Difficoltà:</label>
     <select id="difficolta" formControlName="difficolta" required>
-      <option value="Easy">Facile</option>
-      <option value="Medium">Medio</option>
-      <option value="Hard">Difficile</option>
+      <option value="facile">Facile</option>
+      <option value="media">Media</option>
+      <option value="difficile">Difficile</option>
     </select>
 
     <label for="preparazione">Preparazione:</label>
