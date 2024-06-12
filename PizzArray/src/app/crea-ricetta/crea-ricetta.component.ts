@@ -1,16 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray } from '@angular/forms';
 import { RecipeService } from '../services/recipe.service';
+import { Ingredienti } from '../Models/i-recipe';
+import { Ingredients } from '../Models/i-ingredients';
+import { ChangeDetectorRef } from '@angular/core';
 
 @Component({
   selector: 'app-crea-ricetta',
   templateUrl: './crea-ricetta.component.html',
-  styleUrl: './crea-ricetta.component.scss'
+  styleUrls: ['./crea-ricetta.component.scss']
 })
 export class CreaRicettaComponent implements OnInit {
   recipeForm: FormGroup;
+  ingredients: Ingredients[] = [];
 
-  constructor(private fb: FormBuilder, private recipeService: RecipeService) {
+  constructor(private fb: FormBuilder, private recipeService: RecipeService, private cdr: ChangeDetectorRef) {
     this.recipeForm = this.fb.group({
       nome_ricetta: [''],
       immagine: [''],
@@ -28,10 +32,10 @@ export class CreaRicettaComponent implements OnInit {
     return this.recipeForm.get('ingredienti') as FormArray;
   }
 
-  addIngredient() {
+  addIngredient(ingrediente: string = '', quantita: string = '') {
     this.ingredienti.push(this.fb.group({
-      ingrediente: [''],
-      quantita: ['']
+      ingrediente: [ingrediente],
+      quantita: [quantita]
     }));
   }
 
@@ -51,5 +55,14 @@ export class CreaRicettaComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.recipeService.getIngredients().subscribe(
+      (ingredients: Ingredients[]) => {
+        this.ingredients = ingredients;
+        this.cdr.detectChanges();
+      },
+      error => {
+        console.error('Error fetching ingredients:', error);
+      }
+    );
   }
 }
