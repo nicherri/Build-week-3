@@ -14,6 +14,7 @@ export class HomeService {
 
   recipesUrl: string = 'http://localhost:3000/ricette';
 
+
   getAllIngredients(): Observable<string[]> {
     return this.http.get<iRecipe[]>(this.recipesUrl).pipe(
       map((recipes: iRecipe[]) => {

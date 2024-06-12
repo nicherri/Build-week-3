@@ -2,14 +2,14 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, map, tap } from 'rxjs';
 import { iRecipe } from '../Models/i-recipe';
+import { iIngredient } from '../Models/i-ingredient';
 
 @Injectable({
   providedIn: 'root'
 })
 export class RecipeService {
   private recipesUrl = 'http://localhost:3000/ricette';
-  private ingredientsUrl = 'http://localhost:3000/ingredients'
-
+  private ingredientsUrl="http://localhost:3000/ingredients"
 
   constructor(private http: HttpClient) {}
 
@@ -39,5 +39,7 @@ export class RecipeService {
       )
     }
 
-
+    getIngredients(){
+      return this.http.get<iIngredient[]>(this.ingredientsUrl)
+    }
 }

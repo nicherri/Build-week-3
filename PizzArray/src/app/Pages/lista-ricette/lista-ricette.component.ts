@@ -12,7 +12,7 @@ import { RecipeService } from '../../services/recipe.service';
 export class ListaRicetteComponent {
 
   recipe: iRecipe[] = [];
-  ingrediente: string = 'pomodoro';  // esempio di ingrediente da cercare
+  ingrediente: string = 'formaggio';  // esempio di ingrediente da cercare
 
   constructor(private recipeService: RecipeService) { }
 
