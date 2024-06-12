@@ -3,6 +3,7 @@
   data-bs-theme="dark"
 >
   <div class="container-fluid">
+<<<<<<< Updated upstream
     <div>
       <a routerLink="" class="d-flex" id="styleLogo">
         <img src="../../../assets/Img/Logo (2).png" alt="Logo" />
@@ -62,6 +63,91 @@
           ></a>
         </li>
       </ul>
+=======
+    <div class="d-flex justify-content-between w-100">
+      <!-- Logo e bottone di toggling -->
+      <div class="d-flex align-items-center">
+        <a routerLink="" class="d-flex" id="styleLogo">
+          <img src="../../../assets/Img/Logo (2).png" alt="Logo" class="navbar-brand">
+        </a>
+        <button (click)="toggleShow()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <!-- Collegamenti della Navbar -->
+      <div class="collapse navbar-collapse" [ngClass]="{'show': show}" id="navbarSupportedContent">
+        <div class="d-lg-flex justify-content-between w-100">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" routerLink="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="" routerLinkActive="">Ingredienti</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="" routerLinkActive="">Preferiti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="" routerLinkActive="">Lista della Spesa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="crea-ricetta" routerLinkActive="">Crea Ricetta</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Search e Login -->
+      <div class="d-flex align-items-center">
+        <a *ngIf="!showSearchForm" class="nav-link text-white me-3" href="#" (click)="toggleSearchForm($event)"><i class="bi bi-search"></i></a>
+        <div *ngIf="showSearchForm" id="searchExpanded" class="d-flex justify-content-between align-items-center w-100">
+          <form class="d-flex w-100" id="searchForm" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <a class="nav-link text-white" href="#" (click)="toggleSearchForm($event)" id="returnButton"><i class="bi bi-arrow-return-left"></i></a>
+        </div>
+        <button class="btn d-flex align-items-center" (click)="open(content)">
+          <i class="bi bi-person-circle me-2"></i>
+        </button>
+      </div>
+>>>>>>> Stashed changes
     </div>
   </div>
+
+<!-- Modale -->
+<ng-template #content let-modal>
+  <div class="modal-content modal-custom-bg">
+    <div class="modal-header">
+      <h4 class="modal-title text-dark" id="modal-basic-title">Accedi o Registrati</h4>
+      <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="mb-3">
+          <div class="row justify-content-center">
+            <div class="col-6 d-flex flex-column justify-content-between text-center">
+              <div>
+                <h4>Accedi</h4>
+                <input class="form-control mb-2" type="email" name="email" placeholder="Inserisci la tua email" [(ngModel)]="authData.email" style="max-width: 100%;">
+                <input class="form-control mb-2" type="password" name="password" placeholder="Inserisci la tua password" [(ngModel)]="authData.password" style="max-width: 100%;">
+              </div>
+              <button (click)="login()" (click)="modal.close('Save click')" type="button" class="btn bg-blue mt-3">Login</button>
+            </div>
+            <div class="col-6 d-flex flex-column align-items-center justify-content-center text-center">
+              <div>
+                <h4>Registrati</h4>
+                <button routerLink="register" class="btn bg-blue mt-3" type="button" (click)="modal.close('Save click')">Crea un nuovo account</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer"></div>
+  </div>
+</ng-template>
 </nav>

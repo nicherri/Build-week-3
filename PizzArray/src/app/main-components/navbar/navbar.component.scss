@@ -13,8 +13,30 @@
 
 .bi-person-circle{
 font-size: 2rem;
+color: white;
 }
 
 .bi-arrow-return-left{
   font-size: 1.5rem;
 }
+
+span {
+  font-size: 20px;
+}
+
+.bi-person-circle:hover {
+  color: #A3D4EE;
+}
+
+.modal-custom-bg {
+  background-color: rgb(185, 185, 185) !important;
+  color: #181818; // Per assicurarsi che il testo sia leggibile
+}
+
+input {
+  border-color: #A3D4EE;
+  border-width: 3px;
+}
+
+
+
