@@ -1,22 +1,29 @@
 <div class="container">
-  <h1 class="text-orange my-2">Le nostre migliori ricette</h1>
+  <h1 class="text-orange my-2">
+    Le nostre migliori ricette con {{ ingredient }}
+  </h1>
   <div class="row">
     <div class="col-12 mt-3" *ngFor="let r of recipe">
       <div class="card mb-3 rounded-5 overflow-hidden">
         <div class="row no-gutters">
           <div class="col-md-8 d-flex align-items-center">
             <div class="card-body">
-              <h3
-                class="card-title text-orange"
+              <a
+                class="card-title text-orange h3"
                 [routerLink]="['/ricetta', r.id]"
               >
                 {{ r.nome_ricetta }}
-              </h3>
+              </a>
               <p>Difficoltà: {{ r.difficolta }}</p>
               <p>Tempo di preparazione: {{ r.tempo_preparazione }} min</p>
               <div class="d-flex flex-wrap">
                 <ul *ngFor="let i of r.ingredienti">
-                  <li class="list-unstyled">{{ i.ingrediente }}</li>
+                  <li
+                    class="list-unstyled"
+                    (click)="navigateToIngredient(i.ingrediente)"
+                  >
+                    {{ i.ingrediente }}
+                  </li>
                 </ul>
               </div>
             </div>
