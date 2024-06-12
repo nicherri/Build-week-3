@@ -86,117 +86,54 @@
   </form>
 </div>
 
-<div class="container">
+<<div class="container">
   <div class="row">
     <div class="col-12 d-flex justify-content-between">
       <h2 class="text-orange">Ingredienti</h2>
-      <a href="#" class="text-blue text-decoration-none"
-        >Mostra tutti gli ingredienti</a
-      >
+      <a href="#" class="text-blue text-decoration-none">Mostra Tutti </a>
     </div>
     <div class="col-12 d-flex flex-column flex-md-row mt-3">
-      <div class="col-4">
+      <div *ngFor="let ingredient of randomIngredients" class="col-6 col-lg-3 ms-auto me-auto justify-content-lg-around">
+        <a [routerLink]="['/lista-ricette', ingredient.ingrediente]" class="text-decoration-none">
         <div class="card bg-transparent dimensioneIngredienti">
           <img
-            src="https://www.carrefour.it/on/demandware.static/-/Sites-carrefour-master-catalog-IT/default/dw1af8ef87/large/OLIODICOCCOBIO-8058333350271-1.png"
+            [src]="ingredient.immagine"
             class="card-img-top"
-            alt="..."
+            alt="{{ ingredient.ingrediente }}"
           />
           <div class="card-body">
-            <h5 class="card-title text-orange">Card title</h5>
-
-            <a href="#" class="btn bg-blue">Ricette</a>
+            <h5 class="card-title text-orange">{{ ingredient.ingrediente }}</h5>
           </div>
-        </div>
+        </div></a>
       </div>
-      <div class="col-4">
-        <div class="card dimensioneIngredienti bg-transparent" >
+    </div>
+  </div>
+</div>
+
+
+<<div class="container my-5">
+  <div class="row">
+    <h2 class="text-orange">Le Top ricette di oggi</h2>
+    <div class="col-12 d-flex flex-column flex-md-row mt-3">
+      <div *ngFor="let recipe of randomRecipes" class="col-4">
+        <div class="card" style="width: 18rem">
           <img
-            src="https://www.madiventura.it/pages/wp-content/uploads/2019/01/fico.png"
+            [src]="recipe.immagine"
             class="card-img-top"
-            alt="..."
+            alt="{{ recipe.nome_ricetta }}"
           />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-
-            <a href="#" class="btn bg-blue">Ricette</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card dimensioneIngredienti bg-transparent">
-          <img
-            src="https://www.orto.it/148/img/zucca-la-dolcissima_oit_12270.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-
-            <a href="#" class="btn bg-blue">Ricette</a>
+            <h5 class="card-title">{{ recipe.nome_ricetta }}</h5>
+            <p class="card-text">
+              {{ recipe.preparazione | slice:0:100 }}...
+            </p>
+            <a href="#" class="btn bg-blue">Vai alla ricetta</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-<div class="container my-5">
-  <div class="row">
-    <h2 class="text-orange">Le Top ricette di oggi</h2>
-    <div class="col-12 d-flex flex-column flex-md-row mt-3">
-      <div class="col-4">
-        <div class="card" style="width: 18rem">
-          <img
-            src="https://www.nordal.it/wp-content/uploads/2021/07/paella_piatto_spagnolo_blog_960x640.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn bg-blue">Vai alla ricetta</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn bg-blue">Vai alla ricetta</a>
-          </div>
-          <img
-            src="https://osteriaromana.it/wp-content/uploads/2017/03/piatti-romani-ricette-lasagne.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card" style="width: 18rem">
-          <img
-            src="https://wips.plug.it/cips/buonissimo.org/cms/2017/10/la-cucina-lombarda-le-ricette-tipiche.jpg?w=713&a=c&h=407"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn bg-blue">Vai alla ricetta</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<div>
   <a routerLink="/lista-ricette" class="text-orange">lista ricette</a>
 </div>
