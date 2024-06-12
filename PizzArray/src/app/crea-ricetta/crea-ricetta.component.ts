@@ -1,9 +1,10 @@
+
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray } from '@angular/forms';
 import { RecipeService } from '../services/recipe.service';
-import { iRecipe, Ingredienti } from '../Models/i-recipe';
+import { Ingredienti, iRecipe } from '../Models/i-recipe';
 import { ChangeDetectorRef } from '@angular/core';
-import { Observable, forkJoin } from 'rxjs';
+import { iIngredient } from '../Models/i-ingredient';
 
 @Component({
   selector: 'app-crea-ricetta',
@@ -44,14 +45,13 @@ export class CreaRicettaComponent implements OnInit {
   }
 
   onSubmit() {
-    const recipe: iRecipe = this.recipeForm.value;
-    this.addRecipe(recipe);
-  }
+    // Get the recipe details from the form
+    const recipe: iRecipe = { ...this.recipeForm.value };
 
-  addRecipe(recipe: iRecipe) {
+    // Combine the recipe and ingredients into one request
     this.recipeService.addRecipe(recipe).subscribe(
-      response => {
-        console.log('Recipe added successfully:', response);
+      (addedRecipe: iRecipe) => {
+        console.log('Recipe added successfully:', addedRecipe);
       },
       error => {
         console.error('Error adding recipe:', error);
@@ -59,33 +59,34 @@ export class CreaRicettaComponent implements OnInit {
     );
   }
 
-  ngOnInit(): void {/*
+  ngOnInit(): void {
     this.recipeService.getIngredients().subscribe(
-      (ingredients: Ingredienti[]) => {
+      (ingredients: any[]) => {
         this.existingIngredients = ingredients.map(ing => ing.ingrediente.toLowerCase());
         this.cdr.detectChanges();
       },
       error => {
         console.error('Error fetching ingredients:', error);
       }
-    ); */
+    );
   }
 
-  suggestions: { [index: number]: string[] } = {};
+  suggestions: { [index: number]: string[] } = {}
 
-onIngredientInput(event: any, index: number) {
-  const input = event.target.value;
-  this.suggestions[index] = this.getFilteredIngredients(input);
-}
+  onIngredientInput(event: any, index: number) {
+    const input = event.target.value;
+    this.suggestions[index] = this.getFilteredIngredients(input);
+  }
 
-selectSuggestion(suggestion: string, index: number) {
-  const ingredientControl = this.ingredienti.at(index);
-  ingredientControl.patchValue({ ingrediente: suggestion });
-  this.suggestions[index] = []; // Clear suggestions
-}
+  selectSuggestion(suggestion: string, index: number) {
+    const ingredientControl = this.ingredienti.at(index);
+    ingredientControl.patchValue({ ingrediente: suggestion });
+    this.suggestions[index] = []; // Clear suggestions
+  }
 
   getFilteredIngredients(name: string): string[] {
     return this.existingIngredients.filter(ingredient =>
-      ingredient.includes(name.toLowerCase()));
+      ingredient.includes(name.toLowerCase())
+    );
   }
 }
