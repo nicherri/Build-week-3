@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ListaRicetteComponent } from './Pages/lista-ricette/lista-ricette.component';
 import { ListaIngredientiComponent } from './Pages/lista-ingredienti/lista-ingredienti.component';
+import { RicettaComponent } from './Pages/ricetta/ricetta.component';
 
 const routes: Routes = [
   { path: 'auth', loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule) },
@@ -12,6 +13,9 @@ const routes: Routes = [
    },
   { path: 'lista-ingredienti',
     component: ListaIngredientiComponent
+   },
+   {path:"ricetta/:id",
+    component:RicettaComponent
    },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', redirectTo: '/home' }

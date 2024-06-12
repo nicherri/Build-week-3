@@ -12,10 +12,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ListaRicetteComponent } from './Pages/lista-ricette/lista-ricette.component';
 import { ListaIngredientiComponent } from './Pages/lista-ingredienti/lista-ingredienti.component';
+import { RicettaComponent } from './Pages/ricetta/ricetta.component';
 
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, FooterComponent,ListaRicetteComponent, ListaIngredientiComponent],
+  declarations: [AppComponent, NavbarComponent, FooterComponent,ListaRicetteComponent, ListaIngredientiComponent, RicettaComponent],
   imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule, CreaRicettaModule, FormsModule,CommonModule],
 
   providers: [],
