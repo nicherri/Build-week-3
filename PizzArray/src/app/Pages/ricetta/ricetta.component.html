@@ -31,12 +31,23 @@
         </div>
       </div>
       <h2 class="text-orange my-5">Ingredienti</h2>
-      <div class="col-6">
-        <ul *ngIf="ricetta?.ingredienti">
-          <li *ngFor="let i of ricetta?.ingredienti" class="text-blue my-2">
-            {{ i.ingrediente }} - {{ i.quantita }}
-          </li>
-        </ul>
+      <div class="col-12 d-flex">
+        <div class="col-6">
+          <div class="col-6 ps-3">
+            <ul *ngIf="ricetta?.ingredienti">
+              <li *ngFor="let i of ricetta?.ingredienti" class="text-blue my-2">
+                {{ i.ingrediente }} - {{ i.quantita }}
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-4">
+          <img
+            src="https://static.vecteezy.com/ti/vettori-gratis/p3/17722096-cucinando-cucina-cucina-logo-ristorante-menu-bar-commensale-etichetta-logo-disegno-vettore-illustrazione-gratuito-vettoriale.jpg"
+            alt=""
+            class="img-fluid ps-5 pt-4"
+          />
+        </div>
       </div>
 
       <h2 class="text-orange mt-5">Preparazione</h2>
