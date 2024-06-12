@@ -1,1 +1,48 @@
-<p class="text-orange">{{ ricetta?.nome_ricetta }}</p>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 class="text-orange my-5 text-center">
+        {{ ricetta?.nome_ricetta }}
+      </h1>
+      <div class="col-12 d-flex fs-3">
+        <div class="col-6">
+          <img src="{{ ricetta?.immagine }}" alt="" class="img-fluid" />
+        </div>
+        <div class="col-6 ps-4 pt-5">
+          <p class="text-orange">
+            Difficoltà: <span class="text-blue">{{ ricetta?.difficolta }}</span>
+          </p>
+          <p class="text-orange">
+            <i class="bi bi-alarm-fill text-orange"></i>
+            Tempo preparazione:
+            <span class="text-blue"> {{ ricetta?.tempo_preparazione }}</span>
+            min.
+          </p>
+          <p class="text-orange">
+            <i class="bi bi-cake2-fill text-orange"></i>
+            Dosi per
+            <span class="text-blue"> {{ ricetta?.porzioni }}</span> persone
+          </p>
+          <p class="text-orange">
+            <i class="bi bi-aspect-ratio-fill text-orange"></i>
+            Tempo cottura
+            <span class="text-blue"> {{ ricetta?.tempo_cottura }}</span> min.
+          </p>
+        </div>
+      </div>
+      <h2 class="text-orange my-5">Ingredienti</h2>
+      <div class="col-6">
+        <ul *ngIf="ricetta?.ingredienti">
+          <li *ngFor="let i of ricetta?.ingredienti" class="text-blue my-2">
+            {{ i.ingrediente }} - {{ i.quantita }}
+          </li>
+        </ul>
+      </div>
+
+      <h2 class="text-orange mt-5">Preparazione</h2>
+      <div class="col mt-3">
+        <p class="text-blue fs-5">{{ ricetta?.preparazione }}</p>
+      </div>
+    </div>
+  </div>
+</div>
