@@ -35,8 +35,8 @@ select {
 button {
   margin-top: 20px;
   padding: 10px;
-  background-color: #4CAF50; // Green background color
-  color: white;
+
+  color: black;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -44,7 +44,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #7ac4eb;
 }
 
 .ingredient-item {
@@ -60,7 +60,7 @@ button:hover {
 
 .ingredient-item button {
   padding: 5px 10px;
-  background-color: #e74c3c; // Red background color
+  background-color: #f26419; // Red background color
   color: white;
   border: none;
   border-radius: 4px;

@@ -1,69 +1,58 @@
-<nav
-  class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-body"
-  data-bs-theme="dark"
->
+<nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
   <div class="container-fluid">
-    <div>
-      <a routerLink="" class="d-flex" id="styleLogo">
-        <img src="../../../assets/Img/Logo (2).png" alt="Logo" />
-      </a>
-    </div>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse show" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link text-orange" routerLink="">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-orange" routerLink="" routerLinkActive=""
-            >Ingredienti</a
-          >
-        </li>
-      </ul>
-      <ul class="text-white d-lg-flex list-unstyled align-items-center">
-        <li class="nav-item">
-          <a class="nav-link me-3 text-blue" routerLink="" routerLinkActive=""
-            >Preferiti</a
-          >
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link me-3 text-blue" routerLink="" routerLinkActive=""
-            >Lista della Spesa</a
-          >
-        </li>
-
-        <li class="nav-item">
-          <a
-            class="nav-link me-3 text-blue"
-            routerLink="crea-ricetta"
-            routerLinkActive=""
-            >Crea Ricetta</a
-          >
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link me-3" routerLink="" routerLinkActive=""
-            ><i class="bi bi-search text-blue"></i
-          ></a>
-        </li>
-
-        <li class="nav-item me-3">
-          <a class="nav-link" routerLink="auth" routerLinkActive=""
-            ><i class="bi bi-person-circle text-blue"></i
-          ></a>
-        </li>
-      </ul>
+    <div class="container-fluid flex-nowrap d-flex justify-content-between">
+      <div *ngIf="!showSearchForm || !isMobile" class="d-lg-flex justify-content-start align-self-center flex-grow-1">
+        <div class="d-flex">
+          <a routerLink="" class="d-flex" id="styleLogo">
+            <img src="../../../assets/Img/Logo (2).png" alt="Logo">
+          </a>
+          <button (click)="toggleShow()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" [ngClass]="{'show': show}" id="navbarSupportedContent">
+          <div class="d-lg-flex justify-content-between flex-grow-1">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between">
+              <li class="nav-item">
+                <a class="nav-link active" routerLink="">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="" routerLinkActive="">Ingredienti</a>
+              </li>
+            </ul>
+            <ul class="d-lg-flex navbar-nav list-unstyled">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="" routerLinkActive="">Preferiti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="" routerLinkActive="">Lista della Spesa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="crea-ricetta" routerLinkActive="">Crea Ricetta</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center" id="iconComportamente">
+        <a *ngIf="!showSearchForm" class="nav-link text-white me-3 mt-2" href="#" (click)="toggleSearchForm($event)"><i class="bi bi-search"></i></a>
+        <div *ngIf="showSearchForm" id="searchExpanded" class="d-flex justify-content-between align-items-center w-100">
+          <form class="d-flex w-100" id="searchForm" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <a class="nav-link text-white" href="#" (click)="toggleSearchForm($event)" id="returnButton"><i class="bi bi-arrow-return-left"></i></a>
+        </div>
+        <div *ngIf="!showSearchForm || !isMobile" class="dropdown-center">
+          <button class="btn btn-secondary dropdown-toggle bg-transparent border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle me-3"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="">Registrati</a></li>
+            <li><a class="dropdown-item" routerLink="">Accedi</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </nav>
