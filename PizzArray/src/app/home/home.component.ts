@@ -14,6 +14,7 @@ export class HomeComponent implements OnInit {
   randomIngredients: iIngredient[] = [];
   recipes: iRecipe[] = [];
   randomRecipes: iRecipe[] = [];
+  cerca:string=""
 
   private recipesUrl = 'http://localhost:3000/ricette'; // Assicurati che questo URL sia corretto
 

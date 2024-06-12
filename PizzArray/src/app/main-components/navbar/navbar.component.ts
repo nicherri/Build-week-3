@@ -20,6 +20,7 @@ export class NavbarComponent implements AfterViewInit {
   show: boolean = false;
   showSearchForm: boolean = false;
   isMobile: boolean = window.innerWidth <= 500;
+  cerco:string=""
 
   constructor(private authSvc: AuthService, private router: Router) {}
 
