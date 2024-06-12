@@ -8,6 +8,8 @@ import { iRecipe } from '../Models/i-recipe';
 })
 export class RecipeService {
   private recipesUrl = 'http://localhost:3000/ricette';
+  private ingredientsUrl = 'http://localhost:3000/ingredients'
+
 
   constructor(private http: HttpClient) {}
 
@@ -36,4 +38,6 @@ export class RecipeService {
         ))
       )
     }
+
+
 }
