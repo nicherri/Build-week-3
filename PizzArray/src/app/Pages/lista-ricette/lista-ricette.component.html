@@ -1,28 +1,49 @@
 <div class="container">
-  <h1 class="text-orange my-2">
+  <h1 class="text-orange my-4">
     Le nostre migliori ricette con {{ ingredient }}
   </h1>
   <div class="row">
-    <div class="col-12 mt-3" *ngFor="let r of recipe">
+    <div class="col-12 mt-3" *ngFor="let r of recipe; let i = index">
       <div class="card mb-3 rounded-5 overflow-hidden">
-        <div class="row no-gutters">
-          <div class="col-md-8 d-flex align-items-center">
-            <div class="card-body">
+        <div
+          class="row no-gutters"
+          [ngClass]="{
+      'inverti': i % 2 === 0,
+    }"
+        >
+          <div class="col-md-8">
+            <div
+              class="card-body h-100 d-flex flex-column justify-content-around ms-2"
+            >
               <a
-                class="card-title text-orange h3"
+                class="card-title text-orange fst-italic text-decoration-none h3"
                 [routerLink]="['/ricetta', r.id]"
               >
                 {{ r.nome_ricetta }}
               </a>
-              <p>Difficoltà: {{ r.difficolta }}</p>
-              <p>Tempo di preparazione: {{ r.tempo_preparazione }} min</p>
-              <div class="d-flex flex-wrap">
-                <ul *ngFor="let i of r.ingredienti">
+              <p>
+                Difficoltà:
+                <span class="text-blue fst-italic fw-medium">{{
+                  r.difficolta
+                }}</span>
+              </p>
+              <p>
+                Tempo di preparazione:
+                <span class="text-blue fst-italic fw-medium"
+                  >{{ r.tempo_preparazione }} min</span
+                >
+              </p>
+              <div>
+                <ul class="ps-0 d-flex flex-wrap px-1 mb-0 lh-lg">
                   <li
-                    class="list-unstyled"
-                    (click)="navigateToIngredient(i.ingrediente)"
+                    class="list-unstyled me-3"
+                    *ngFor="let i of r.ingredienti"
                   >
-                    {{ i.ingrediente }}
+                    <span
+                      class="ingrediente"
+                      (click)="navigateToIngredient(i.ingrediente)"
+                      >{{ i.ingrediente }}</span
+                    >
                   </li>
                 </ul>
               </div>
