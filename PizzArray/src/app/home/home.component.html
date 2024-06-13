@@ -69,8 +69,7 @@
   </button>
 </div>
 
-
-<div class="my-5 p-5">
+<div class="my-5">
   <h2 class="text-orange">Non buttare via, cucina con noi!</h2>
   <p class="text-white">
     Hai degli ingredienti che non sai come utilizzare? Non buttarli via!
@@ -78,9 +77,9 @@
     gustosa e creativa per trasformarli in un piatto delizioso. Combattiamo lo
     spreco alimentare insieme, una ricetta svuota frigo alla volta!
   </p>
-  <form class="d-flex" role="search">
+  <form class="d-md-flex justify-content-center text-center" role="search">
     <input
-      class="form-control me-2 w-50"
+      class="form-control me-2 w-md-50"
       type="text"
       name="cerca"
       placeholder="Cerca ricette per ingrediente"
@@ -91,37 +90,35 @@
   </form>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-12 d-flex justify-content-between">
-      <h2 class="text-orange">Ingredienti</h2>
-      <a class="text-blue text-decoration-none" routerLink="/lista-ingredienti"
-        >Mostra Tutti
-      </a>
-    </div>
-    <div class="col-12 d-flex flex-column flex-md-row mt-3">
-      <div
-        *ngFor="let ingredient of randomIngredients"
-        class="col-6 col-lg-3 ms-auto me-auto justify-content-lg-around"
+<div class="row">
+  <div class="col-12 d-flex justify-content-between">
+    <h2 class="text-orange">Ingredienti</h2>
+    <a class="text-blue text-decoration-none" routerLink="/lista-ingredienti"
+      >Mostra Tutti
+    </a>
+  </div>
+  <div class="col-12 d-flex flex-column flex-md-row mt-3">
+    <div
+      *ngFor="let ingredient of randomIngredients"
+      class="col-6 col-lg-3 ms-auto me-auto justify-content-lg-around"
+    >
+      <a
+        [routerLink]="['/lista-ricette', ingredient.ingrediente]"
+        class="text-decoration-none"
       >
-        <a
-          [routerLink]="['/lista-ricette', ingredient.ingrediente]"
-          class="text-decoration-none"
-        >
-          <div class="card bg-transparent dimensioneIngredienti border-0">
-            <img
-              [src]="ingredient.immagine"
-              class="card-img-top"
-              alt="{{ ingredient.ingrediente }}"
-            />
-            <div class="card-body">
-              <h5 class="card-title text-orange">
-                {{ ingredient.ingrediente }}
-              </h5>
-            </div>
-          </div></a
-        >
-      </div>
+        <div class="card bg-transparent dimensioneIngredienti border-0">
+          <img
+            [src]="ingredient.immagine"
+            class="card-img-top"
+            alt="{{ ingredient.ingrediente }}"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-orange">
+              {{ ingredient.ingrediente }}
+            </h5>
+          </div>
+        </div></a
+      >
     </div>
   </div>
 </div>
