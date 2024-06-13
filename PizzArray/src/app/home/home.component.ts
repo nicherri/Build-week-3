@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
     // Ottieni le ricette
     this.getAllRecipes().subscribe((data: iRecipe[]) => {
       this.recipes = data;
-      this.randomRecipes = this.getRandomRecipes(4);
+      this.randomRecipes = this.getRandomRecipes(3);
     });
   }
 
