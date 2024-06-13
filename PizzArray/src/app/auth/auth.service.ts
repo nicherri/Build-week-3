@@ -14,8 +14,9 @@ export class AuthService {
   constructor(
     private http: HttpClient,
     private router: Router,
-
-  ) {}
+  ) {
+    this.loggedUser();
+  }
 
   loginURL: string = 'http://localhost:3000/login';
   registerURL: string = 'http://localhost:3000/register';
@@ -26,72 +27,67 @@ export class AuthService {
 
   syncIsLoggedIn: boolean = false;
 
-
-
-  //LOGIN
+  // Observables for user and login state
   user$ = this.authSbj.asObservable();
   isLoggedIn$ = this.user$.pipe(
-    map((user) => !user),
-    tap((user) => (this.syncIsLoggedIn = user))
+    map((user) => !!user),  // Map to true if user is not null
+    tap((isLoggedIn) => (this.syncIsLoggedIn = isLoggedIn))  // Sync the login state
   );
 
-  //REGISTRAZIONE
+  // Registration
   register(newUser: Partial<iUser>): Observable<iResponse> {
     return this.http.post<iResponse>(this.registerURL, newUser);
   }
 
-  // LOGIN UTENTE
+  // Login
   login(authData: iAuthData): Observable<iResponse> {
     return this.http.post<iResponse>(this.loginURL, authData).pipe(
       tap((dati) => {
-        this.authSbj.next(dati.user),
-          localStorage.setItem('accessData', JSON.stringify(dati));
+        this.authSbj.next(dati.user);
+        localStorage.setItem('accessData', JSON.stringify(dati));
         this.syncIsLoggedIn = true;
+        this.autoLogOut();
       })
     );
   }
 
-  // OTTENERE I DATI DELL'UTENTE LOGGATO
+  // Get logged user data
   getLoggedUser(): iResponse | null {
     const getAccessData = localStorage.getItem('accessData');
-
-    if (!getAccessData) return null; // Non esiste
-    const accessData = JSON.parse(getAccessData);
-    return accessData; // Esiste
+    if (!getAccessData) return null;
+    return JSON.parse(getAccessData);
   }
 
-  //RECUPERA DATI PER RIMANERE LOGGATO
+  // Check if user is logged in and set user state
   loggedUser() {
     const accessData = this.getLoggedUser();
-    if (!accessData) return; // Utente non loggato
-    if (this.jwtHelper.isTokenExpired(accessData.token)) return; // Token scaduto
-    this.authSbj.next(accessData.user); // Utente loggato
-    // Avvio timer per auto logout
+    if (!accessData) return;
+
+    const token = accessData.token;
+    if (this.jwtHelper.isTokenExpired(token)) return;
+
+    this.authSbj.next(accessData.user);
     this.autoLogOut();
   }
 
-
-
-  // LOGOUT AUTOMATICO ALLO SCADERE DEL TOKEN
+  // Set auto logout timer
   autoLogOut(): void {
     const accessData = this.getLoggedUser();
-    if (!accessData) return; // Utente non loggato
+    if (!accessData) return;
 
-    //Quando scade il token
-    const expired = this.jwtHelper.getTokenExpirationDate(
-      accessData.token
-    ) as Date;
+    const token = accessData.token;
+    const expirationDate = this.jwtHelper.getTokenExpirationDate(token);
+    if (!expirationDate) return;
 
-    const expiredMilliseconds = expired.getTime() - new Date().getTime();
-
-    setTimeout(this.logout, expiredMilliseconds);
+    const expirationMilliseconds = expirationDate.getTime() - new Date().getTime();
+    setTimeout(() => this.logout(), expirationMilliseconds);
   }
 
-//  LOGOUT
-logout(): void {
-  this.authSbj.next(null);
-  localStorage.removeItem('accessData');
-  this.syncIsLoggedIn = false;
-  this.router.navigate(['/']);
-}
+  // Logout
+  logout(): void {
+    this.authSbj.next(null);
+    localStorage.removeItem('accessData');
+    this.syncIsLoggedIn = false;
+    this.router.navigate(['/']);
+  }
 }
