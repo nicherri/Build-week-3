@@ -108,7 +108,7 @@
           [routerLink]="['/lista-ricette', ingredient.ingrediente]"
           class="text-decoration-none"
         >
-          <div class="card bg-transparent dimensioneIngredienti">
+          <div class="card bg-transparent dimensioneIngredienti border-0">
             <img
               [src]="ingredient.immagine"
               class="card-img-top"
@@ -127,28 +127,43 @@
 </div>
 
 <div class="container my-5">
-  <div class="row">
+  <div class="row gy-4">
     <h2 class="text-orange">Le Top ricette di oggi</h2>
-    <div class="col-12 d-flex flex-column flex-md-row mt-3">
-      <div *ngFor="let recipe of randomRecipes" class="col-4">
-        <div class="card" style="width: 18rem">
-          <img
-            [src]="recipe.immagine"
-            class="card-img-top"
-            alt="{{ recipe.nome_ricetta }}"
-          />
-          <div class="card-body">
-            <h5 class="card-title">{{ recipe.nome_ricetta }}</h5>
-            <p class="card-text">
-              {{ recipe.preparazione | slice : 0 : 100 }}...
-            </p>
-            <a [routerLink]="['/dettaglio-ricetta', recipe.id]" class="btn bg-blue">Vai alla ricetta</a>
-          </div>
+
+    <div
+      *ngFor="let recipe of randomRecipes; let i = index"
+      class="col-12 col-md-4"
+      [ngClass]="{
+        'col-lg-3': i<1 || i>1,
+        'col-lg-6': i === 1,
+      }"
+    >
+      <div
+        class="card ricetta mb-3 rounded-5 overflow-hidden"
+        [routerLink]="['/ricetta', recipe.id]"
+        [ngClass]="{ 'special-card': i === 1 }"
+      >
+        <img
+          [src]="recipe.immagine"
+          class="card-img-top immagine"
+          alt="{{ recipe.nome_ricetta }}"
+        />
+        <div class="card-body d-flex flex-column justify-content-around">
+          <h5 class="card-title text-orange">{{ recipe.nome_ricetta }}</h5>
+          <p>
+            Difficoltà:
+            <span class="text-blue fst-italic fw-medium">
+              {{ recipe.difficolta }}</span
+            >
+          </p>
+          <p>
+            Tempo di preparazione:
+            <span class="text-blue fst-italic fw-medium">
+              {{ recipe.tempo_preparazione }} min</span
+            >
+          </p>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div>
-  <a routerLink="/lista-ricette" class="text-orange">lista ricette</a>
 </div>
