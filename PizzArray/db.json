@@ -4835,146 +4835,21 @@
       "portata": "dolce"
     },
     {
-      "nome_ricetta": "",
-      "immagine": "",
+      "nome_ricetta": "prova3",
+      "immagine": "https://i.pinimg.com/originals/08/07/d8/0807d8f3334a8e3d545734c4f6a621e4.jpg",
       "ingredienti": [
         {
-          "ingrediente": "",
-          "quantita": ""
-        }
-      ],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 101
-    },
-    {
-      "nome_ricetta": "prova2",
-      "immagine": "",
-      "ingredienti": [
-        {
-          "ingrediente": "sassi",
-          "quantita": "3"
-        },
-        {
-          "ingrediente": "calze",
-          "quantita": "2"
+          "ingrediente": "sedano",
+          "quantita": "1"
         }
       ],
       "tempo_preparazione": 3,
-      "tempo_cottura": 1,
-      "porzioni": 6,
-      "difficolta": "Medium",
-      "preparazione": "sdfsdfddsfsdf",
-      "portata": "dolce",
-      "id": 102
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 103
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [
-        {
-          "ingrediente": "sale",
-          "quantita": "q.b."
-        }
-      ],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 104
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 105
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [
-        {
-          "ingrediente": "sale",
-          "quantita": ""
-        }
-      ],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 106
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 107
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [
-        {
-          "ingrediente": "sassi",
-          "quantita": ""
-        }
-      ],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 108
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [
-        {
-          "ingrediente": "miao",
-          "quantita": ""
-        }
-      ],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 109
+      "tempo_cottura": 2,
+      "porzioni": 2,
+      "difficolta": "media",
+      "preparazione": "r",
+      "portata": "fdfgfg",
+      "id": 113
     }
   ],
   "ingredients": [
@@ -5489,7 +5364,6 @@
       "immagine": "https://www.formagginorcia.it/wp-content/uploads/2020/05/pecorino-fresco-pixel.jpg"
     }
   ],
-
   "users": [
     {
       "email": "mario@email.it",
@@ -5502,7 +5376,12 @@
       "password": "$2a$10$1bLNOpsG5sZz.fqhaumTEOQOUMl.H/FHIqcYgVh9QaeXbkBjcKVY6",
       "nome": "Luca",
       "id": 2
+    },
+    {
+      "email": "a@a.a",
+      "password": "$2a$10$Aw1Cy5TGSQMUb5NeekyDq.DZxSSmWnvpq6OPakHipnk/fQNCClArK",
+      "nome": "a",
+      "id": 3
     }
   ]
 }
-

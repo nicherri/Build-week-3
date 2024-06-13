@@ -70,3 +70,18 @@ button:hover {
 .ingredient-item button:hover {
   background-color: #c0392b;
 }
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding-left: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+li:hover {
+  background-color: #f0f0f0; /* Light grey background on hover */
+}
