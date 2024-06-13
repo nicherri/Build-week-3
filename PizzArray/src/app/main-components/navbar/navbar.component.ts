@@ -85,4 +85,13 @@ export class NavbarComponent implements AfterViewInit {
       new bootstrap.Dropdown(dropdownToggleEl);
     });
   }
+
+  get isUserLoggedIn(): boolean {
+    return this.authSvc.syncIsLoggedIn;
+  }
+
+  logout(): void {
+    this.authSvc.logout();
+    this.router.navigate(['/']);
+  }
 }

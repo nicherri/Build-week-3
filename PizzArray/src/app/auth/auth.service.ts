@@ -46,6 +46,7 @@ export class AuthService {
       tap((dati) => {
         this.authSbj.next(dati.user),
           localStorage.setItem('accessData', JSON.stringify(dati));
+        this.syncIsLoggedIn = true;
       })
     );
   }
@@ -69,12 +70,7 @@ export class AuthService {
     this.autoLogOut();
   }
 
-  //  LOGOUT
-  logout(): void {
-    this.authSbj.next(null);
-    localStorage.removeItem('accessData');
-    this.router.navigate(['/auth/login']);
-  }
+
 
   // LOGOUT AUTOMATICO ALLO SCADERE DEL TOKEN
   autoLogOut(): void {
@@ -91,5 +87,11 @@ export class AuthService {
     setTimeout(this.logout, expiredMilliseconds);
   }
 
-
+//  LOGOUT
+logout(): void {
+  this.authSbj.next(null);
+  localStorage.removeItem('accessData');
+  this.syncIsLoggedIn = false;
+  this.router.navigate(['/']);
+}
 }

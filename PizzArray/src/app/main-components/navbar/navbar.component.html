@@ -47,21 +47,27 @@
               >
             </li>
           </ul>
-          <ul class="navbar-nav mb-2 mb-lg-0">
+          <ul *ngIf="isUserLoggedIn" class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link text-blue" routerLink="" routerLinkActive=""
                 >Preferiti</a
               >
             </li>
-            <li class="nav-item">
+            <li *ngIf="isUserLoggedIn" class="nav-item">
               <a class="nav-link text-blue" routerLink="" routerLinkActive=""
                 >Lista della Spesa</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-blue" routerLink="/crea-ricetta" routerLinkActive=""
+            <li *ngIf="isUserLoggedIn" class="nav-item">
+              <a
+                class="nav-link text-blue"
+                routerLink="/crea-ricetta"
+                routerLinkActive=""
                 >Crea Ricetta</a
               >
+            </li>
+            <li *ngIf="isUserLoggedIn" class="nav-item">
+              <a (click)="logout()" class="nav-link text-danger">Logout</a>
             </li>
           </ul>
         </div>
