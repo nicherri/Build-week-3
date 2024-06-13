@@ -80,7 +80,7 @@
           class="nav-link text-white me-3"
           href="#"
           (click)="toggleSearchForm($event)"
-          ><i class="bi bi-search"></i
+          ><i class="bi bi-search text-blue"></i
         ></a>
         <div
           *ngIf="showSearchForm"
@@ -96,7 +96,9 @@
               aria-label="Search"
               [(ngModel)]="cerco"
             />
-            <a class="btn bg-blue" [routerLink]="['/lista-ricette', cerco]"
+            <a
+              class="btn bg-blue text-dark"
+              [routerLink]="['/lista-ricette', cerco]"
               >Cerca</a
             >
           </form>
@@ -105,11 +107,11 @@
             href="#"
             (click)="toggleSearchForm($event)"
             id="returnButton"
-            ><i class="bi bi-arrow-return-left"></i
+            ><i class="bi bi-arrow-return-left text-blue"></i
           ></a>
         </div>
         <button class="btn d-flex align-items-center" (click)="open(content)">
-          <i class="bi bi-person-circle me-2"></i>
+          <i class="bi bi-person-circle me-2 text-blue"></i>
         </button>
       </div>
     </div>

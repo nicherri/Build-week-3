@@ -10,8 +10,16 @@
   object-position: center; /* Centra l'immagine all'interno del contenitore */
 }
 
+#carouselExampleIndicators {
+  cursor: pointer;
+}
+
 .dimensioneIngredienti {
   width: 10em;
+  transition: transform 0.5s ease;
+}
+.dimensioneIngredienti:hover {
+  transform: scale(1.05);
 }
 
 .dimensioneIngredienti img {

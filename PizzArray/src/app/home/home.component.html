@@ -70,7 +70,7 @@
 </div>
 
 <div class="my-5">
-  <h2 class="text-orange">Non buttare via, cucina con noi!</h2>
+  <h2 class="text-orange mb-4">Non buttare via, cucina con noi!</h2>
   <p class="text-white">
     Hai degli ingredienti che non sai come utilizzare? Non buttarli via!
     Inserisci gli ingredienti che hai nel frigo qui sotto e scopri una ricetta
@@ -91,32 +91,34 @@
 </div>
 
 <div class="row">
-  <div div class="col-12 d-flex justify-content-between">
+  <div div class="col-12 d-flex justify-content-between mb-4">
     <h2 class="text-orange">Ingredienti</h2>
     <a class="text-blue text-decoration-none" routerLink="/lista-ingredienti"
       >Mostra Tutti
     </a>
   </div>
-      <div
-        *ngFor="let ingredient of randomIngredients"
-        class="col-12 col-sm-6 col-lg-3">
-        <a [routerLink]="['/lista-ricette', ingredient.ingrediente]"
-          class="text-decoration-none "
-        >
-          <div class="card bg-transparent dimensioneIngredienti border-0 mx-auto">
-            <img
-              [src]="ingredient.immagine"
-              class="card-img-top"
-              alt="{{ ingredient.ingrediente }}"
-            />
-            <div class="card-body">
-              <h5 class="card-title text-orange">
-                {{ ingredient.ingrediente }}
-              </h5>
-            </div>
-          </div></a
-        >
-      </div>
+  <div
+    *ngFor="let ingredient of randomIngredients"
+    class="col-12 col-sm-6 col-lg-3"
+  >
+    <a
+      [routerLink]="['/lista-ricette', ingredient.ingrediente]"
+      class="text-decoration-none"
+    >
+      <div class="card bg-transparent dimensioneIngredienti border-0 mx-auto">
+        <img
+          [src]="ingredient.immagine"
+          class="card-img-top"
+          alt="{{ ingredient.ingrediente }}"
+        />
+        <div class="card-body">
+          <h5 class="card-title text-orange">
+            {{ ingredient.ingrediente }}
+          </h5>
+        </div>
+      </div></a
+    >
+  </div>
 </div>
 
 <div class="container my-5">
