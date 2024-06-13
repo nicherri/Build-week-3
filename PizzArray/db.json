@@ -5367,9 +5367,23 @@
   "users": [
     {
       "email": "mario@email.it",
-      "password": "$2a$10$LGcVsjJZET77besH5b8lr.o9B5sJjYPhXjBbVKV15tbMZkPSogRTq",
+      "password": "$2a$10$A.Cg5m9PiRoc9PN22k05feHUK1ktQyICds/BYkeJXHbj9TlRFoCha",
       "nome": "Mario",
-      "id": 1
+      "id": 1,
+      "lista": [
+        {
+          "ingrediente": "Farina",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Farina",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Burro",
+          "quantita": "150g"
+        }
+      ]
     },
     {
       "email": "luca@email.it",

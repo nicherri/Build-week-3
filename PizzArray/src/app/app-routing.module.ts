@@ -6,6 +6,7 @@ import { AuthGuard } from './auth/auth.guard';
 import { RegisterComponent } from './auth/register/register.component';
 import { ListaIngredientiComponent } from './Pages/lista-ingredienti/lista-ingredienti.component';
 import { RicettaComponent } from './Pages/ricetta/ricetta.component';
+import { ProfiloComponent } from './Pages/profilo/profilo.component';
 
 const routes: Routes = [
   { path: 'auth',
@@ -16,8 +17,7 @@ const routes: Routes = [
 
   { path: 'home',
     loadChildren: () => import('./home/home.module').then(m => m.HomeModule),
-    /* canActivate: [GuestGuard],
-    canActivateChild: [GuestGuard] */
+
   },
 
   { path: 'crea-ricetta',
@@ -36,11 +36,16 @@ const routes: Routes = [
    {path:"ricetta/:id",
     component:RicettaComponent
    },
+   { path: 'profilo',
+    component: ProfiloComponent},
 
   { path: 'register', component: RegisterComponent},
 
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/home' }
+
+  { path: '**', redirectTo: '/home' },
+
+
   ]
 
 

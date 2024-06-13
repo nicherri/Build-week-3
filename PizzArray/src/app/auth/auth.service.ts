@@ -14,9 +14,8 @@ export class AuthService {
   constructor(
     private http: HttpClient,
     private router: Router,
-  ) {
-    this.loggedUser();
-  }
+
+  ) {this.loggedUser()}
 
   loginURL: string = 'http://localhost:3000/login';
   registerURL: string = 'http://localhost:3000/register';
@@ -83,11 +82,16 @@ export class AuthService {
     setTimeout(() => this.logout(), expirationMilliseconds);
   }
 
-  // Logout
-  logout(): void {
-    this.authSbj.next(null);
-    localStorage.removeItem('accessData');
-    this.syncIsLoggedIn = false;
-    this.router.navigate(['/']);
-  }
+//  LOGOUT
+logout(): void {
+  this.authSbj.next(null);
+  localStorage.removeItem('accessData');
+  this.syncIsLoggedIn = false;
+  this.router.navigate(['/']);
+}
+
+getUser(): Observable<iUser | null> {
+  return this.authSbj.asObservable();
+}
+
 }

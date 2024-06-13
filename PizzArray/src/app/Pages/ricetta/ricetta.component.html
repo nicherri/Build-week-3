@@ -45,6 +45,9 @@
         <div class="col-6 ps-5">
           <ul *ngIf="ricetta?.ingredienti">
             <li *ngFor="let i of ricetta?.ingredienti" class="text-blue my-2">
+              <button class="btn btn-primary" (click)="aggiungiAllaLista(i)">
+                <i class="bi bi-cart"></i>
+              </button>
               {{ i.ingrediente }} - {{ i.quantita }}
             </li>
           </ul>

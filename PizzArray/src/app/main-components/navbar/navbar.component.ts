@@ -86,7 +86,7 @@ export class NavbarComponent implements AfterViewInit {
     });
   }
 
-  get isUserLoggedIn(): boolean {
+  isUserLoggedIn(): boolean {
     return this.authSvc.syncIsLoggedIn;
   }
 
