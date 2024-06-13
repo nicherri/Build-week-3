@@ -8,7 +8,7 @@
     </div>
     <div *ngFor="let ingredient of displayedIngredients" class="col-6 col-lg-3 ms-auto me-auto mb-4 border-0">
       <a [routerLink]="['/lista-ricette', ingredient.ingrediente]" class="text-decoration-none">
-        <div class="card dimensioneIngredienti bg-transparent">
+        <div class="card dimensioneIngredienti bg-transparent no-border">
           <img [src]="ingredient.immagine" class="card-img-top" alt="{{ ingredient.ingrediente }}" />
           <div class="card-body">
             <h5 class="card-title text-orange text-wrap">{{ ingredient.ingrediente }}</h5>
