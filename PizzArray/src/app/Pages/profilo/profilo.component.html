@@ -21,7 +21,13 @@
 <div>
   <p class="text-orange mb-4 titolo">Lista della spesa</p>
   <table class="table text-blue">
-    <th>Ingredienti</th>
-    <th>Quantità</th>
+    <tr>
+      <th>Ingredienti</th>
+      <th>Quantità</th>
+    </tr>
+    <tr *ngFor="let i of listaArray">
+      <td>{{ i.ingrediente }}</td>
+      <td>{{ i.quantita }}</td>
+    </tr>
   </table>
 </div>

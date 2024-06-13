@@ -26,8 +26,8 @@ export class NavbarComponent implements AfterViewInit {
 
   //LOGIN
   authData: iAuthData = {
-    email: 'mario@email.it',
-    password: '12345678',
+    email: '',
+    password: '',
   };
 
   login(): void {
@@ -86,7 +86,7 @@ export class NavbarComponent implements AfterViewInit {
     });
   }
 
-  get isUserLoggedIn(): boolean {
+  isUserLoggedIn(): boolean {
     return this.authSvc.syncIsLoggedIn;
   }
 

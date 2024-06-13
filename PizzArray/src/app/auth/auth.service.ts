@@ -15,7 +15,7 @@ export class AuthService {
     private http: HttpClient,
     private router: Router,
 
-  ) {}
+  ) {this.loggedUser()}
 
   loginURL: string = 'http://localhost:3000/login';
   registerURL: string = 'http://localhost:3000/register';
@@ -94,4 +94,9 @@ logout(): void {
   this.syncIsLoggedIn = false;
   this.router.navigate(['/']);
 }
+
+getUser(): Observable<iUser | null> {
+  return this.authSbj.asObservable();
+}
+
 }
