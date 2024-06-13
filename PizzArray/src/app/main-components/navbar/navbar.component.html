@@ -33,10 +33,10 @@
         [ngClass]="{ show: show }"
         id="navbarSupportedContent"
       >
-        <div class="d-lg-flex justify-content-between w-100">
+        <div class="d-lg-flex justify-content-between w-100 ps-3">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-orange" routerLink="">Home</a>
+              <a class="nav-link text-orange" routerLink="/">Home</a>
             </li>
             <li class="nav-item">
               <a
@@ -45,29 +45,6 @@
                 routerLinkActive=""
                 >Ingredienti</a
               >
-            </li>
-          </ul>
-          <ul *ngIf="isUserLoggedIn" class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link text-blue" routerLink="" routerLinkActive=""
-                >Preferiti</a
-              >
-            </li>
-            <li *ngIf="isUserLoggedIn" class="nav-item">
-              <a class="nav-link text-blue" routerLink="" routerLinkActive=""
-                >Lista della Spesa</a
-              >
-            </li>
-            <li *ngIf="isUserLoggedIn" class="nav-item">
-              <a
-                class="nav-link text-blue"
-                routerLink="/crea-ricetta"
-                routerLinkActive=""
-                >Crea Ricetta</a
-              >
-            </li>
-            <li *ngIf="isUserLoggedIn" class="nav-item">
-              <a (click)="logout()" class="nav-link text-danger">Logout</a>
             </li>
           </ul>
         </div>
@@ -101,14 +78,27 @@
             >
           </form>
           <a
-            class="nav-link text-white"
+            class="nav-link text-white pe-4"
             href="#"
             (click)="toggleSearchForm($event)"
             id="returnButton"
             ><i class="bi bi-arrow-return-left"></i
           ></a>
         </div>
-        <button class="btn d-flex align-items-center" (click)="open(content)">
+        <p *ngIf="!isUserLoggedIn" class="nav-item mt-3">
+          <a (click)="open(content)" class="nav-link text-orange pe-3"
+            >ACCEDI</a
+          >
+        </p>
+        <p *ngIf="isUserLoggedIn" class="nav-item mt-3">
+          <a (click)="logout()" class="nav-link text-danger">LOGOUT</a>
+        </p>
+        <button
+          routerLink="/profilo"
+          class="btn d-flex align-items-center"
+          routerLink="/profilo"
+          *ngIf="isUserLoggedIn"
+        >
           <i class="bi bi-person-circle me-2"></i>
         </button>
       </div>
@@ -117,7 +107,7 @@
 
   <!-- Modale -->
   <ng-template #content let-modal>
-    <div class="modal-content modal-custom-bg">
+    <div class="modal-content modal-custom-bg" *ngIf="!isUserLoggedIn">
       <div class="modal-header">
         <h4 class="modal-title text-dark" id="modal-basic-title">
           Accedi o Registrati

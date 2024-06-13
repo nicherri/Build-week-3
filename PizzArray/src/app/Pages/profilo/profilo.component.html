@@ -1,0 +1,27 @@
+<div class="d-flex">
+  <h1 class="text-blue fw-bold mt-5 mb-3">Profilo</h1>
+</div>
+
+<div class="card-body w-75">
+  <div class="form-group mt-3">
+    <label class="form-label text-orange fw-bold">Nome</label>
+    <input type="text" class="form-control mb-1" value="{{ user?.nome }}" />
+  </div>
+  <div class="form-group mt-3">
+    <label class="form-label text-orange fw-bold">E-mail</label>
+    <input type="text" class="form-control" value="{{ user?.email }}" />
+  </div>
+</div>
+<div class="my-5">
+  <p class="text-orange titolo" routerLink="/crea-ricetta">
+    <i class="bi bi-plus-circle me-2"></i>
+    Crea una nuova ricetta
+  </p>
+</div>
+<div>
+  <p class="text-orange mb-4 titolo">Lista della spesa</p>
+  <table class="table text-blue">
+    <th>Ingredienti</th>
+    <th>Quantità</th>
+  </table>
+</div>
