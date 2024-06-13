@@ -1,22 +1,21 @@
-#styleLogo{
+#styleLogo {
   width: 4rem;
 }
 
-#styleLogo img{
+#styleLogo img {
   width: 100%;
 }
 
-
-.bi-search{
+.bi-search {
   font-size: 1.5rem;
 }
 
-.bi-person-circle{
-font-size: 2rem;
-color: white;
+.bi-person-circle {
+  font-size: 2rem;
+  color: white;
 }
 
-.bi-arrow-return-left{
+.bi-arrow-return-left {
   font-size: 1.5rem;
 }
 
@@ -24,19 +23,23 @@ span {
   font-size: 20px;
 }
 
+.bi-person-circle {
+  color: #a3d4ee;
+}
 .bi-person-circle:hover {
-  color: #A3D4EE;
+  color: #069fe2;
 }
 
 .modal-custom-bg {
-  background-color: rgb(185, 185, 185) !important;
-  color: #181818; // Per assicurarsi che il testo sia leggibile
+  background-color: #f9f9f9 !important;
+  color: #181818;
 }
 
 input {
-  border-color: #A3D4EE;
+  border-color: #a3d4ee;
   border-width: 3px;
 }
 
-
-
+.bg-blue:hover {
+  background-color: #069fe2;
+}

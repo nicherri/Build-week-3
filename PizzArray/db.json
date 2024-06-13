@@ -5489,7 +5489,6 @@
       "immagine": "https://www.formagginorcia.it/wp-content/uploads/2020/05/pecorino-fresco-pixel.jpg"
     }
   ],
-
   "users": [
     {
       "email": "mario@email.it",
@@ -5502,7 +5501,12 @@
       "password": "$2a$10$1bLNOpsG5sZz.fqhaumTEOQOUMl.H/FHIqcYgVh9QaeXbkBjcKVY6",
       "nome": "Luca",
       "id": 2
+    },
+    {
+      "email": "nicola.catenacci@email.com",
+      "password": "$2a$10$cxk6wVDm1wLwVXgRme7cBOwg30n2Tb8zbDzZBYWM0VsU6bCsnon2K",
+      "nome": "Nicola",
+      "id": 3
     }
   ]
 }
-

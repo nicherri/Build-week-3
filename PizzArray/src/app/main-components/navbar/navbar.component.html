@@ -57,7 +57,7 @@
           class="nav-link text-white me-3"
           href="#"
           (click)="toggleSearchForm($event)"
-          ><i class="bi bi-search"></i
+          ><i class="bi bi-search text-blue"></i
         ></a>
         <div
           *ngIf="showSearchForm"
@@ -73,7 +73,9 @@
               aria-label="Search"
               [(ngModel)]="cerco"
             />
-            <a class="btn bg-blue" [routerLink]="['/lista-ricette', cerco]"
+            <a
+              class="btn bg-blue text-dark"
+              [routerLink]="['/lista-ricette', cerco]"
               >Cerca</a
             >
           </form>
@@ -82,7 +84,7 @@
             href="#"
             (click)="toggleSearchForm($event)"
             id="returnButton"
-            ><i class="bi bi-arrow-return-left"></i
+            ><i class="bi bi-arrow-return-left text-blue"></i
           ></a>
         </div>
         <p *ngIf="!isUserLoggedIn" class="nav-item mt-3">
@@ -109,7 +111,7 @@
   <ng-template #content let-modal>
     <div class="modal-content modal-custom-bg" *ngIf="!isUserLoggedIn">
       <div class="modal-header">
-        <h4 class="modal-title text-dark" id="modal-basic-title">
+        <h4 class="modal-title text-orange" id="modal-basic-title">
           Accedi o Registrati
         </h4>
         <button
@@ -127,7 +129,7 @@
                 class="col-6 d-flex flex-column justify-content-between text-center"
               >
                 <div>
-                  <h4>Accedi</h4>
+                  <h4 class="text-orange">Accedi</h4>
                   <input
                     class="form-control mb-2"
                     type="email"
@@ -158,7 +160,7 @@
                 class="col-6 d-flex flex-column align-items-center justify-content-center text-center"
               >
                 <div>
-                  <h4>Registrati</h4>
+                  <h4 class="text-orange">Registrati</h4>
                   <button
                     routerLink="register"
                     class="btn bg-blue mt-3"

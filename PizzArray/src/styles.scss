@@ -27,3 +27,13 @@ body {
 .bg-orange {
   background-color: #f26419;
 }
+
+.page-link {
+  background-color: black !important;
+  color: #f26419 !important;
+  border: 1px solid #f26419;
+}
+
+.page-link:hover {
+  border-color: #f26419;
+}
