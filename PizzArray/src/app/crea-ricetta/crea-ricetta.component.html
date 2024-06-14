@@ -8,9 +8,25 @@
       type="text"
       required
     />
+    <div
+      *ngIf="
+        recipeForm.get('nome_ricetta')?.invalid &&
+        recipeForm.get('nome_ricetta')?.touched
+      "
+    >
+      <small class="text-danger">* Nome Ricetta richiesto</small>
+    </div>
 
-    <label for="immagine">Image URL:</label>
+    <label for="immagine">URL immagine:</label>
     <input id="immagine" formControlName="immagine" type="url" required />
+    <div
+      *ngIf="
+        recipeForm.get('immagine')?.invalid &&
+        recipeForm.get('immagine')?.touched
+      "
+    >
+      <small class="text-danger">* URL immagine valido richiesto</small>
+    </div>
 
     <label for="ingredienti">Ingredienti:</label>
     <div
@@ -26,6 +42,14 @@
           required
           (input)="onIngredientInput($event, i)"
         />
+        <div
+          *ngIf="
+            ingredient.get('ingrediente')?.invalid &&
+            ingredient.get('ingrediente')?.touched
+          "
+        >
+          <small class="text-danger">Ingrediente richiesto</small>
+        </div>
         <ul *ngIf="suggestions[i]?.length">
           <li
             *ngFor="let suggestion of suggestions[i]"
@@ -41,6 +65,14 @@
           placeholder="Quantity"
           required
         />
+        <div
+          *ngIf="
+            ingredient.get('quantita')?.invalid &&
+            ingredient.get('quantita')?.touched
+          "
+        >
+          <small class="text-danger">Quantità richiesta</small>
+        </div>
         <button type="button" class="bg-blue" (click)="removeIngredient(i)">
           Rimuovi
         </button>
@@ -57,6 +89,14 @@
       type="number"
       required
     />
+    <div
+      *ngIf="
+        recipeForm.get('tempo_preparazione')?.invalid &&
+        recipeForm.get('tempo_preparazione')?.touched
+      "
+    >
+      <small class="text-danger">* Tempo di Preparazione richiesto</small>
+    </div>
 
     <label for="tempo_cottura">Tempo di Cottura (minuti):</label>
     <input
@@ -65,9 +105,25 @@
       type="number"
       required
     />
+    <div
+      *ngIf="
+        recipeForm.get('tempo_cottura')?.invalid &&
+        recipeForm.get('tempo_cottura')?.touched
+      "
+    >
+      <small class="text-danger">* Tempo di Cottura richiesto</small>
+    </div>
 
     <label for="porzioni">Porzioni:</label>
     <input id="porzioni" formControlName="porzioni" type="number" required />
+    <div
+      *ngIf="
+        recipeForm.get('porzioni')?.invalid &&
+        recipeForm.get('porzioni')?.touched
+      "
+    >
+      <small class="text-danger">* Numero Porzioni richiesto</small>
+    </div>
 
     <label for="difficolta">Difficoltà:</label>
     <select id="difficolta" formControlName="difficolta" required>
@@ -75,6 +131,14 @@
       <option value="media">Media</option>
       <option value="difficile">Difficile</option>
     </select>
+    <div
+      *ngIf="
+        recipeForm.get('difficolta')?.invalid &&
+        recipeForm.get('difficolta')?.touched
+      "
+    >
+      <small class="text-danger">* Grado Difficoltà richiesto</small>
+    </div>
 
     <label for="preparazione">Preparazione:</label>
     <textarea
@@ -82,9 +146,24 @@
       formControlName="preparazione"
       required
     ></textarea>
+    <div
+      *ngIf="
+        recipeForm.get('preparazione')?.invalid &&
+        recipeForm.get('preparazione')?.touched
+      "
+    >
+      <small class="text-danger">* Campo Preparazione richiesto</small>
+    </div>
 
     <label for="portata">Portata:</label>
     <input id="portata" formControlName="portata" type="text" required />
+    <div
+      *ngIf="
+        recipeForm.get('portata')?.invalid && recipeForm.get('portata')?.touched
+      "
+    >
+      <small class="text-danger">* Tipologia Portata richiesta</small>
+    </div>
 
     <button type="submit" class="bg-blue">Crea Ricetta</button>
   </form>

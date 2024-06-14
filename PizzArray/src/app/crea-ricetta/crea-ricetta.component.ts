@@ -1,10 +1,9 @@
-
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, FormArray } from '@angular/forms';
+import { FormBuilder, FormGroup, FormArray, Validators } from '@angular/forms';
 import { RecipeService } from '../services/recipe.service';
-import { Ingredienti, iRecipe } from '../Models/i-recipe';
+import { iRecipe } from '../Models/i-recipe';
 import { ChangeDetectorRef } from '@angular/core';
-import { iIngredient } from '../Models/i-ingredient';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-crea-ricetta',
@@ -14,18 +13,24 @@ import { iIngredient } from '../Models/i-ingredient';
 export class CreaRicettaComponent implements OnInit {
   recipeForm: FormGroup;
   existingIngredients: string[] = [];
+  suggestions: { [index: number]: string[] } = {}
 
-  constructor(private fb: FormBuilder, private recipeService: RecipeService, private cdr: ChangeDetectorRef) {
+  constructor(
+    private fb: FormBuilder,
+    private recipeService: RecipeService,
+    private cdr: ChangeDetectorRef,
+    private navigate: Router
+  ) {
     this.recipeForm = this.fb.group({
-      nome_ricetta: [''],
-      immagine: [''],
+      nome_ricetta: ['', Validators.required],
+      immagine: ['', [Validators.required, Validators.pattern('https?://.+')]],
       ingredienti: this.fb.array([]),
-      tempo_preparazione: [''],
-      tempo_cottura: [''],
-      porzioni: [''],
-      difficolta: [''],
-      preparazione: [''],
-      portata: ['']
+      tempo_preparazione: ['', [Validators.required, Validators.min(1)]],
+      tempo_cottura: ['', [Validators.required, Validators.min(1)]],
+      porzioni: ['', [Validators.required, Validators.min(1)]],
+      difficolta: ['', Validators.required],
+      preparazione: ['', Validators.required],
+      portata: ['', Validators.required]
     });
   }
 
@@ -35,8 +40,8 @@ export class CreaRicettaComponent implements OnInit {
 
   addIngredient(ingrediente: string = '', quantita: string = '') {
     this.ingredienti.push(this.fb.group({
-      ingrediente: [ingrediente],
-      quantita: [quantita]
+      ingrediente: [ingrediente, Validators.required],
+      quantita: [quantita, Validators.required]
     }));
   }
 
@@ -45,18 +50,24 @@ export class CreaRicettaComponent implements OnInit {
   }
 
   onSubmit() {
-    // Get the recipe details from the form
+    if (this.recipeForm.invalid) {
+      this.recipeForm.markAllAsTouched();
+      return;
+    }
+
     const recipe: iRecipe = { ...this.recipeForm.value };
 
-    // Combine the recipe and ingredients into one request
     this.recipeService.addRecipe(recipe).subscribe(
       (addedRecipe: iRecipe) => {
         console.log('Recipe added successfully:', addedRecipe);
+        this.navigate.navigate(['/home'])
       },
       error => {
         console.error('Error adding recipe:', error);
       }
     );
+
+
   }
 
   ngOnInit(): void {
@@ -71,8 +82,6 @@ export class CreaRicettaComponent implements OnInit {
     );
   }
 
-  suggestions: { [index: number]: string[] } = {}
-
   onIngredientInput(event: any, index: number) {
     const input = event.target.value;
     this.suggestions[index] = this.getFilteredIngredients(input);
@@ -81,7 +90,7 @@ export class CreaRicettaComponent implements OnInit {
   selectSuggestion(suggestion: string, index: number) {
     const ingredientControl = this.ingredienti.at(index);
     ingredientControl.patchValue({ ingrediente: suggestion });
-    this.suggestions[index] = []; // Clear suggestions
+    this.suggestions[index] = [];
   }
 
   getFilteredIngredients(name: string): string[] {

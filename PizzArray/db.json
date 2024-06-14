@@ -5507,6 +5507,12 @@
       "password": "$2a$10$.WvJtWkbqSzmqRwP0IMRKuarNtlKyyxhkkm7iFU.Ohw/KZLXQJOdC",
       "nome": "luca",
       "id": 3
+    },
+    {
+      "email": "laura.catenacci@email.com",
+      "password": "$2a$10$N9q4vI5E5tb/mCCxtQm8nOgJNaDOVqS56lhCM.Un68j2wbRAzb1cy",
+      "nome": "Laura",
+      "id": 4
     }
   ],
   "userData": [
@@ -5527,7 +5533,11 @@
     },
     {
       "id": 2,
-      "ricette_preferite": [81, 46, 77],
+      "ricette_preferite": [
+        81,
+        46,
+        77
+      ],
       "lista_ingredienti": [
         {
           "ingrediente": "Carote",
@@ -5589,6 +5599,36 @@
       "ricette_preferite": [],
       "lista_ingredienti": [],
       "userId": 3
+    },
+    {
+      "id": 4,
+      "ricette_preferite": [
+        98,
+        73
+      ],
+      "lista_ingredienti": [
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        },
+        {
+          "ingrediente": "Sale",
+          "quantita": "10g"
+        }
+      ],
+      "userId": 4
     }
   ]
 }

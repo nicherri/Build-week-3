@@ -7,6 +7,7 @@ import { ListaIngredientiComponent } from './Pages/lista-ingredienti/lista-ingre
 import { RicettaComponent } from './Pages/ricetta/ricetta.component';
 import { ProfiloComponent } from './Pages/profilo/profilo.component';
 import { RicettePreferiteComponent } from './Pages/ricette-preferite/ricette-preferite.component';
+import { RegisterComponent } from './auth/register/register.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,10 @@ const routes: Routes = [
     loadChildren: () => import('./auth/auth.module').then((m) => m.AuthModule),
     canActivate: [GuestGuard],
     canActivateChild: [GuestGuard],
+  },
+  {
+    path:'register',
+    component: RegisterComponent
   },
 
   {

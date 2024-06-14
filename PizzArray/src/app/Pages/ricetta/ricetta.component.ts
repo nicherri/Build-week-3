@@ -14,6 +14,7 @@ export class RicettaComponent implements OnInit {
   userId: number | null = null;
   isFavorite: boolean = false;
   isUserLogged: boolean = false;
+  arrayId: number[] = [];
 
   constructor(
     private authSvc: AuthService,
@@ -25,7 +26,7 @@ export class RicettaComponent implements OnInit {
     this.authSvc.getUser().subscribe((user) => {
       if (user) {
         this.userId = user.id;
-        this.checkIfFavorite();
+        this.getAllPreferiti(); // Carica i preferiti dell'utente
       } else {
         console.error('Utente non autenticato');
       }
@@ -34,54 +35,30 @@ export class RicettaComponent implements OnInit {
     this.route.params.subscribe((params: any) => {
       this.recipeSvc.getRecipeById(params.id).subscribe((recipe) => {
         this.ricetta = recipe;
-        console.log(this.ricetta);
+        this.checkIfFavorite(); // Verifica se la ricetta è preferita dopo averla caricata
       });
     });
-    this.checkUserLogged();
-  }
 
-  checkIfFavorite() {
-    if (this.userId && this.ricetta) {
-      this.authSvc.getUser().subscribe((user) => {
-        if (user) {
-          this.authSvc.getUserData(user.id).subscribe((userData) => {
-            this.isFavorite = userData.ricette_preferite.includes(
-              this.ricetta!.id!
-            );
-          });
-        }
-      });
-    }
+    this.checkUserLogged();
+    this.checkIfFavorite();
   }
 
   addIngredient(ingrediente: string, quantita: string) {
     if (this.userId) {
       this.authSvc
         .addIngredientToUser(this.userId, ingrediente, quantita)
-        .subscribe(
-          (response) => {
-            console.log('Ingrediente aggiunto con successo:', response);
-          },
-          (error) => {
-            console.error("Errore nell'aggiunta dell'ingrediente:", error);
-          }
-        );
-    } else {
-      console.error('Utente non autenticato o ID utente non disponibile');
+        .subscribe();
     }
   }
 
   toggleFavorite() {
     if (this.userId && this.ricetta?.id) {
-      this.authSvc.toggleFavoriteRecipe(this.userId, this.ricetta.id).subscribe(
-        (response) => {
+      this.authSvc
+        .toggleFavoriteRecipe(this.userId, this.ricetta.id)
+        .subscribe((response) => {
           console.log('Toggle preferiti completato:', response);
           this.isFavorite = !this.isFavorite;
-        },
-        (error) => {
-          console.error('Errore nel toggle dei preferiti:', error);
-        }
-      );
+        });
     } else {
       console.error('Utente o ricetta non disponibili');
     }
@@ -92,6 +69,22 @@ export class RicettaComponent implements OnInit {
     this.authSvc.isLoggedIn$.subscribe((isUserLogged) => {
       this.isUserLogged = isUserLogged;
       console.log(this.isUserLogged);
+    });
+  }
+
+  checkIfFavorite() {
+    if (this.ricetta) {
+      this.isFavorite = this.arrayId.includes(this.ricetta.id!);
+      console.log('array', this.arrayId);
+      console.log('id ricetta', this.ricetta.id);
+    }
+  }
+
+  getAllPreferiti() {
+    this.authSvc.getUserPreferiti().subscribe((id) => {
+      this.arrayId = id;
+      console.log(this.arrayId);
+      this.checkIfFavorite(); // Verifica se la ricetta è preferita dopo aver caricato i preferiti
     });
   }
 }

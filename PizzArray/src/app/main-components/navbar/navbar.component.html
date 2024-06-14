@@ -89,7 +89,7 @@
           ></a>
         </div>
         <p *ngIf="!isUserLogged" class="nav-item mt-3">
-          <a (click)="open(content)" class="nav-link text-orange pe-3"
+          <a (click)="open(content)" class="nav-link text-orange pe-3 accedi"
             >ACCEDI</a
           >
         </p>
@@ -164,7 +164,7 @@
                 <div>
                   <h4 class="text-orange">Registrati</h4>
                   <button
-                    routerLink="register"
+                    routerLink="/register"
                     class="btn bg-blue mt-3"
                     type="button"
                     (click)="modal.close('Save click')"
