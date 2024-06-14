@@ -174,4 +174,16 @@ export class AuthService {
       map((userData: iUserData) => userData.lista_ingredienti)
     );
   }
+
+  getUserPreferiti(): Observable<number[]> {
+    const accessData = this.getLoggedUser();
+    if (!accessData || !accessData.user) {
+      throw new Error('No user logged in');
+    }
+    const userId = accessData.user.id;
+
+    return this.getUserData(userId).pipe(
+      map((userData: iUserData) => userData.ricette_preferite)
+    );
+  }
 }

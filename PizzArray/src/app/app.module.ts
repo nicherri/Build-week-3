@@ -14,12 +14,28 @@ import { ListaRicetteComponent } from './Pages/lista-ricette/lista-ricette.compo
 import { ListaIngredientiComponent } from './Pages/lista-ingredienti/lista-ingredienti.component';
 import { RicettaComponent } from './Pages/ricetta/ricetta.component';
 import { ProfiloComponent } from './Pages/profilo/profilo.component';
-import { RicettePreferiteComponent } from './pages/ricette-preferite/ricette-preferite.component';
-
+import { RicettePreferiteComponent } from './Pages/ricette-preferite/ricette-preferite.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, FooterComponent,ListaRicetteComponent, ListaIngredientiComponent, RicettaComponent, ProfiloComponent, RicettePreferiteComponent],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule, CreaRicettaModule, FormsModule,CommonModule],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    FooterComponent,
+    ListaRicetteComponent,
+    ListaIngredientiComponent,
+    RicettaComponent,
+    ProfiloComponent,
+    RicettePreferiteComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NgbModule,
+    HomeModule,
+    CreaRicettaModule,
+    FormsModule,
+    CommonModule,
+  ],
 
   providers: [],
   bootstrap: [AppComponent],

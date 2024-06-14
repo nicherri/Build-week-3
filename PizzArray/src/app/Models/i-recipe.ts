@@ -1,5 +1,5 @@
 export interface iRecipe {
-  id?: number;
+  id: number;
   nome_ricetta: string;
   immagine: string;
   ingredienti: Ingredienti[];
