@@ -1,0 +1,35 @@
+.img-fluid {
+  height: 18em;
+  width: 100%;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.105) !important;
+  color: white;
+  border-color: #f26419;
+  transition: transform 0.5s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+
+  border-color: #a3d4ee;
+  border-width: 3px;
+}
+
+.ingrediente {
+  transition: transform 0.2s ease;
+  font-style: italic;
+}
+.ingrediente:hover {
+  transform: scale(1.15);
+  color: #f26419;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.img-fluid {
+  cursor: pointer;
+}
+
+.inverti {
+  flex-direction: row-reverse;
+}

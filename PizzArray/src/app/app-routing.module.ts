@@ -5,9 +5,9 @@ import { GuestGuard } from './auth/guest.guard';
 import { AuthGuard } from './auth/auth.guard';
 import { ListaIngredientiComponent } from './Pages/lista-ingredienti/lista-ingredienti.component';
 import { RicettaComponent } from './Pages/ricetta/ricetta.component';
-import { ListaSpesaComponent } from './Pages/lista-spesa/lista-spesa.component';
 import { ProfiloComponent } from './Pages/profilo/profilo.component';
 import { RicettePreferiteComponent } from './Pages/ricette-preferite/ricette-preferite.component';
+import { RegisterComponent } from './auth/register/register.component';
 
 const routes: Routes = [
   {
@@ -19,6 +19,10 @@ const routes: Routes = [
     loadChildren: () => import('./auth/auth.module').then((m) => m.AuthModule),
     canActivate: [GuestGuard],
     canActivateChild: [GuestGuard],
+  },
+  {
+    path:'register',
+    component: RegisterComponent
   },
 
   {

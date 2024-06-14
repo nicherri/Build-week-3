@@ -27,12 +27,61 @@
   animation: radius 8s linear infinite;
 }
 
-  @keyframes radius {
-    0%, 100% { border-radius: 55% 45% 70% 30% / 43% 30% 70% 60%;}
-    33% { border-radius: 40% 60% 40% 60% / 70% 60% 40% 30%;}
-   66% { border-radius: 20% 80% 20% 80% / 50% 45% 55% 50%;}
-    }
+@keyframes radius {
+  0%,
+  100% {
+    border-radius: 55% 45% 70% 30% / 43% 30% 70% 60%;
+  }
+  33% {
+    border-radius: 40% 60% 40% 60% / 70% 60% 40% 30%;
+  }
+  66% {
+    border-radius: 20% 80% 20% 80% / 50% 45% 55% 50%;
+  }
+}
 
-    .no-border {
-      border: none !important;
-    }
+.ricetta {
+  background-color: rgba(255, 255, 255, 0.105) !important;
+  color: white;
+  border-color: #f26419;
+  transition: transform 0.5s ease;
+  height: 35em;
+}
+.ricetta:hover {
+  transform: scale(1.05);
+
+  border-color: #a3d4ee;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.immagine {
+  height: 60%;
+  object-fit: fill;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.bg-blue:hover {
+  background-color: #069fe2;
+}
+
+@media screen and (min-width: 768px) {
+  .special-card {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+  .ricetta {
+    height: 27em;
+  }
+  input {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  input {
+    width: 50%;
+  }
+}

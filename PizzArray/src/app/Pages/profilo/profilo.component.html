@@ -14,11 +14,13 @@
   </div>
 </div>
 <div class="my-5">
-  <p class="text-orange titolo" routerLink="/crea-ricetta">
+  <p class="text-orange titolo cursore" routerLink="/crea-ricetta">
     <i class="bi bi-plus-circle me-2"></i>
     Crea una nuova ricetta
   </p>
-  <a routerLink="/preferite" class="text-orange">Ricette Preferite</a>
+  <p routerLink="/preferite" class="text-orange titolo cursore">
+    Ricette Preferite
+  </p>
 </div>
 <div>
   <p class="text-orange mb-4 titolo">Lista della spesa</p>
@@ -28,8 +30,8 @@
       <th>Quantità</th>
     </tr>
     <tr *ngFor="let i of ingredients">
-      <td>{{ i.ingrediente }}</td>
-      <td>{{ i.quantita }}</td>
+      <td class="text-white">{{ i.ingrediente }}</td>
+      <td class="text-white">{{ i.quantita }}</td>
     </tr>
   </table>
 </div>

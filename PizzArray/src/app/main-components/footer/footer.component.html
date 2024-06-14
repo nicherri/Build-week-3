@@ -7,18 +7,25 @@
     <span><i class="bi bi-twitter text-white"></i></span>
   </div>
   <div class="col-4 text-center">
-    <img src="../../../assets/Img/Logo (2).png" alt="logo" id="styleLogo" />
+    <img
+      src="../../../assets/Img/Logo (2).png"
+      alt="logo"
+      id="styleLogo"
+      routerLink="/home"
+    />
   </div>
 
   <ul class="nav col-4 justify-content-end pe-4">
     <li class="nav-item">
-      <a href="#" class="nav-link px-2 text-orange">Home</a>
+      <a href="#" class="nav-link px-2 text-orange" routerLink="/home">Home</a>
     </li>
     <li class="nav-item">
-      <a routerLink="lista-ingredienti" class="nav-link px-2 text-orange">Ingredienti</a>
-    </li>
-    <li class="nav-item">
-      <a routerLink="crea-ricetta" class="nav-link px-2 text-blue">Crea ricetta</a>
+      <a
+        routerLink="lista-ingredienti"
+        class="nav-link px-2 text-orange"
+        routerLink="/lista-ingredienti"
+        >Ingredienti</a
+      >
     </li>
   </ul>
 </footer>

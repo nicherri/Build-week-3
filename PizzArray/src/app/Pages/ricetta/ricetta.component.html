@@ -9,14 +9,14 @@
           <img
             src="{{ ricetta?.immagine }}"
             [alt]="[ricetta?.nome_ricetta]"
-            class="img-fluid rounded-5"
+            class="img-fluid rounded-5 mb-3"
           />
           <button
             *ngIf="isUserLogged"
-            class="btn btn-primary me-4"
+            class="btn bg-blue spesa me-4"
             (click)="toggleFavorite()"
           >
-            Mi piace
+            {{ !isFavorite ? "Aggiungi ai preferiti" : "Togli dai preferiti" }}
           </button>
           <span *ngIf="isUserLogged">
             <img
@@ -62,15 +62,18 @@
       </div>
       <h2 class="text-orange my-5">Ingredienti</h2>
       <div class="col-12 d-flex">
-        <div class="col-6 ps-5">
-          <ul *ngIf="ricetta?.ingredienti">
-            <li *ngFor="let i of ricetta?.ingredienti" class="text-blue my-2">
+        <div class="col-6 ps-0">
+          <ul *ngIf="ricetta?.ingredienti" class="list-unstyled">
+            <li
+              *ngFor="let i of ricetta?.ingredienti"
+              class="mb-4 text-blue my-2"
+            >
               <button
                 *ngIf="isUserLogged"
-                class="btn btn-primary"
+                class="btn bg-blue spesa me-2"
                 (click)="addIngredient(i.ingrediente, i.quantita)"
               >
-                <i class="bi bi-cart"></i>
+                <i class="bi bi-cart text-dark"></i>
               </button>
               {{ i.ingrediente }} - {{ i.quantita }}
             </li>

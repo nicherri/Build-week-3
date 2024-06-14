@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup, FormArray, Validators } from '@angular/forms';
 import { RecipeService } from '../services/recipe.service';
 import { iRecipe } from '../Models/i-recipe';
 import { ChangeDetectorRef } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-crea-ricetta',
@@ -17,7 +18,8 @@ export class CreaRicettaComponent implements OnInit {
   constructor(
     private fb: FormBuilder,
     private recipeService: RecipeService,
-    private cdr: ChangeDetectorRef
+    private cdr: ChangeDetectorRef,
+    private navigate: Router
   ) {
     this.recipeForm = this.fb.group({
       nome_ricetta: ['', Validators.required],
@@ -49,7 +51,7 @@ export class CreaRicettaComponent implements OnInit {
 
   onSubmit() {
     if (this.recipeForm.invalid) {
-      this.recipeForm.markAllAsTouched(); // Mark all controls as touched to display error messages
+      this.recipeForm.markAllAsTouched();
       return;
     }
 
@@ -58,11 +60,14 @@ export class CreaRicettaComponent implements OnInit {
     this.recipeService.addRecipe(recipe).subscribe(
       (addedRecipe: iRecipe) => {
         console.log('Recipe added successfully:', addedRecipe);
+        this.navigate.navigate(['/home'])
       },
       error => {
         console.error('Error adding recipe:', error);
       }
     );
+
+
   }
 
   ngOnInit(): void {
