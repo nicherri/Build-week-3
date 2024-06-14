@@ -19,60 +19,72 @@
         </option>
       </select>
     </div>
-    <div *ngFor="let ingredient of displayedIngredients" class="col-6 col-lg-3 ms-auto me-auto mb-4 border-0">
-      <a [routerLink]="['/lista-ricette', ingredient.ingrediente]" class="text-decoration-none">
+    <div
+      *ngFor="let ingredient of displayedIngredients"
+      class="col-6 col-lg-3 ms-auto me-auto mb-4 border-0"
+    >
+      <a
+        [routerLink]="['/lista-ricette', ingredient.ingrediente]"
+        class="text-decoration-none"
+      >
         <div class="card dimensioneIngredienti bg-transparent no-border">
-          <img [src]="ingredient.immagine" class="card-img-top" alt="{{ ingredient.ingrediente }}" />
+          <img
+            [src]="ingredient.immagine"
+            class="card-img-top"
+            alt="{{ ingredient.ingrediente }}"
+          />
           <div class="card-body">
-            <h5 class="card-title text-orange text-wrap">{{ ingredient.ingrediente }}</h5>
+            <h5 class="card-title text-orange text-wrap">
+              {{ ingredient.ingrediente }}
+            </h5>
           </div>
         </div>
-      </div>
+
+        <div class="d-flex justify-content-center align-items-center mt-4">
+          <ngb-pagination
+            [collectionSize]="totalItems"
+            [(page)]="page"
+            [boundaryLinks]="true"
+            (pageChange)="selectPage($event)"
+          >
+            <ng-template ngbPaginationPages let-page let-pages="pages">
+              <li class="ngb-custom-pages-item" class="text-orange">
+                <div class="mb-3 d-flex flex-nowrap px-2 text-orange">
+                  <label
+                    id="paginationInputLabel"
+                    for="paginationInput"
+                    class="col-form-label me-2 ms-1 text-orange"
+                    >Pagina</label
+                  >
+                  <input
+                    #i
+                    type="text"
+                    inputmode="numeric"
+                    pattern="[0-9]*"
+                    class="form-control custom-pages-input text-orange bg-black text-center"
+                    id="paginationInput"
+                    [value]="page"
+                    (keyup.enter)="selectPage(i.value)"
+                    (blur)="selectPage(i.value)"
+                    (input)="formatInput($any($event).target)"
+                    aria-labelledby="paginationInputLabel paginationDescription"
+                    style="width: 2.5rem"
+                  />
+                  <span
+                    id="paginationDescription"
+                    class="col-form-label text-nowrap px-2 text-orange"
+                  >
+                    di {{ pages.length }}</span
+                  >
+                </div>
+              </li>
+            </ng-template>
+          </ngb-pagination>
+        </div>
+
+        <hr />
+        <pre>Pagina attuale: {{ page }}</pre>
+      </a>
     </div>
   </div>
-
-  <div class="d-flex justify-content-center align-items-center mt-4">
-    <ngb-pagination
-      [collectionSize]="totalItems"
-      [(page)]="page"
-      [boundaryLinks]="true"
-      (pageChange)="selectPage($event)"
-    >
-      <ng-template ngbPaginationPages let-page let-pages="pages">
-        <li class="ngb-custom-pages-item" class="text-orange">
-          <div class="mb-3 d-flex flex-nowrap px-2 text-orange">
-            <label
-              id="paginationInputLabel"
-              for="paginationInput"
-              class="col-form-label me-2 ms-1 text-orange"
-              >Pagina</label
-            >
-            <input
-              #i
-              type="text"
-              inputmode="numeric"
-              pattern="[0-9]*"
-              class="form-control custom-pages-input text-orange bg-black text-center"
-              id="paginationInput"
-              [value]="page"
-              (keyup.enter)="selectPage(i.value)"
-              (blur)="selectPage(i.value)"
-              (input)="formatInput($any($event).target)"
-              aria-labelledby="paginationInputLabel paginationDescription"
-              style="width: 2.5rem"
-            />
-            <span
-              id="paginationDescription"
-              class="col-form-label text-nowrap px-2 text-orange"
-            >
-              di {{ pages.length }}</span
-            >
-          </div>
-        </li>
-      </ng-template>
-    </ngb-pagination>
-  </div>
-
-  <hr />
-  <pre>Pagina attuale: {{ page }}</pre>
 </div>
