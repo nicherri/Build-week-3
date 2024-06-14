@@ -5507,6 +5507,12 @@
       "password": "$2a$10$.WvJtWkbqSzmqRwP0IMRKuarNtlKyyxhkkm7iFU.Ohw/KZLXQJOdC",
       "nome": "luca",
       "id": 3
+    },
+    {
+      "email": "pippo@pippo.com",
+      "password": "$2a$10$ic0X85Tbx.g7JJUJ9hfl8e8.tr3zFO6YyNuva5/Epi/rU410AI2L2",
+      "nome": "pippo ",
+      "id": 4
     }
   ],
   "userData": [
@@ -5593,6 +5599,12 @@
       "ricette_preferite": [],
       "lista_ingredienti": [],
       "userId": 3
+    },
+    {
+      "id": 4,
+      "ricette_preferite": [],
+      "lista_ingredienti": [],
+      "userId": 4
     }
   ]
 }
