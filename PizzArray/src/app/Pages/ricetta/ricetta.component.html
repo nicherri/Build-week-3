@@ -6,27 +6,57 @@
       </h1>
       <div class="col-12 d-flex fs-4">
         <div class="col-6">
-          <img src="{{ ricetta?.immagine }}" alt="" class="img-fluid" />
+          <img
+            src="{{ ricetta?.immagine }}"
+            [alt]="[ricetta?.nome_ricetta]"
+            class="img-fluid rounded-5"
+          />
+          <button
+            *ngIf="isUserLogged"
+            class="btn btn-primary me-4"
+            (click)="toggleFavorite()"
+          >
+            Mi piace
+          </button>
+          <span *ngIf="isUserLogged">
+            <img
+              *ngIf="isFavorite"
+              src="../../../assets/Img/heartFill.png"
+              alt="Heart"
+              width="30px" />
+
+            <img
+              *ngIf="!isFavorite"
+              src="../../../assets/Img/heart.png"
+              alt="Heart"
+              width="30px"
+          /></span>
         </div>
         <div class="col-6 ps-4 pt-5">
           <p class="text-orange">
-            Difficoltà: <span class="text-blue">{{ ricetta?.difficolta }}</span>
+            Difficoltà:
+            <span class="text-blue fst-italic">{{ ricetta?.difficolta }}</span>
           </p>
           <p class="text-orange">
             <i class="bi bi-alarm-fill text-orange"></i>
             Tempo preparazione:
-            <span class="text-blue"> {{ ricetta?.tempo_preparazione }}</span>
-            min.
+            <span class="text-blue fst-italic">
+              {{ ricetta?.tempo_preparazione }} min</span
+            >
           </p>
           <p class="text-orange">
             <i class="bi bi-cake2-fill text-orange"></i>
             Dosi per
-            <span class="text-blue"> {{ ricetta?.porzioni }}</span> persone
+            <span class="text-blue fst-italic">
+              {{ ricetta?.porzioni }} persone</span
+            >
           </p>
           <p class="text-orange">
             <i class="bi bi-aspect-ratio-fill text-orange"></i>
             Tempo cottura
-            <span class="text-blue"> {{ ricetta?.tempo_cottura }}</span> min.
+            <span class="text-blue fst-italic">
+              {{ ricetta?.tempo_cottura }} min</span
+            >
           </p>
         </div>
       </div>
@@ -34,8 +64,12 @@
       <div class="col-12 d-flex">
         <div class="col-6 ps-5">
           <ul *ngIf="ricetta?.ingredienti">
-            <li *ngFor="let i of ricetta?.ingredienti" class="text-blue my-2 list-unstyled">
-              <button class="btn btn-primary" (click)="addToListaSpesa(i.ingrediente, i.quantita)">
+            <li *ngFor="let i of ricetta?.ingredienti" class="text-blue my-2">
+              <button
+                *ngIf="isUserLogged"
+                class="btn btn-primary"
+                (click)="addIngredient(i.ingrediente, i.quantita)"
+              >
                 <i class="bi bi-cart"></i>
               </button>
               {{ i.ingrediente }} - {{ i.quantita }}
@@ -44,9 +78,9 @@
         </div>
         <div class="col-4">
           <img
-            src="https://static.vecteezy.com/ti/vettori-gratis/p3/17722096-cucinando-cucina-cucina-logo-ristorante-menu-bar-commensale-etichetta-logo-disegno-vettore-illustrazione-gratuito-vettoriale.jpg"
-            alt=""
-            class="img-fluid ps-5 pt-4"
+            src="../../../assets/Img/immagine.png"
+            alt="logo"
+            class="img-fluid ps-5 d-none d-sm-block"
           />
         </div>
       </div>

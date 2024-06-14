@@ -1,9 +1,7 @@
 <div class="container">
-  <h1 class="text-orange my-4">
-    Le nostre migliori ricette con {{ ingredient }}
-  </h1>
+  <h1 class="text-orange my-4">Le tue ricette preferite</h1>
   <div class="row">
-    <div class="col-12 mt-3" *ngFor="let r of recipe; let i = index">
+    <div class="col-12 mt-3" *ngFor="let r of favoriteRecipes; let i = index">
       <div class="card mb-3 rounded-5 overflow-hidden">
         <div
           class="row no-gutters"

@@ -5489,20 +5489,106 @@
       "immagine": "https://www.formagginorcia.it/wp-content/uploads/2020/05/pecorino-fresco-pixel.jpg"
     }
   ],
-
   "users": [
     {
-      "email": "mario@email.it",
-      "password": "$2a$10$LGcVsjJZET77besH5b8lr.o9B5sJjYPhXjBbVKV15tbMZkPSogRTq",
-      "nome": "Mario",
+      "email": "andrea@mail.com",
+      "password": "$2a$10$XWrx2gGbcm/Pkkc2oGCvTOBRqv7DPloFmZcZGLrI2NzcRlFlrge62",
+      "nome": "andrea",
       "id": 1
     },
     {
-      "email": "luca@email.it",
-      "password": "$2a$10$1bLNOpsG5sZz.fqhaumTEOQOUMl.H/FHIqcYgVh9QaeXbkBjcKVY6",
-      "nome": "Luca",
+      "email": "paolo@mail.com",
+      "password": "$2a$10$7JkPFcE/3ZLuiqZ2aM0upuqCMx7CSuSIlunaAGL4vOWawQhxnHHyW",
+      "nome": "paolo",
       "id": 2
+    },
+    {
+      "email": "luca@mail.com",
+      "password": "$2a$10$.WvJtWkbqSzmqRwP0IMRKuarNtlKyyxhkkm7iFU.Ohw/KZLXQJOdC",
+      "nome": "luca",
+      "id": 3
+    }
+  ],
+  "userData": [
+    {
+      "id": 1,
+      "ricette_preferite": [],
+      "lista_ingredienti": [
+        {
+          "ingrediente": "Marmellata",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Farina",
+          "quantita": "300g"
+        }
+      ],
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "ricette_preferite": [81, 46, 77],
+      "lista_ingredienti": [
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Fagioli Borlotti",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Spinaci",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Patate",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Pepe Nero",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Spaghetti",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Lenticchie",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Brodo di Carne",
+          "quantita": "500ml"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        }
+      ],
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "ricette_preferite": [],
+      "lista_ingredienti": [],
+      "userId": 3
     }
   ]
 }
-

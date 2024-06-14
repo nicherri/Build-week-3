@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
-import { RecipeService } from '../../services/recipe.service';
+import { Component, OnInit } from '@angular/core';
+import { AuthService } from '../../auth/auth.service';
 import { ActivatedRoute } from '@angular/router';
+import { RecipeService } from '../../services/recipe.service';
 import { iRecipe } from '../../Models/i-recipe';
 import { iListaSpesa } from '../../Models/i-lista-spesa';
 import { iIngredient } from '../../Models/i-ingredient';
@@ -8,32 +9,91 @@ import { iIngredient } from '../../Models/i-ingredient';
 @Component({
   selector: 'app-ricetta',
   templateUrl: './ricetta.component.html',
-  styleUrl: './ricetta.component.scss'
+  styleUrls: ['./ricetta.component.scss'],
 })
-export class RicettaComponent {
+export class RicettaComponent implements OnInit {
+  ricetta: iRecipe | undefined;
+  userId: number | null = null;
+  isFavorite: boolean = false;
+  isUserLogged: boolean = false;
 
+  constructor(
+    private authSvc: AuthService,
+    private route: ActivatedRoute,
+    private recipeSvc: RecipeService
+  ) {}
 
-  ricetta:iRecipe|undefined
+  ngOnInit() {
+    this.authSvc.getUser().subscribe((user) => {
+      if (user) {
+        this.userId = user.id;
+        this.checkIfFavorite();
+      } else {
+        console.error('Utente non autenticato');
+      }
+    });
 
-  constructor(private recipeSvc:RecipeService, private route:ActivatedRoute){
-
+    this.route.params.subscribe((params: any) => {
+      this.recipeSvc.getRecipeById(params.id).subscribe((recipe) => {
+        this.ricetta = recipe;
+        console.log(this.ricetta);
+      });
+    });
+    this.checkUserLogged();
   }
 
-  /*ListaSpesaArr:iListaSpesa[] = [];
+  checkIfFavorite() {
+    if (this.userId && this.ricetta) {
+      this.authSvc.getUser().subscribe((user) => {
+        if (user) {
+          this.authSvc.getUserData(user.id).subscribe((userData) => {
+            this.isFavorite = userData.ricette_preferite.includes(
+              this.ricetta!.id!
+            );
+          });
+        }
+      });
+    }
+  }
 
+  addIngredient(ingrediente: string, quantita: string) {
+    if (this.userId) {
+      this.authSvc
+        .addIngredientToUser(this.userId, ingrediente, quantita)
+        .subscribe(
+          (response) => {
+            console.log('Ingrediente aggiunto con successo:', response);
+          },
+          (error) => {
+            console.error("Errore nell'aggiunta dell'ingrediente:", error);
+          }
+        );
+    } else {
+      console.error('Utente non autenticato o ID utente non disponibile');
+    }
+  }
 
-  addToListaSpesa(ingrediente:string, quantita:string) {
-    this.ListaSpesaArr.push(ingrediente, quantita)
-  }*/
+  toggleFavorite() {
+    if (this.userId && this.ricetta?.id) {
+      this.authSvc.toggleFavoriteRecipe(this.userId, this.ricetta.id).subscribe(
+        (response) => {
+          console.log('Toggle preferiti completato:', response);
+          this.isFavorite = !this.isFavorite;
+        },
+        (error) => {
+          console.error('Errore nel toggle dei preferiti:', error);
+        }
+      );
+    } else {
+      console.error('Utente o ricetta non disponibili');
+    }
+  }
 
-  ngOnInit(){
-    this.route.params.subscribe((params:any)=>{
-      this.recipeSvc.getRecipeById(params.id).subscribe(recipe=>{
-        this.ricetta=recipe
-        console.log(this.ricetta)
-      })
-
-
-    })
+  checkUserLogged(): void {
+    console.log(this.isUserLogged);
+    this.authSvc.isLoggedIn$.subscribe((isUserLogged) => {
+      this.isUserLogged = isUserLogged;
+      console.log(this.isUserLogged);
+    });
   }
 }

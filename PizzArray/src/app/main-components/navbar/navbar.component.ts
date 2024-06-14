@@ -20,7 +20,8 @@ export class NavbarComponent implements AfterViewInit {
   show: boolean = false;
   showSearchForm: boolean = false;
   isMobile: boolean = window.innerWidth <= 500;
-  cerco:string=""
+  cerco: string = '';
+  isUserLogged: boolean = false;
 
   constructor(private authSvc: AuthService, private router: Router) {}
 
@@ -29,6 +30,14 @@ export class NavbarComponent implements AfterViewInit {
     email: 'mario@email.it',
     password: '12345678',
   };
+
+  ngOnInit() {
+    console.log(this.isUserLogged);
+    this.authSvc.isLoggedIn$.subscribe((isUserLogged) => {
+      this.isUserLogged = isUserLogged;
+      console.log(this.isUserLogged);
+    });
+  }
 
   login(): void {
     this.authSvc.login(this.authData).subscribe(() => {
@@ -86,8 +95,12 @@ export class NavbarComponent implements AfterViewInit {
     });
   }
 
-  get isUserLoggedIn(): boolean {
-    return this.authSvc.syncIsLoggedIn;
+  checkUserLogged(): void {
+    console.log(this.isUserLogged);
+    this.authSvc.isLoggedIn$.subscribe((isUserLogged) => {
+      this.isUserLogged = isUserLogged;
+      console.log(this.isUserLogged);
+    });
   }
 
   logout(): void {
