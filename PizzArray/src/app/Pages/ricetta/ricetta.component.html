@@ -11,6 +11,26 @@
             [alt]="[ricetta?.nome_ricetta]"
             class="img-fluid rounded-5"
           />
+          <button
+            *ngIf="isUserLogged"
+            class="btn btn-primary me-4"
+            (click)="toggleFavorite()"
+          >
+            Mi piace
+          </button>
+          <span *ngIf="isUserLogged">
+            <img
+              *ngIf="isFavorite"
+              src="../../../assets/Img/heartFill.png"
+              alt="Heart"
+              width="30px" />
+
+            <img
+              *ngIf="!isFavorite"
+              src="../../../assets/Img/heart.png"
+              alt="Heart"
+              width="30px"
+          /></span>
         </div>
         <div class="col-6 ps-4 pt-5">
           <p class="text-orange">
@@ -44,13 +64,11 @@
       <div class="col-12 d-flex">
         <div class="col-6 ps-5">
           <ul *ngIf="ricetta?.ingredienti">
-            <li
-              *ngFor="let i of ricetta?.ingredienti"
-              class="text-blue my-2 list-unstyled"
-            >
+            <li *ngFor="let i of ricetta?.ingredienti" class="text-blue my-2">
               <button
+                *ngIf="isUserLogged"
                 class="btn btn-primary"
-                (click)="addToListaSpesa(i.ingrediente, i.quantita)"
+                (click)="addIngredient(i.ingrediente, i.quantita)"
               >
                 <i class="bi bi-cart"></i>
               </button>

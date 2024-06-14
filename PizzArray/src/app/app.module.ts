@@ -13,11 +13,12 @@ import { CommonModule } from '@angular/common';
 import { ListaRicetteComponent } from './Pages/lista-ricette/lista-ricette.component';
 import { ListaIngredientiComponent } from './Pages/lista-ingredienti/lista-ingredienti.component';
 import { RicettaComponent } from './Pages/ricetta/ricetta.component';
-import { ListaSpesaComponent } from './Pages/lista-spesa/lista-spesa.component';
+import { ProfiloComponent } from './Pages/profilo/profilo.component';
+import { RicettePreferiteComponent } from './pages/ricette-preferite/ricette-preferite.component';
 
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, FooterComponent,ListaRicetteComponent, ListaIngredientiComponent, RicettaComponent, ListaSpesaComponent],
+  declarations: [AppComponent, NavbarComponent, FooterComponent,ListaRicetteComponent, ListaIngredientiComponent, RicettaComponent, ProfiloComponent, RicettePreferiteComponent],
   imports: [BrowserModule, AppRoutingModule, NgbModule, HomeModule, CreaRicettaModule, FormsModule,CommonModule],
 
   providers: [],

@@ -5366,14 +5366,32 @@
   ],
   "users": [
     {
-      "email": "mario@email.it",
-      "password": "$2a$10$A.Cg5m9PiRoc9PN22k05feHUK1ktQyICds/BYkeJXHbj9TlRFoCha",
-      "nome": "Mario",
+      "email": "andrea@mail.com",
+      "password": "$2a$10$XWrx2gGbcm/Pkkc2oGCvTOBRqv7DPloFmZcZGLrI2NzcRlFlrge62",
+      "nome": "andrea",
+      "id": 1
+    },
+    {
+      "email": "paolo@mail.com",
+      "password": "$2a$10$7JkPFcE/3ZLuiqZ2aM0upuqCMx7CSuSIlunaAGL4vOWawQhxnHHyW",
+      "nome": "paolo",
+      "id": 2
+    },
+    {
+      "email": "luca@mail.com",
+      "password": "$2a$10$.WvJtWkbqSzmqRwP0IMRKuarNtlKyyxhkkm7iFU.Ohw/KZLXQJOdC",
+      "nome": "luca",
+      "id": 3
+    }
+  ],
+  "userData": [
+    {
       "id": 1,
-      "lista": [
+      "ricette_preferite": [],
+      "lista_ingredienti": [
         {
-          "ingrediente": "Farina",
-          "quantita": "300g"
+          "ingrediente": "Marmellata",
+          "quantita": "200g"
         },
         {
           "ingrediente": "Farina",
@@ -5392,10 +5410,36 @@
       "id": 2
     },
     {
-      "email": "a@a.a",
-      "password": "$2a$10$Aw1Cy5TGSQMUb5NeekyDq.DZxSSmWnvpq6OPakHipnk/fQNCClArK",
-      "nome": "a",
-      "id": 3
+      "email": "kekko@kekko.it",
+      "password": "$2a$10$9g.fPVaSngYq7KULFMCFde.V8XXR5FW89Ed.RB4fB2KcpFTkNyANu",
+      "nome": "kekko",
+      "id": 3,
+      "lista": [
+        {
+          "ingrediente": "Pasta per Lasagne",
+          "quantita": "250g"
+        },
+        {
+          "ingrediente": "Besciamella",
+          "quantita": "500ml"
+        }
+      ]
+    },
+    {
+      "email": "pippo@pippo.com",
+      "password": "$2a$10$lOHlXqLxOd34gk7VRqwhdeeBKQyToez/piFdSBf6NToSFPoD4nwT6",
+      "nome": "pippo ",
+      "id": 4,
+      "lista": [
+        {
+          "ingrediente": "Riso Carnaroli",
+          "quantita": "320g"
+        },
+        {
+          "ingrediente": "Funghi Porcini",
+          "quantita": "300g"
+        }
+      ]
     }
   ]
 }
