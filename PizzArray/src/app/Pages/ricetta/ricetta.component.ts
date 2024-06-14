@@ -3,6 +3,8 @@ import { AuthService } from '../../auth/auth.service';
 import { ActivatedRoute } from '@angular/router';
 import { RecipeService } from '../../services/recipe.service';
 import { iRecipe } from '../../Models/i-recipe';
+import { iListaSpesa } from '../../Models/i-lista-spesa';
+import { iIngredient } from '../../Models/i-ingredient';
 
 @Component({
   selector: 'app-ricetta',

@@ -27,8 +27,8 @@ export class NavbarComponent implements AfterViewInit {
 
   //LOGIN
   authData: iAuthData = {
-    email: '',
-    password: '',
+    email: 'mario@email.it',
+    password: '12345678',
   };
 
   ngOnInit() {

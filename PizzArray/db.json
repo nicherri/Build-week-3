@@ -2538,7 +2538,7 @@
     {
       "id": 56,
       "nome_ricetta": "Pancakes",
-      "immagine": "https://www.realsimple.com/thmb/Fi3e-DS5Duo4WPqX-l5RGNOtNeE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-make-pancakes-step-by-step-bf45f02d4b3c4392bddf92e05c9e17eb.jpg",
+      "immagine": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYUTqnhCAqLncUi_Lp76aUFYWDG2lPhEZXtQ&s",
       "ingredienti": [
         {
           "ingrediente": "Farina",
@@ -4871,110 +4871,6 @@
       "preparazione": "sdfsdfddsfsdf",
       "portata": "dolce",
       "id": 102
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 103
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [
-        {
-          "ingrediente": "sale",
-          "quantita": "q.b."
-        }
-      ],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 104
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 105
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [
-        {
-          "ingrediente": "sale",
-          "quantita": ""
-        }
-      ],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 106
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 107
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [
-        {
-          "ingrediente": "sassi",
-          "quantita": ""
-        }
-      ],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 108
-    },
-    {
-      "nome_ricetta": "",
-      "immagine": "",
-      "ingredienti": [
-        {
-          "ingrediente": "miao",
-          "quantita": ""
-        }
-      ],
-      "tempo_preparazione": "",
-      "tempo_cottura": "",
-      "porzioni": "",
-      "difficolta": "",
-      "preparazione": "",
-      "portata": "",
-      "id": 109
     }
   ],
   "ingredients": [
@@ -5151,7 +5047,7 @@
     {
       "id": 35,
       "ingrediente": "Pepe",
-      "immagine": "https://assets.stickpng.com/images/58486a72849cf46a2a931338.png"
+      "immagine": "https://www.cure-naturali.it/.imaging/default/dam/cure-naturali/enciclopedia-naturale/alimentazione/pepe-nero.jpg/jcr:content.jpg"
     },
     {
       "id": 36,
