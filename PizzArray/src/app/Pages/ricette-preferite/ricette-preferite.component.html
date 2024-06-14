@@ -1,1 +1,62 @@
-<p>ricette-preferite works!</p>
+<div class="container">
+  <h1 class="text-orange my-4">Le tue ricette preferite</h1>
+  <div class="row">
+    <div class="col-12 mt-3" *ngFor="let r of favoriteRecipes; let i = index">
+      <div class="card mb-3 rounded-5 overflow-hidden">
+        <div
+          class="row no-gutters"
+          [ngClass]="{
+      'inverti': i % 2 === 0,
+    }"
+        >
+          <div class="col-md-8">
+            <div
+              class="card-body h-100 d-flex flex-column justify-content-around ms-2"
+            >
+              <a
+                class="card-title text-orange fst-italic text-decoration-none h3"
+                [routerLink]="['/ricetta', r.id]"
+              >
+                {{ r.nome_ricetta }}
+              </a>
+              <p>
+                Difficoltà:
+                <span class="text-blue fst-italic fw-medium">{{
+                  r.difficolta
+                }}</span>
+              </p>
+              <p>
+                Tempo di preparazione:
+                <span class="text-blue fst-italic fw-medium"
+                  >{{ r.tempo_preparazione }} min</span
+                >
+              </p>
+              <div>
+                <ul class="ps-0 d-flex flex-wrap px-1 mb-0 lh-lg">
+                  <li
+                    class="list-unstyled me-3"
+                    *ngFor="let i of r.ingredienti"
+                  >
+                    <span
+                      class="ingrediente"
+                      (click)="navigateToIngredient(i.ingrediente)"
+                      >{{ i.ingrediente }}</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              [src]="[r.immagine]"
+              class="img-fluid"
+              [alt]="[r.nome_ricetta]"
+              [routerLink]="['/ricetta', r.id]"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

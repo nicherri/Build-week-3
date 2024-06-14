@@ -2538,7 +2538,7 @@
     {
       "id": 56,
       "nome_ricetta": "Pancakes",
-      "immagine": "https://www.realsimple.com/thmb/Fi3e-DS5Duo4WPqX-l5RGNOtNeE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-make-pancakes-step-by-step-bf45f02d4b3c4392bddf92e05c9e17eb.jpg",
+      "immagine": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYUTqnhCAqLncUi_Lp76aUFYWDG2lPhEZXtQ&s",
       "ingredienti": [
         {
           "ingrediente": "Farina",
@@ -5026,7 +5026,7 @@
     {
       "id": 35,
       "ingrediente": "Pepe",
-      "immagine": "https://assets.stickpng.com/images/58486a72849cf46a2a931338.png"
+      "immagine": "https://www.macrolibrarsi.it/data/speciali/big/le-virtu-del-pepe-nero.jpg"
     },
     {
       "id": 36,
@@ -5396,6 +5396,29 @@
         {
           "ingrediente": "Farina",
           "quantita": "300g"
+        }
+      ],
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "ricette_preferite": [81, 46, 77],
+      "lista_ingredienti": [
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
         },
         {
           "ingrediente": "Burro",

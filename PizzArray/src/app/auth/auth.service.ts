@@ -8,6 +8,7 @@ import { iUser } from '../Models/i-user';
 import { iResponse } from '../Models/i-response';
 import { iAuthData } from '../Models/i-auth-data';
 import { iUserData } from '../Models/i-user-data';
+import { Ingredienti } from '../Models/i-recipe';
 
 @Injectable({
   providedIn: 'root',
@@ -159,6 +160,30 @@ export class AuthService {
           updatedUserData
         )
       )
+    );
+  }
+
+  getUserIngredients(): Observable<Ingredienti[]> {
+    const accessData = this.getLoggedUser();
+    if (!accessData || !accessData.user) {
+      throw new Error('No user logged in');
+    }
+    const userId = accessData.user.id;
+
+    return this.getUserData(userId).pipe(
+      map((userData: iUserData) => userData.lista_ingredienti)
+    );
+  }
+
+  getUserPreferiti(): Observable<number[]> {
+    const accessData = this.getLoggedUser();
+    if (!accessData || !accessData.user) {
+      throw new Error('No user logged in');
+    }
+    const userId = accessData.user.id;
+
+    return this.getUserData(userId).pipe(
+      map((userData: iUserData) => userData.ricette_preferite)
     );
   }
 }
