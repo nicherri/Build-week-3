@@ -47,6 +47,32 @@
               >
             </li>
           </ul>
+          <ul *ngIf="isUserLoggedIn" class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-blue" routerLink="" routerLinkActive=""
+                >Preferiti</a
+              >
+            </li>
+            <li *ngIf="isUserLoggedIn" class="nav-item">
+              <a
+                class="nav-link text-blue"
+                routerLink="lista-spesa"
+                routerLinkActive=""
+                >Lista della Spesa</a
+              >
+            </li>
+            <li *ngIf="isUserLoggedIn" class="nav-item">
+              <a
+                class="nav-link text-blue"
+                routerLink="/crea-ricetta"
+                routerLinkActive=""
+                >Crea Ricetta</a
+              >
+            </li>
+            <li *ngIf="isUserLoggedIn" class="nav-item">
+              <a (click)="logout()" class="nav-link text-danger">Logout</a>
+            </li>
+          </ul>
         </div>
       </div>
 

@@ -6,7 +6,7 @@ import { AuthGuard } from './auth/auth.guard';
 import { RegisterComponent } from './auth/register/register.component';
 import { ListaIngredientiComponent } from './Pages/lista-ingredienti/lista-ingredienti.component';
 import { RicettaComponent } from './Pages/ricetta/ricetta.component';
-import { ProfiloComponent } from './Pages/profilo/profilo.component';
+import { ListaSpesaComponent } from './Pages/lista-spesa/lista-spesa.component';
 
 const routes: Routes = [
   { path: 'auth',
@@ -40,6 +40,11 @@ const routes: Routes = [
     component: ProfiloComponent},
 
   { path: 'register', component: RegisterComponent},
+
+  {path: "lista-spesa", component: ListaSpesaComponent,
+    canActivate: [AuthGuard],
+    canActivateChild: [AuthGuard],
+  },
 
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 

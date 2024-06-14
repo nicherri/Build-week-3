@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { RecipeService } from '../../services/recipe.service';
 import { ActivatedRoute } from '@angular/router';
-import { Ingredienti, iRecipe } from '../../Models/i-recipe';
-import { AuthService } from '../../auth/auth.service';
-import { iUser } from '../../Models/i-user';
+import { iRecipe } from '../../Models/i-recipe';
+import { iListaSpesa } from '../../Models/i-lista-spesa';
+import { iIngredient } from '../../Models/i-ingredient';
 
 @Component({
   selector: 'app-ricetta',
@@ -14,11 +14,16 @@ export class RicettaComponent {
   ricetta: iRecipe | undefined;
   userId: number | null = null;
 
-  constructor(
-    private recipeSvc: RecipeService,
-    private route: ActivatedRoute,
-    private authSvc: AuthService
-  ) {}
+  constructor(private recipeSvc:RecipeService, private route:ActivatedRoute){
+
+  }
+
+  /*ListaSpesaArr:iListaSpesa[] = [];
+
+
+  addToListaSpesa(ingrediente:string, quantita:string) {
+    this.ListaSpesaArr.push(ingrediente, quantita)
+  }*/
 
   ngOnInit() {
     this.authSvc.getUser().subscribe((user: iUser | null) => {

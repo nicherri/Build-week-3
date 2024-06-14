@@ -15,21 +15,7 @@
   border-width: 3px;
 }
 
-.ingrediente {
-  transition: transform 0.2s ease;
-  font-style: italic;
-}
 .ingrediente:hover {
-  transform: scale(1.15);
+  cursor: pointer;
   color: #f26419;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.img-fluid {
-  cursor: pointer;
-}
-
-.inverti {
-  flex-direction: row-reverse;
 }

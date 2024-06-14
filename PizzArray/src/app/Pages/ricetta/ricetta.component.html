@@ -44,8 +44,14 @@
       <div class="col-12 d-flex">
         <div class="col-6 ps-5">
           <ul *ngIf="ricetta?.ingredienti">
-            <li *ngFor="let i of ricetta?.ingredienti" class="text-blue my-2">
-              <button class="btn btn-primary" (click)="aggiungiAllaLista(i)">
+            <li
+              *ngFor="let i of ricetta?.ingredienti"
+              class="text-blue my-2 list-unstyled"
+            >
+              <button
+                class="btn btn-primary"
+                (click)="addToListaSpesa(i.ingrediente, i.quantita)"
+              >
                 <i class="bi bi-cart"></i>
               </button>
               {{ i.ingrediente }} - {{ i.quantita }}

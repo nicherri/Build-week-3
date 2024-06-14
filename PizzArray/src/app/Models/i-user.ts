@@ -1,4 +1,3 @@
-import { iIngredient } from "./i-ingredient";
 import { Ingredienti } from "./i-recipe";
 
 export interface iUser {

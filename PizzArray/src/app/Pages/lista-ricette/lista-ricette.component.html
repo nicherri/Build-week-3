@@ -21,29 +21,15 @@
               >
                 {{ r.nome_ricetta }}
               </a>
-              <p>
-                Difficoltà:
-                <span class="text-blue fst-italic fw-medium">{{
-                  r.difficolta
-                }}</span>
-              </p>
-              <p>
-                Tempo di preparazione:
-                <span class="text-blue fst-italic fw-medium"
-                  >{{ r.tempo_preparazione }} min</span
-                >
-              </p>
-              <div>
-                <ul class="ps-0 d-flex flex-wrap px-1 mb-0 lh-lg">
+              <p>Difficoltà: {{ r.difficolta }}</p>
+              <p>Tempo di preparazione: {{ r.tempo_preparazione }} min</p>
+              <div class="d-flex flex-wrap">
+                <ul *ngFor="let i of r.ingredienti">
                   <li
-                    class="list-unstyled me-3"
-                    *ngFor="let i of r.ingredienti"
+                    class="list-unstyled ingrediente"
+                    (click)="navigateToIngredient(i.ingrediente)"
                   >
-                    <span
-                      class="ingrediente"
-                      (click)="navigateToIngredient(i.ingrediente)"
-                      >{{ i.ingrediente }}</span
-                    >
+                    {{ i.ingrediente }}
                   </li>
                 </ul>
               </div>
