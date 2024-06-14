@@ -7,6 +7,7 @@ import { RegisterComponent } from './auth/register/register.component';
 import { ListaIngredientiComponent } from './Pages/lista-ingredienti/lista-ingredienti.component';
 import { RicettaComponent } from './Pages/ricetta/ricetta.component';
 import { ListaSpesaComponent } from './Pages/lista-spesa/lista-spesa.component';
+import { ProfiloComponent } from './Pages/profilo/profilo.component';
 
 const routes: Routes = [
   { path: 'auth',
