@@ -5491,62 +5491,108 @@
   ],
   "users": [
     {
-      "email": "mario@email.it",
-      "password": "$2a$10$A.Cg5m9PiRoc9PN22k05feHUK1ktQyICds/BYkeJXHbj9TlRFoCha",
-      "nome": "Mario",
-      "id": 1,
-      "lista": [
-        {
-          "ingrediente": "Farina",
-          "quantita": "300g"
-        },
-        {
-          "ingrediente": "Farina",
-          "quantita": "300g"
-        },
-        {
-          "ingrediente": "Burro",
-          "quantita": "150g"
-        }
-      ]
+      "email": "andrea@mail.com",
+      "password": "$2a$10$XWrx2gGbcm/Pkkc2oGCvTOBRqv7DPloFmZcZGLrI2NzcRlFlrge62",
+      "nome": "andrea",
+      "id": 1
     },
     {
-      "email": "luca@email.it",
-      "password": "$2a$10$1bLNOpsG5sZz.fqhaumTEOQOUMl.H/FHIqcYgVh9QaeXbkBjcKVY6",
-      "nome": "Luca",
+      "email": "paolo@mail.com",
+      "password": "$2a$10$7JkPFcE/3ZLuiqZ2aM0upuqCMx7CSuSIlunaAGL4vOWawQhxnHHyW",
+      "nome": "paolo",
       "id": 2
     },
     {
-      "email": "kekko@kekko.it",
-      "password": "$2a$10$9g.fPVaSngYq7KULFMCFde.V8XXR5FW89Ed.RB4fB2KcpFTkNyANu",
-      "nome": "kekko",
-      "id": 3,
-      "lista": [
-        {
-          "ingrediente": "Pasta per Lasagne",
-          "quantita": "250g"
-        },
-        {
-          "ingrediente": "Besciamella",
-          "quantita": "500ml"
-        }
-      ]
-    },
+      "email": "luca@mail.com",
+      "password": "$2a$10$.WvJtWkbqSzmqRwP0IMRKuarNtlKyyxhkkm7iFU.Ohw/KZLXQJOdC",
+      "nome": "luca",
+      "id": 3
+    }
+  ],
+  "userData": [
     {
-      "email": "pippo@pippo.com",
-      "password": "$2a$10$lOHlXqLxOd34gk7VRqwhdeeBKQyToez/piFdSBf6NToSFPoD4nwT6",
-      "nome": "pippo ",
-      "id": 4,
-      "lista": [
+      "id": 1,
+      "ricette_preferite": [],
+      "lista_ingredienti": [
         {
-          "ingrediente": "Riso Carnaroli",
-          "quantita": "320g"
+          "ingrediente": "Marmellata",
+          "quantita": "200g"
         },
         {
-          "ingrediente": "Funghi Porcini",
+          "ingrediente": "Farina",
           "quantita": "300g"
         }
-      ]
+      ],
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "ricette_preferite": [
+        81,
+        46,
+        77
+      ],
+      "lista_ingredienti": [
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Carote",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Fagioli Borlotti",
+          "quantita": "200g"
+        },
+        {
+          "ingrediente": "Spinaci",
+          "quantita": "100g"
+        },
+        {
+          "ingrediente": "Patate",
+          "quantita": "2"
+        },
+        {
+          "ingrediente": "Pepe Nero",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Spaghetti",
+          "quantita": "400g"
+        },
+        {
+          "ingrediente": "Lenticchie",
+          "quantita": "300g"
+        },
+        {
+          "ingrediente": "Brodo di Carne",
+          "quantita": "500ml"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "q.b."
+        },
+        {
+          "ingrediente": "Cipolla",
+          "quantita": "1"
+        }
+      ],
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "ricette_preferite": [],
+      "lista_ingredienti": [],
+      "userId": 3
     }
   ]
 }

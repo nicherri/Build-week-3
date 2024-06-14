@@ -79,6 +79,7 @@
               >Cerca</a
             >
           </form>
+
           <a
             class="nav-link text-white pe-4"
             href="#"
@@ -87,19 +88,20 @@
             ><i class="bi bi-arrow-return-left text-blue"></i
           ></a>
         </div>
-        <p *ngIf="!isUserLoggedIn" class="nav-item mt-3">
+        <p *ngIf="!isUserLoggedIn()" class="nav-item mt-3">
           <a (click)="open(content)" class="nav-link text-orange pe-3"
             >ACCEDI</a
           >
         </p>
-        <p *ngIf="isUserLoggedIn" class="nav-item mt-3">
+
+        <p *ngIf="isUserLoggedIn()" class="nav-item mt-3">
           <a (click)="logout()" class="nav-link text-danger">LOGOUT</a>
         </p>
         <button
           routerLink="/profilo"
           class="btn d-flex align-items-center"
           routerLink="/profilo"
-          *ngIf="isUserLoggedIn"
+          *ngIf="isUserLoggedIn()"
         >
           <i class="bi bi-person-circle me-2"></i>
         </button>
@@ -109,7 +111,7 @@
 
   <!-- Modale -->
   <ng-template #content let-modal>
-    <div class="modal-content modal-custom-bg" *ngIf="!isUserLoggedIn">
+    <div class="modal-content modal-custom-bg" *ngIf="!isUserLoggedIn()">
       <div class="modal-header">
         <h4 class="modal-title text-orange" id="modal-basic-title">
           Accedi o Registrati
