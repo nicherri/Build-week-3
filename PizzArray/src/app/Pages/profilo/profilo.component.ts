@@ -9,7 +9,7 @@ import { Ingredienti } from '../../Models/i-recipe';
   styleUrl: './profilo.component.scss',
 })
 export class ProfiloComponent {
-  listaArray: Ingredienti[] = [];
+  ingredients: Ingredienti[] = [];
   user: iUser | undefined;
 
   constructor(private authSvc: AuthService) {}
@@ -17,6 +17,11 @@ export class ProfiloComponent {
   ngOnInit() {
     this.authSvc.user$.subscribe((user) => {
       this.user = user || undefined;
+    });
+
+    this.authSvc.getUserIngredients().subscribe((ingredients) => {
+      this.ingredients = ingredients;
+      console.log('Ingredients:', this.ingredients);
     });
   }
 }
