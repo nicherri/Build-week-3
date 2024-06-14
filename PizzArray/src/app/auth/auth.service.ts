@@ -31,7 +31,8 @@ export class AuthService {
   user$ = this.authSbj.asObservable();
   isLoggedIn$ = this.user$.pipe(
     map((user) => !!user),
-    tap((user) => (this.syncIsLoggedIn = !!user))
+    tap((user) => (this.syncIsLoggedIn = !!user)),
+    tap((user) => console.log('service', user))
   );
 
   register(newUser: Partial<iUser>): Observable<iResponse> {
@@ -61,7 +62,6 @@ export class AuthService {
       tap((dati) => {
         this.authSbj.next(dati.user);
         localStorage.setItem('accessData', JSON.stringify(dati));
-        this.syncIsLoggedIn = true;
       })
     );
   }
@@ -75,7 +75,7 @@ export class AuthService {
   loggedUser() {
     const accessData = this.getLoggedUser();
     if (!accessData) return;
-    if (this.jwtHelper.isTokenExpired(accessData.token)) return;
+    if (this.jwtHelper.isTokenExpired(accessData.accessToken)) return;
     this.authSbj.next(accessData.user);
     this.autoLogOut();
   }
@@ -85,10 +85,10 @@ export class AuthService {
     if (!accessData) return;
 
     const expired = this.jwtHelper.getTokenExpirationDate(
-      accessData.token
+      accessData.accessToken
     ) as Date;
     const expiredMilliseconds = expired.getTime() - new Date().getTime();
-    setTimeout(this.logout.bind(this), expiredMilliseconds);
+    setTimeout(this.logout, expiredMilliseconds);
   }
 
   logout(): void {

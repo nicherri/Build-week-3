@@ -13,6 +13,7 @@ export class RicettaComponent implements OnInit {
   ricetta: iRecipe | undefined;
   userId: number | null = null;
   isFavorite: boolean = false;
+  isUserLogged: boolean = false;
 
   constructor(
     private authSvc: AuthService,
@@ -36,6 +37,7 @@ export class RicettaComponent implements OnInit {
         console.log(this.ricetta);
       });
     });
+    this.checkUserLogged();
   }
 
   checkIfFavorite() {
@@ -83,5 +85,13 @@ export class RicettaComponent implements OnInit {
     } else {
       console.error('Utente o ricetta non disponibili');
     }
+  }
+
+  checkUserLogged(): void {
+    console.log(this.isUserLogged);
+    this.authSvc.isLoggedIn$.subscribe((isUserLogged) => {
+      this.isUserLogged = isUserLogged;
+      console.log(this.isUserLogged);
+    });
   }
 }
