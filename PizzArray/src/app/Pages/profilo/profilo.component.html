@@ -17,6 +17,7 @@
     <i class="bi bi-plus-circle me-2"></i>
     Crea una nuova ricetta
   </p>
+  <a routerLink="/preferite" class="text-orange">Ricette Preferite</a>
 </div>
 <div>
   <p class="text-orange mb-4 titolo">Lista della spesa</p>
@@ -25,7 +26,7 @@
       <th>Ingredienti</th>
       <th>Quantità</th>
     </tr>
-    <tr *ngFor="let i of listaArray">
+    <tr *ngFor="let i of ingredients">
       <td>{{ i.ingrediente }}</td>
       <td>{{ i.quantita }}</td>
     </tr>

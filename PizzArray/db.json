@@ -5408,11 +5408,7 @@
     },
     {
       "id": 2,
-      "ricette_preferite": [
-        81,
-        46,
-        77
-      ],
+      "ricette_preferite": [81, 46, 77],
       "lista_ingredienti": [
         {
           "ingrediente": "Carote",

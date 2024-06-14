@@ -32,6 +32,9 @@ export class RecipeService {
     );
   }
 
+  getAllRecipe(): Observable<iRecipe[]> {
+    return this.http.get<iRecipe[]>(this.recipesUrl);
+  }
 
   getIngredients() {
     return this.http.get<iIngredient[]>(this.ingredientsUrl);
