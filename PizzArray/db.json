@@ -5409,6 +5409,12 @@
       "password": "$2a$10$N9q4vI5E5tb/mCCxtQm8nOgJNaDOVqS56lhCM.Un68j2wbRAzb1cy",
       "nome": "Laura",
       "id": 4
+    },
+    {
+      "email": "stefania.bina@email.com",
+      "password": "$2a$10$Sy6bot6iECD4zrOCjDgCO.NmwonsfjJRE/mCaNVCezsTurcD4pIyK",
+      "nome": "Stefania",
+      "id": 5
     }
   ],
   "userData": [
@@ -5525,6 +5531,32 @@
         }
       ],
       "userId": 4
+    },
+    {
+      "id": 5,
+      "ricette_preferite": [
+        61,
+        8
+      ],
+      "lista_ingredienti": [
+        {
+          "ingrediente": "Farina",
+          "quantita": "500g"
+        },
+        {
+          "ingrediente": "Acqua",
+          "quantita": "300ml"
+        },
+        {
+          "ingrediente": "Lievito di Birra",
+          "quantita": "25g"
+        },
+        {
+          "ingrediente": "Olio d'Oliva",
+          "quantita": "50ml"
+        }
+      ],
+      "userId": 5
     }
   ]
 }
